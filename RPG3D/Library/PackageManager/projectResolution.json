@@ -24,22 +24,6 @@
       "version": "1.0.0",
       "source": "builtin"
     },
-    "com.unity.terrain-tools@5.1.2": {
-      "name": "com.unity.terrain-tools",
-      "resolvedPath": "D:\\UnityPrjs\\MyGamePrjct\\RPG3D\\Library\\PackageCache\\com.unity.terrain-tools",
-      "fingerprint": "d4bcf51a280e611c70611a4f4045f686f2948913",
-      "editorCompatibility": "2023.1.0a25",
-      "version": "5.1.2",
-      "source": "registry"
-    },
-    "com.unity.ugui@2.0.0": {
-      "name": "com.unity.ugui",
-      "resolvedPath": "D:\\UnityPrjs\\MyGamePrjct\\RPG3D\\Library\\PackageCache\\com.unity.ugui",
-      "fingerprint": "e6653db8377f18d2d6df3466ab35fb2d87c9c264",
-      "editorCompatibility": "2019.2.0a1",
-      "version": "2.0.0",
-      "source": "builtin"
-    },
     "com.unity.modules.accessibility@1.0.0": {
       "name": "com.unity.modules.accessibility",
       "resolvedPath": "D:\\UnityPrjs\\MyGamePrjct\\RPG3D\\Library\\PackageCache\\com.unity.modules.accessibility",
