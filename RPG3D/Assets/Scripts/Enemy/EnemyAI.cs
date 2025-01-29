@@ -1,91 +1,136 @@
 using UnityEngine;
-using System.Collections;
 
-// Скрипт для управления поведением вражеского AI
 public class EnemyAI : MonoBehaviour
 {
-    // Скорость преследования
     public float chaseSpeed = 5f;
-    // Нормальная скорость передвижения
     public float normalSpeed = 2f;
-    // Ссылка на игрока (цель для преследования)
     private Transform player;
-    // Флаг, указывающий, преследует ли враг цель
     public bool isChasing = false;
-    // Радиус обзора врага
     public float viewRadius;
-    // Дистанция проверки препятствий
+    public float attackDistance = 2f; // Дистанция для атаки
+    public float attackDelay = 1f; // Задержка перед атакой
+    public float attackCooldown = 2f; // Задержка между атаками
+    public int attackDamage = 10; // Урон, наносимый игроку
     public float obstacleCheckDistance = 1f;
 
-    // Ссылка на компонент FieldOfView (обзор поля зрения)
     private FieldOfView fieldOfView;
+    private CharacterController characterController;
+    private Animator animator; // Анимации
 
-    // Инициализация компонентов
+    private float lastAttackTime;
+
     private void Start()
     {
-        // Получаем компонент FieldOfView, прикреплённый к объекту
         fieldOfView = GetComponent<FieldOfView>();
+        characterController = GetComponent<CharacterController>();
+        animator = GetComponent<Animator>();
+
+        if (characterController == null)
+        {
+            Debug.LogError("CharacterController is missing on EnemyAI!");
+        }
+
+        if (animator == null)
+        {
+            Debug.LogError("Animator is missing on EnemyAI!");
+        }
     }
 
-    // Обновление состояния каждый кадр
     private void Update()
     {
-        // Проверяем, есть ли цели в зоне видимости
         if (fieldOfView._targets.Count > 0)
         {
-            // Устанавливаем первую найденную цель как игрока
             player = fieldOfView._targets[0];
-            isChasing = true; // Включаем преследование
+            isChasing = true;
         }
         else
         {
-            isChasing = false; // Отключаем преследование, если цели нет
+            isChasing = false;
         }
 
-        // Если враг преследует и цель существует, продолжаем движение
         if (isChasing && player != null)
         {
-            ChasePlayer(); // Запускаем логику преследования
+            float distance = Vector3.Distance(transform.position, player.position);
+
+            if (distance <= attackDistance)
+            {
+                AttemptAttack();
+            }
+            else
+            {
+                ChasePlayer();
+            }
         }
     }
 
-    // Метод для преследования игрока
     private void ChasePlayer()
     {
-        // Если игрок пропал, отключаем преследование
         if (player == null)
         {
-            isChasing = false; 
+            isChasing = false;
             return;
         }
 
-        // Определяем направление к игроку
         Vector3 direction = (player.position - transform.position).normalized;
-        // Считаем расстояние до игрока
         float distance = Vector3.Distance(transform.position, player.position);
 
-        // Если игрок вышел за пределы радиуса обзора, отключаем преследование
-        if (distance > viewRadius) 
+        // Stop chasing if the player is out of view radius
+        if (distance > viewRadius)
         {
-            isChasing = false; 
+            isChasing = false;
         }
         else
         {
-            // Проверяем наличие препятствий между врагом и игроком
             RaycastHit hit;
             if (Physics.Raycast(transform.position, direction, out hit, obstacleCheckDistance))
             {
-                // Если столкнулись с препятствием, прекращаем движение
-                if (hit.collider != null)
+                if (hit.collider != null && hit.collider.transform != player)
                 {
+                    // Obstacle in the way; stop chasing
                     return;
                 }
             }
-            
-            // Перемещаем врага в сторону игрока с заданной скоростью
-            transform.position = Vector3.MoveTowards(transform.position, player.position, chaseSpeed * Time.deltaTime);
-            // Поворачиваем врага лицом к игроку
-            transform.LookAt(player);
+
+            // Move towards the player using CharacterController
+            Vector3 move = direction * chaseSpeed * Time.deltaTime;
+            characterController.Move(move);
+
+            // Rotate to look at the player
+            Vector3 lookDirection = new Vector3(player.position.x, transform.position.y, player.position.z);
+            transform.LookAt(lookDirection);
+
+            // Optionally play run animation
+            animator?.SetBool("isRunning", true);
+        }
+    }
+
+    private void AttemptAttack()
+    {
+        if (Time.time - lastAttackTime >= attackCooldown)
+        {
+            lastAttackTime = Time.time + attackDelay;
+
+            // Play attack animation
+            animator?.SetTrigger("Attack");
+
+            // Wait for the attack delay to apply damage
+            Invoke(nameof(DealDamage), attackDelay);
+        }
+
+        // Stop running animation if playing
+        animator?.SetBool("isRunning", false);
+    }
+
+    private void DealDamage()
+    {
+        if (player != null && Vector3.Distance(transform.position, player.position) <= attackDistance)
+        {
+            // Access player's health and deal damage
+            HealthPlayerController health = player.GetComponent<HealthPlayerController>();
+            if (health != null)
+            {
+                health.TakeDamage(attackDamage);
+            }
         }
     }
 }

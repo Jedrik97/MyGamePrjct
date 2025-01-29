@@ -1,84 +1,42 @@
-using UnityEditor; // Подключаем пространство имён для работы с редактором Unity.
-using UnityEngine; // Подключаем пространство имён Unity API.
+using UnityEditor; using UnityEngine; 
+public class WayPointEditor : EditorWindow {
+   [MenuItem("Waypoint Tools/WayPoint Editor")]    public static void Open()    {
+      GetWindow<WayPointEditor>();    }
 
-public class WayPointEditor : EditorWindow // Определяем класс WayPointEditor, наследуемый от EditorWindow.
-{
-   [MenuItem("Waypoint Tools/WayPoint Editor")] // Добавляем пункт в меню Unity для открытия окна редактора.
-   public static void Open() // Метод для открытия окна редактора.
-   {
-      GetWindow<WayPointEditor>(); // Получаем и отображаем окно WayPointEditor.
-   }
-
-   public Transform WayPointsRoot; // Переменная для хранения корневого объекта, содержащего все WayPoint.
-
-   private void OnGUI() // Метод для отрисовки пользовательского интерфейса окна редактора.
-   {
-      SerializedObject obj = new SerializedObject(this); // Создаём объект для работы с сериализованными данными.
-      EditorGUILayout.PropertyField(obj.FindProperty("WayPointsRoot")); // Создаём поле для назначения корня точек маршрута.
-
-      if (!WayPointsRoot) // Проверка на наличие корневого объекта.
-      {
-         EditorGUILayout.HelpBox("No WayPoints Root is assigned.", MessageType.Warning); // Выводим предупреждение, если корневой объект не задан.
-      }
+   public Transform WayPointsRoot; 
+   private void OnGUI()    {
+      SerializedObject obj = new SerializedObject(this);       EditorGUILayout.PropertyField(obj.FindProperty("WayPointsRoot")); 
+      if (!WayPointsRoot)       {
+         EditorGUILayout.HelpBox("No WayPoints Root is assigned.", MessageType.Warning);       }
       else
       {
-         EditorGUILayout.BeginVertical("box"); // Начинаем вертикальный блок для кнопок.
-         DrawButton(); // Вызываем метод для отрисовки кнопок управления.
-         EditorGUILayout.EndVertical(); // Завершаем вертикальный блок.
-      }
+         EditorGUILayout.BeginVertical("box");          DrawButton();          EditorGUILayout.EndVertical();       }
       
-      obj.ApplyModifiedProperties(); // Применяем изменения в данных.
-   }
+      obj.ApplyModifiedProperties();    }
 
-   private void DrawButton() // Метод для создания кнопок управления.
-   {
-      if (GUILayout.Button("Add WayPoint")) // Кнопка для добавления нового WayPoint.
-      {
-         CreateWayPoint(); // Создаём новый WayPoint.
-      }
+   private void DrawButton()    {
+      if (GUILayout.Button("Add WayPoint"))       {
+         CreateWayPoint();       }
 
-      if (Selection.activeGameObject != null && Selection.activeGameObject.GetComponent<WayPoint>()) // Проверяем, выбран ли объект с компонентом WayPoint.
-      {
-         if (GUILayout.Button("Add NextWayPoint")) // Кнопка для добавления следующего WayPoint.
-         {
-            CreateWayPointAfter(); // Создаём WayPoint после выбранного.
-            if (GUILayout.Button("Previous WayPoint")) // Кнопка для добавления предыдущего WayPoint.
-            {
-               CreateWayPointBefore(); // Создаём WayPoint перед выбранным.
-            }
+      if (Selection.activeGameObject != null && Selection.activeGameObject.GetComponent<WayPoint>())       {
+         if (GUILayout.Button("Add NextWayPoint"))          {
+            CreateWayPointAfter();             if (GUILayout.Button("Previous WayPoint"))             {
+               CreateWayPointBefore();             }
          }
       }
    }
 
-   private void CreateWayPointBefore() // Метод для создания WayPoint перед текущим.
-   {
-      GameObject wayPointObj = new GameObject("WayPoint" + WayPointsRoot.childCount, typeof(WayPoint)); // Создаём новый объект с компонентом WayPoint.
-      wayPointObj.transform.SetParent(WayPointsRoot, false); // Назначаем родительским объектом корневой объект.
-      WayPoint wayPoint = wayPointObj.GetComponent<WayPoint>(); // Получаем компонент WayPoint у нового объекта.
+   private void CreateWayPointBefore()    {
+      GameObject wayPointObj = new GameObject("WayPoint" + WayPointsRoot.childCount, typeof(WayPoint));       wayPointObj.transform.SetParent(WayPointsRoot, false);       WayPoint wayPoint = wayPointObj.GetComponent<WayPoint>();       
+      WayPoint selectedWayPoint = Selection.activeGameObject.GetComponent<WayPoint>();       wayPointObj.transform.position = selectedWayPoint.transform.position;       wayPointObj.transform.forward = selectedWayPoint.transform.forward; 
+      if (selectedWayPoint.PreviousWayPoint)       {
+         wayPoint.PreviousWayPoint = selectedWayPoint.PreviousWayPoint;          selectedWayPoint.PreviousWayPoint.NextWayPoint = wayPoint;       }
       
-      WayPoint selectedWayPoint = Selection.activeGameObject.GetComponent<WayPoint>(); // Получаем выбранный WayPoint.
-      wayPointObj.transform.position = selectedWayPoint.transform.position; // Копируем позицию выбранного WayPoint.
-      wayPointObj.transform.forward = selectedWayPoint.transform.forward; // Копируем направление выбранного WayPoint.
+      wayPoint.NextWayPoint = selectedWayPoint;       selectedWayPoint.PreviousWayPoint = wayPoint;       
+      wayPoint.transform.SetSiblingIndex(selectedWayPoint.transform.GetSiblingIndex());       Selection.activeGameObject = wayPoint.gameObject;    }
 
-      if (selectedWayPoint.PreviousWayPoint) // Если у выбранного есть предыдущий WayPoint.
-      {
-         wayPoint.PreviousWayPoint = selectedWayPoint.PreviousWayPoint; // Присваиваем предыдущий WayPoint новому объекту.
-         selectedWayPoint.PreviousWayPoint.NextWayPoint = wayPoint; // Связываем предыдущий WayPoint с новым.
-      }
-      
-      wayPoint.NextWayPoint = selectedWayPoint; // Связываем новый WayPoint с текущим как следующий.
-      selectedWayPoint.PreviousWayPoint = wayPoint; // Связываем текущий WayPoint с новым как предыдущий.
-      
-      wayPoint.transform.SetSiblingIndex(selectedWayPoint.transform.GetSiblingIndex()); // Устанавливаем порядок нового объекта.
-      Selection.activeGameObject = wayPoint.gameObject; // Делаем новый WayPoint активным.
-   }
-
-   private void CreateWayPointAfter() // Метод для создания WayPoint после текущего.
-   {
-      GameObject wayPointObj = new GameObject("WayPoint" + WayPointsRoot.childCount, typeof(WayPoint)); // Создаём новый объект с компонентом WayPoint.
-      wayPointObj.transform.SetParent(WayPointsRoot, false); // Устанавливаем родителя для нового объекта.
-      WayPoint wayPoint = wayPointObj.GetComponent<WayPoint>(); // Получаем компонент WayPoint у нового объекта.
-      
+   private void CreateWayPointAfter()    {
+      GameObject wayPointObj = new GameObject("WayPoint" + WayPointsRoot.childCount, typeof(WayPoint));       wayPointObj.transform.SetParent(WayPointsRoot, false);       WayPoint wayPoint = wayPointObj.GetComponent<WayPoint>();       
       WayPoint selectedWayPoint = Selection.activeGameObject.GetComponent<WayPoint>(); // Получаем выбранный WayPoint.
       wayPointObj.transform.position = selectedWayPoint.transform.position; // Копируем позицию выбранного WayPoint.
       wayPointObj.transform.forward = selectedWayPoint.transform.forward; // Копируем направление выбранного WayPoint.

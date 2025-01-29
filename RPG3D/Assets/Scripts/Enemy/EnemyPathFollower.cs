@@ -1,64 +1,39 @@
-using UnityEngine; // Подключаем пространство имён Unity.
-
-public class EnemyPathFollower : MonoBehaviour // Класс движения врага по патрульным точкам.
-{
-    public Transform[] waypoints; // Массив патрульных точек.
-    public float speed = 2f; // Скорость движения.
-    public float reachThreshold = 0.2f; // Расстояние для перехода к следующей точке.
-    private int currentWaypointIndex = 0; // Индекс текущей точки маршрута.
-    private bool movingForward = true; // Направление движения (вперёд/назад).
-
-    private EnemyAI enemyAI; // Ссылка на AI врага.
-
+using UnityEngine; 
+public class EnemyPathFollower : MonoBehaviour {
+    public Transform[] waypoints;     public float speed = 2f;     public float reachThreshold = 0.2f;     private int currentWaypointIndex = 0;     private bool movingForward = true; 
+    private EnemyAI enemyAI; 
     private void Start()
     {
-        enemyAI = GetComponent<EnemyAI>(); // Получаем компонент AI.
-    }
+        enemyAI = GetComponent<EnemyAI>();     }
 
     private void Update()
     {
-        if (enemyAI != null && enemyAI.isChasing) // Если враг преследует цель, патрулирование прерывается.
-        {
+        if (enemyAI != null && enemyAI.isChasing)         {
             return;
         }
-        Patrol(); // Иначе продолжаем патрулирование.
-    }
+        Patrol();     }
 
-    private void Patrol() // Логика патрулирования.
-    {
-        if (waypoints.Length == 0) return; // Если нет точек, выходим.
-        
-        Transform targetWaypoint = waypoints[currentWaypointIndex]; // Получаем текущую точку назначения.
-        Vector3 direction = (targetWaypoint.position - transform.position).normalized; // Вычисляем направление движения.
-        transform.position = Vector3.MoveTowards(transform.position, targetWaypoint.position, speed * Time.deltaTime); // Двигаемся к точке.
-        
-        if (Vector3.Distance(transform.position, targetWaypoint.position) < reachThreshold) // Если точка достигнута.
-        {
-            if (movingForward) // Если движемся вперёд.
-            {
-                if (currentWaypointIndex < waypoints.Length - 1) // Если не достигнут конец маршрута.
-                {
-                    currentWaypointIndex++; // Переход к следующей точке.
-                }
+    private void Patrol()     {
+        if (waypoints.Length == 0) return;         
+        Transform targetWaypoint = waypoints[currentWaypointIndex];         Vector3 direction = (targetWaypoint.position - transform.position).normalized;         transform.position = Vector3.MoveTowards(transform.position, targetWaypoint.position, speed * Time.deltaTime);         
+        if (Vector3.Distance(transform.position, targetWaypoint.position) < reachThreshold)         {
+            if (movingForward)             {
+                if (currentWaypointIndex < waypoints.Length - 1)                 {
+                    currentWaypointIndex++;                 }
                 else
                 {
-                    movingForward = false; // Меняем направление.
-                    currentWaypointIndex--;
+                    movingForward = false;                     currentWaypointIndex--;
                 }
             }
-            else // Если движемся назад.
-            {
+            else             {
                 if (currentWaypointIndex > 0)
                 {
-                    currentWaypointIndex--; // Переход к предыдущей точке.
-                }
+                    currentWaypointIndex--;                 }
                 else
                 {
-                    movingForward = true; // Меняем направление вперёд.
-                    currentWaypointIndex++;
+                    movingForward = true;                     currentWaypointIndex++;
                 }
             }
         }
-        transform.LookAt(targetWaypoint); // Поворачиваемся к следующей точке.
-    }
+        transform.LookAt(targetWaypoint);     }
 }
