@@ -1,13 +1,22 @@
 using UnityEngine;
+using System;
 
 public class PlayerInput : MonoBehaviour
 {
-    [Header("Default Inputs")]
-    public string horizontalInput = "Horizontal";
-    public string verticalInput = "Vertical";
-    public KeyCode jumpInput = KeyCode.Space;
-    public KeyCode strafeInput = KeyCode.Tab;
-    public KeyCode sprintInput = KeyCode.LeftShift;
-    
+    public event Action<Vector2> OnMove;
+    public event Action OnJump;
 
+    private void Update()
+    {
+        Vector2 movement = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+        if (movement.magnitude > 0.1f)
+        {
+            OnMove?.Invoke(movement);
+        }
+
+        if (Input.GetButtonDown("Jump"))
+        {
+            OnJump?.Invoke();
+        }
+    }
 }

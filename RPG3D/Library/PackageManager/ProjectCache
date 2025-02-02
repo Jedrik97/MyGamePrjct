@@ -5,29 +5,239 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638731666972988379
-    m_Hash: 3001218871
+      ticks: 638741191607716336
+    m_Hash: 779843214
   m_LockFileStatus:
     m_FilePath: D:/UnityPrjs/MyGamePrjct/RPG3D/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638731666973008434
-    m_Hash: 3760459284
+      ticks: 638741191607761945
+    m_Hash: 2052458015
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/UnityPrjs/MyGamePrjct/RPG3D/Packages
-m_EditorVersion: 6000.0.28f1 (f336aca0cab5)
+m_EditorVersion: 6000.0.36f1 (9fe3b5f71dbb)
 m_ResolvedPackages:
+- packageId: com.unity.cinemachine@3.1.3
+  testable: 0
+  isDirectDependency: 1
+  version: 3.1.3
+  source: 1
+  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.cinemachine@624f919d8cdd
+  assetPath: Packages/com.unity.cinemachine
+  name: com.unity.cinemachine
+  displayName: Cinemachine
+  author:
+    name: 
+    email: 
+    url: 
+  category: cinematography
+  type: 
+  description: "Smart camera tools for passionate creators. \n\nCinemachine 3 is
+    a newer and better version of Cinemachine, but upgrading an existing project
+    from 2.X will likely require some effort.  If you're considering upgrading an
+    older project, please see our upgrade guide in the user manual."
+  errors: []
+  versions:
+    all:
+    - 2.1.11-beta.1
+    - 2.1.12
+    - 2.1.13
+    - 2.2.0
+    - 2.2.7
+    - 2.2.8
+    - 2.2.9
+    - 2.2.10-preview.3
+    - 2.2.10-preview.4
+    - 2.3.1
+    - 2.3.3
+    - 2.3.4
+    - 2.3.5-preview.3
+    - 2.4.0-preview.3
+    - 2.4.0-preview.4
+    - 2.4.0-preview.6
+    - 2.4.0-preview.7
+    - 2.4.0-preview.8
+    - 2.4.0-preview.9
+    - 2.4.0-preview.10
+    - 2.4.0
+    - 2.5.0
+    - 2.6.0-preview.2
+    - 2.6.0-preview.3
+    - 2.6.0-preview.5
+    - 2.6.0-preview.8
+    - 2.6.0
+    - 2.6.1-preview.6
+    - 2.6.1
+    - 2.6.2-preview.1
+    - 2.6.2
+    - 2.6.3-preview.2
+    - 2.6.3
+    - 2.6.4
+    - 2.6.5
+    - 2.6.9
+    - 2.6.10
+    - 2.6.11
+    - 2.6.14
+    - 2.6.15
+    - 2.6.17
+    - 2.7.1
+    - 2.7.2
+    - 2.7.3
+    - 2.7.4
+    - 2.7.5
+    - 2.7.8
+    - 2.7.9
+    - 2.8.0-exp.1
+    - 2.8.0-exp.2
+    - 2.8.0-pre.1
+    - 2.8.0
+    - 2.8.1
+    - 2.8.2
+    - 2.8.3
+    - 2.8.4
+    - 2.8.6
+    - 2.8.9
+    - 2.9.0-pre.1
+    - 2.9.0-pre.6
+    - 2.9.1
+    - 2.9.2
+    - 2.9.4
+    - 2.9.5
+    - 2.9.7
+    - 2.10.0
+    - 2.10.1
+    - 2.10.2
+    - 2.10.3
+    - 3.0.0-pre.3
+    - 3.0.0-pre.4
+    - 3.0.0-pre.5
+    - 3.0.0-pre.6
+    - 3.0.0-pre.7
+    - 3.0.0-pre.8
+    - 3.0.0-pre.9
+    - 3.0.1
+    - 3.1.0
+    - 3.1.1
+    - 3.1.2
+    - 3.1.3
+    compatible:
+    - 2.10.3
+    - 3.0.0-pre.3
+    - 3.0.0-pre.4
+    - 3.0.0-pre.5
+    - 3.0.0-pre.6
+    - 3.0.0-pre.7
+    - 3.0.0-pre.8
+    - 3.0.0-pre.9
+    - 3.0.1
+    - 3.1.0
+    - 3.1.1
+    - 3.1.2
+    - 3.1.3
+    recommended: 3.1.3
+    deprecated: []
+  dependencies:
+  - name: com.unity.splines
+    version: 2.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.splines
+    version: 2.7.2
+  - name: com.unity.mathematics
+    version: 1.3.2
+  - name: com.unity.settings-manager
+    version: 2.0.1
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords:
+  - camera
+  - follow
+  - rig
+  - fps
+  - cinematography
+  - aim
+  - orbit
+  - cutscene
+  - cinematic
+  - collision
+  - freelook
+  - cinemachine
+  - compose
+  - composition
+  - dolly
+  - track
+  - clearshot
+  - noise
+  - framing
+  - handheld
+  - lens
+  - impulse
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638739355014480000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.cinemachine@3.1/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.cinemachine.git
+    revision: 23940e5601df6628d349dc9d1912bd2bb34ad631
+    path: 
+  unityLifecycle:
+    version: 2.10.3
+    nextVersion: 
+    recommendedVersion: 3.1.0
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Bugfixes\n- Regression fix: CinemachinePanTilt
+    recentering was ignoring axis Center setting.\n- CameraDeactivated events were
+    not sent consistently when a blend interrupted another blend before completion.\n-
+    CameraActivated events were not sent consistently when activation was due to
+    timeline blends.\n- FramingTransposer with a dead zone would sometimes drift.\n-
+    Decollider would sometimes cause camera to slip inside cracks between adjacent
+    colliders.\n- The Deoccluder failed to reset its state when initially enabled,
+    and sometimes caused small spurious camera rotations.\n- Fixed the Radial Axis
+    input axis in the CinemachineOrbitalFollow component to map to the y axis.\n-
+    Desired blend time is respected when interrupting blends with heterogeneous blend-in
+    and blend-out times.\n\n### Changed\n- Added delayed processing to near and far
+    clip plane inspector fields for the CinemachineCamera lens.\n- Updated the gamepad
+    inputs in the CinemachineDefaultInputActions asset to closer match standard gamepad
+    conventions. Renamed the Player action map to CM Default.\n\n### Added\n- CinemachineConfiner2D.BoundingShapeIsBaked
+    can be used to check if the confiner''s bounding shape is baked.\n- CinemachineConfiner2D.BakeBoundingShape()
+    can be used to force-complete the confiner''s baking of the bounding shape."}'
+  assetStore:
+    productId: 
+  fingerprint: 624f919d8cdd376712eda21b43abcb0330c023e2
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.10.3
+    minimumUnityVersion: 2022.3.0a1
 - packageId: com.unity.ide.rider@3.0.34
   testable: 0
   isDirectDependency: 1
   version: 3.0.34
   source: 1
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.ide.rider
+  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.ide.rider@ecbf706690e5
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -143,7 +353,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.multiplayer.center
+  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.multiplayer.center@f502d8ac613f
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -233,7 +443,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 6.0.4
   source: 1
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.probuilder
+  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.probuilder@a2827f523e21
   assetPath: Packages/com.unity.probuilder
   name: com.unity.probuilder
   displayName: ProBuilder
@@ -422,7 +632,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.modules.accessibility
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -489,7 +699,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.modules.ai
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -556,7 +766,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.modules.androidjni
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -622,7 +832,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.modules.animation
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -689,7 +899,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.modules.assetbundle
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -756,7 +966,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.modules.audio
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -823,7 +1033,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.modules.cloth
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -894,7 +1104,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.modules.director
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -969,7 +1179,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.modules.imageconversion
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -1036,7 +1246,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.modules.imgui
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -1103,7 +1313,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.modules.jsonserialize
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -1170,7 +1380,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.modules.particlesystem
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -1237,7 +1447,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.modules.physics
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -1304,7 +1514,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.modules.physics2d
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -1371,7 +1581,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.modules.screencapture
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -1442,7 +1652,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.modules.terrain
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -1509,7 +1719,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.modules.terrainphysics
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -1584,7 +1794,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.modules.tilemap
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -1654,7 +1864,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.modules.ui
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -1721,7 +1931,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.modules.uielements
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -1804,7 +2014,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.modules.umbra
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -1871,7 +2081,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.modules.unityanalytics
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -1945,7 +2155,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.modules.unitywebrequest
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -2012,7 +2222,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -2087,7 +2297,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.modules.unitywebrequestaudio
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -2162,7 +2372,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.modules.unitywebrequesttexture
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -2237,7 +2447,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.modules.unitywebrequestwww
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -2328,7 +2538,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.modules.vehicles
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -2399,7 +2609,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.modules.video
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -2478,7 +2688,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.modules.vr
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -2559,7 +2769,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.modules.wind
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -2626,7 +2836,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.modules.xr
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -2705,7 +2915,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.modules.subsystems
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -2776,7 +2986,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.modules.hierarchycore
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -2843,7 +3053,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.3
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.shadergraph
+  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.shadergraph@911117698220
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -3036,7 +3246,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: e6e0df3c9e43d268733e3882298a59923bdf76d3
+  fingerprint: 9111176982208cf007caa931c3cf2716ceec4632
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.0.3
@@ -3046,7 +3256,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.1
   source: 1
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.settings-manager
+  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.settings-manager@56a930affa1e
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -3120,7 +3330,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 1
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.ext.nunit
+  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.ext.nunit@60ef35ffd3cd
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -3194,12 +3404,126 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.5
     minimumUnityVersion: 2019.4.0a1
+- packageId: com.unity.splines@2.7.2
+  testable: 0
+  isDirectDependency: 0
+  version: 2.7.2
+  source: 1
+  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.splines@d3e1e500c9a0
+  assetPath: Packages/com.unity.splines
+  name: com.unity.splines
+  displayName: Splines
+  author:
+    name: 
+    email: 
+    url: 
+  category: Tool
+  type: tool
+  description: Work with curves and paths. Use the Splines package to generate objects
+    and behaviors along paths, create trajectories, and draw shapes.
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.1
+    - 1.0.0-pre.5
+    - 1.0.0-pre.7
+    - 1.0.0-pre.8
+    - 1.0.0-pre.9
+    - 1.0.0
+    - 1.0.1
+    - 2.0.0-pre.2
+    - 2.0.0-pre.4
+    - 2.0.0
+    - 2.1.0
+    - 2.2.0
+    - 2.2.1
+    - 2.3.0
+    - 2.4.0
+    - 2.5.1
+    - 2.5.2
+    - 2.6.0
+    - 2.6.1
+    - 2.7.1
+    - 2.7.2
+    compatible:
+    - 2.7.2
+    recommended: 2.7.2
+    deprecated: []
+  dependencies:
+  - name: com.unity.mathematics
+    version: 1.2.1
+  - name: com.unity.settings-manager
+    version: 1.0.3
+  resolvedDependencies:
+  - name: com.unity.mathematics
+    version: 1.3.2
+  - name: com.unity.settings-manager
+    version: 2.0.1
+  keywords:
+  - spline
+  - curve
+  - path
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638678084074740000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.splines.git
+    revision: f8048bc97f9cc23fe3db45eceb767e6ab97f37f5
+    path: 
+  unityLifecycle:
+    version: 2.7.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Bug Fixes\n- [SPLB-315] Fixed a bug where the `DrawSplineTool`
+    icon was missing in the tools overlay.  \n- [STO-3434] Fixed a bug where the
+    `DrawSplineTool` would prevent the use of the view tool.\n- [STO-3435] Fixed
+    a bug where the `DrawSplineTool` would not display the tool settings anymore.
+    \n- [SPLB-296] Fixed a bug where a log message would appear in the console when
+    2 knots are at the same position with 0-length tangents.\n- [SPLB-304] Fixed
+    a bug where an exception would be thrown when using `SplineInstantiate` with
+    linear distance instantiate method and multiple splines. \n- Fixed some failures
+    related to the inline API documentation.\n- [SPLB-302] Fixed a bug where an exception
+    would be thrown when adding a knot to a closed spline from inspector.\n- [SPLB-311]
+    Fixed a bug where `SplineAnimate` component would not function properly with
+    non-uniform scale transforms.\n- Fixed compilation errors in builds\n- [SPLB-310]
+    Fixed mesh extrude not being saved when a change is applied to a mesh asset.
+    \n- [SPLB-303] Fixed a bug where spline section foldout labels (shape extrude,
+    geometry, advanced) did not unfold the sections when clicked.\n- [SPLB-294] Fixed
+    a bug where adding new splines by using the `SplineContainer` inspector would
+    dirty all open scenes."}'
+  assetStore:
+    productId: 
+  fingerprint: d3e1e500c9a0fa3a1e812117108982dd612c2e27
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.7.2
+    minimumUnityVersion: 2022.3.0a1
 - packageId: com.unity.render-pipelines.core@17.0.3
   testable: 0
   isDirectDependency: 0
   version: 17.0.3
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.render-pipelines.core
+  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.render-pipelines.core@7bffd5bb179a
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Core RP Library
@@ -3403,7 +3727,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: c6c30ab055d7d762f0b35abf019282abd487b6f7
+  fingerprint: 7bffd5bb179ae35670a1bea73d5805f4510e7add
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.0.3
@@ -3413,7 +3737,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.9.2
   source: 1
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.searcher
+  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.searcher@90d011a70418
   assetPath: Packages/com.unity.searcher
   name: com.unity.searcher
   displayName: Searcher
@@ -3494,12 +3818,101 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 4.9.2
     minimumUnityVersion: 2019.1.0a1
+- packageId: com.unity.mathematics@1.3.2
+  testable: 0
+  isDirectDependency: 0
+  version: 1.3.2
+  source: 1
+  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.mathematics@8017b507cc74
+  assetPath: Packages/com.unity.mathematics
+  name: com.unity.mathematics
+  displayName: Mathematics
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: Unity's C# SIMD math library providing vector types and math functions
+    with a shader like syntax.
+  errors: []
+  versions:
+    all:
+    - 0.0.12-preview.2
+    - 0.0.12-preview.5
+    - 0.0.12-preview.8
+    - 0.0.12-preview.10
+    - 0.0.12-preview.11
+    - 0.0.12-preview.13
+    - 0.0.12-preview.17
+    - 0.0.12-preview.19
+    - 0.0.12-preview.20
+    - 1.0.0-preview.1
+    - 1.0.1
+    - 1.1.0-preview.1
+    - 1.1.0
+    - 1.2.1
+    - 1.2.4
+    - 1.2.5
+    - 1.2.6
+    - 1.3.1
+    - 1.3.2
+    compatible:
+    - 1.3.2
+    recommended: 1.3.2
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638409134840000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.mathematics@1.3/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/Unity.Mathematics.git
+    revision: 1695a8503482a3131be78cc26308a93f82c05b04
+    path: 
+  unityLifecycle:
+    version: 1.3.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n* Fixed `math.hash` crash when using IL2CPP
+    builds on Arm 32 bit devices.\n* Fixed obsolete method usage warnings for `MatrixDrawer.CanCacheInspectorGUI`
+    and `PrimitiveVectorDrawer.CanCacheInspectorGUI` in UNITY_2023_2_OR_NEWER.\n*
+    Updated minimum editor version to 2021.3"}'
+  assetStore:
+    productId: 
+  fingerprint: 8017b507cc74bf0a1dd14b18aa860569f807314d
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.3.2
+    minimumUnityVersion: 2021.3.0a1
 - packageId: com.unity.burst@1.8.18
   testable: 0
   isDirectDependency: 0
   version: 1.8.18
   source: 1
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.burst
+  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.burst@616862665d8c
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -3714,101 +4127,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.8.18
     minimumUnityVersion: 2020.3.0a1
-- packageId: com.unity.mathematics@1.3.2
-  testable: 0
-  isDirectDependency: 0
-  version: 1.3.2
-  source: 1
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.mathematics
-  assetPath: Packages/com.unity.mathematics
-  name: com.unity.mathematics
-  displayName: Mathematics
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: assets
-  description: Unity's C# SIMD math library providing vector types and math functions
-    with a shader like syntax.
-  errors: []
-  versions:
-    all:
-    - 0.0.12-preview.2
-    - 0.0.12-preview.5
-    - 0.0.12-preview.8
-    - 0.0.12-preview.10
-    - 0.0.12-preview.11
-    - 0.0.12-preview.13
-    - 0.0.12-preview.17
-    - 0.0.12-preview.19
-    - 0.0.12-preview.20
-    - 1.0.0-preview.1
-    - 1.0.1
-    - 1.1.0-preview.1
-    - 1.1.0
-    - 1.2.1
-    - 1.2.4
-    - 1.2.5
-    - 1.2.6
-    - 1.3.1
-    - 1.3.2
-    compatible:
-    - 1.3.2
-    recommended: 1.3.2
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - unity
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638409134840000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.mathematics@1.3/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Unity-Technologies/Unity.Mathematics.git
-    revision: 1695a8503482a3131be78cc26308a93f82c05b04
-    path: 
-  unityLifecycle:
-    version: 1.3.2
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: '{"changelog":"### Fixed\n* Fixed `math.hash` crash when using IL2CPP
-    builds on Arm 32 bit devices.\n* Fixed obsolete method usage warnings for `MatrixDrawer.CanCacheInspectorGUI`
-    and `PrimitiveVectorDrawer.CanCacheInspectorGUI` in UNITY_2023_2_OR_NEWER.\n*
-    Updated minimum editor version to 2021.3"}'
-  assetStore:
-    productId: 
-  fingerprint: 8017b507cc74bf0a1dd14b18aa860569f807314d
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.3.2
-    minimumUnityVersion: 2021.3.0a1
 - packageId: com.unity.ugui@2.0.0
   testable: 0
   isDirectDependency: 0
   version: 2.0.0
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.ugui
+  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.ugui@24b10291b18f
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -3890,7 +4214,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: e6653db8377f18d2d6df3466ab35fb2d87c9c264
+  fingerprint: 24b10291b18f65e937b22d041c48712033f29449
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.0
@@ -3900,7 +4224,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.5.1
   source: 1
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.collections
+  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.collections@56bff8827a7e
   assetPath: Packages/com.unity.collections
   name: com.unity.collections
   displayName: Collections
@@ -4068,7 +4392,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.1
   source: 2
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.rendering.light-transport
+  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.rendering.light-transport@307bc27a498f
   assetPath: Packages/com.unity.rendering.light-transport
   name: com.unity.rendering.light-transport
   displayName: Unity Light Transport Library
@@ -4164,7 +4488,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.4.5
   source: 1
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.test-framework
+  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.test-framework@0a21eb82d95c
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -4327,7 +4651,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.11.4
   source: 1
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.nuget.mono-cecil
+  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f
   assetPath: Packages/com.unity.nuget.mono-cecil
   name: com.unity.nuget.mono-cecil
   displayName: Mono Cecil
@@ -4409,7 +4733,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.0.3
   source: 1
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.test-framework.performance
+  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.test-framework.performance@fb0dc592af8b
   assetPath: Packages/com.unity.test-framework.performance
   name: com.unity.test-framework.performance
   displayName: Performance testing API
@@ -4539,4 +4863,4 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 3.0.3
     minimumUnityVersion: 2020.3.0a1
-m_BuiltInPackagesHash: dda967283cc7dcffecb4eb40cf4d4f9d5e2847a2
+m_BuiltInPackagesHash: b1ee8e5f96976b65a884948b33d89498cbe5ef4b
