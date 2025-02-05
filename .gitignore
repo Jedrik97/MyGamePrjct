@@ -72,3 +72,7 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 /RPG3D/Library
 /RPG3D/Library
+/RPG3D/Library
+/RPG3D/Temp
+/RPG3D/Assets/TerrainSampleAssets
+/RPG3D/Library
