@@ -11,8 +11,7 @@ public class HealthPlayerController : MonoBehaviour
     private void Start()
     {
         currentHealth = maxHealth;
-
-        // Вызываем событие при старте, чтобы обновить UI или другие элементы
+        
         OnHealthChanged?.Invoke(currentHealth, maxHealth);
     }
 
@@ -22,8 +21,7 @@ public class HealthPlayerController : MonoBehaviour
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
 
         Debug.Log($"Player took {damage} damage. Current health: {currentHealth}");
-
-        // Вызываем событие изменения здоровья
+        
         OnHealthChanged?.Invoke(currentHealth, maxHealth);
 
         if (currentHealth <= 0)
@@ -36,14 +34,12 @@ public class HealthPlayerController : MonoBehaviour
     {
         currentHealth += amount;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
-
-        // Вызываем событие изменения здоровья
+        
         OnHealthChanged?.Invoke(currentHealth, maxHealth);
     }
 
     private void Die()
     {
         Debug.Log("Player has died!");
-        // Здесь можно добавить логику смерти игрока (перезагрузка уровня, завершение игры и т.д.)
     }
 }

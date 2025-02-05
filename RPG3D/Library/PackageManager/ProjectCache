@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638741191607716336
-    m_Hash: 779843214
+      ticks: 638743008662788841
+    m_Hash: 2870333695
   m_LockFileStatus:
     m_FilePath: D:/UnityPrjs/MyGamePrjct/RPG3D/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638741191607761945
-    m_Hash: 2052458015
+      ticks: 638743008662813921
+    m_Hash: 4030318785
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,76 @@ m_LocalPackages:
 m_ProjectPath: D:/UnityPrjs/MyGamePrjct/RPG3D/Packages
 m_EditorVersion: 6000.0.36f1 (9fe3b5f71dbb)
 m_ResolvedPackages:
+- packageId: com.unity.2d.sprite@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 2
+  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.2d.sprite@288185b75ab4
+  assetPath: Packages/com.unity.2d.sprite
+  name: com.unity.2d.sprite
+  displayName: 2D Sprite
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: 
+  description: Use Unity Sprite Editor Window to create and edit Sprite asset properties
+    like pivot, borders and Physics shape
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - 2d
+  - sprite
+  - sprite editor window
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 288185b75ab4115633459407db6f453f23b39ae9
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 2019.2.0a1
 - packageId: com.unity.cinemachine@3.1.3
   testable: 0
   isDirectDependency: 1

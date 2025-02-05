@@ -1,0 +1,518 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.36f1 (9fe3b5f71dbb) revision 10478517'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16202 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/UnityPrjs/MyGamePrjct/RPG3D
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+51401
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: D:/UnityPrjs/MyGamePrjct/RPG3D
+D:/UnityPrjs/MyGamePrjct/RPG3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21948]  Target information:
+
+Player connection [21948]  * "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 11957843 [EditorId] 11957843 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O83DMA8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21948] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21948] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.36f1 (9fe3b5f71dbb)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityPrjs/MyGamePrjct/RPG3D/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28e1)
+    Vendor:   NVIDIA
+    VRAM:     5921 MB
+    Driver:   32.0.15.5597
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.005276 seconds.
+- Loaded All Assemblies, in  0.405 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 253 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.695 seconds
+Domain Reload Profiling: 1099ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (164ms)
+		LoadAssemblies (131ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (160ms)
+			TypeCache.Refresh (159ms)
+				TypeCache.ScanAssembly (147ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (696ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (650ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (334ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (165ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.551 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-RPG3D
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.532 seconds
+Domain Reload Profiling: 1082ms
+	BeginReloadAssembly (193ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (280ms)
+		LoadAssemblies (284ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (112ms)
+			TypeCache.Refresh (84ms)
+				TypeCache.ScanAssembly (75ms)
+			BuildScriptInfoCaches (23ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (533ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (432ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (234ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 80 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3402 unused Assets / (4.4 MB). Loaded Objects now: 3925.
+Memory consumption went from 114.1 MB to 109.8 MB.
+Total: 6.688200 ms (FindLiveObjects: 0.350100 ms CreateObjectMapping: 0.276000 ms MarkObjects: 4.527700 ms  DeleteObjects: 1.533400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 16067.104317 seconds.
+  path: Assets/GothicUI/Artworks/G_bottle_button.png
+  artifactKey: Guid(6840a8222ce928e46bd5b0ba6166a599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/G_bottle_button.png using Guid(6840a8222ce928e46bd5b0ba6166a599) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a01f98d40c0f69d42eea0c2985e5115e') in 0.1155372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.200619 seconds.
+  path: Assets/GothicUI/Artworks/G_Line_red.png
+  artifactKey: Guid(d10e92e1849e8344f8867255a3f4387b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/G_Line_red.png using Guid(d10e92e1849e8344f8867255a3f4387b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07627e429554e9246cbe4a87c02df0d3') in 0.0087992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GothicUI/Artworks/Hero_art.png
+  artifactKey: Guid(add97ba88310c4043ab37eca8e92f7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Hero_art.png using Guid(add97ba88310c4043ab37eca8e92f7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49ac5f71f747ee8518530167e5120c8a') in 0.0280182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.325142 seconds.
+  path: Assets/GothicUI/Artworks/Hp_ampul_back.png
+  artifactKey: Guid(51e2e87f3b98fb54088c48998a882297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Hp_ampul_back.png using Guid(51e2e87f3b98fb54088c48998a882297) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4638181dc9fe4031bd6acd0ab7908ae') in 0.0125261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GothicUI/Artworks/HPbar_hero_background_01.png
+  artifactKey: Guid(a83928cefe3c06c498d088e1bad7abba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/HPbar_hero_background_01.png using Guid(a83928cefe3c06c498d088e1bad7abba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc67a5259638fd3e71edb8f963d7cbd5') in 0.0154881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GothicUI/Artworks/HPbar_hero_background_01_frame.png
+  artifactKey: Guid(f1942187721bb724c889785976fdd575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/HPbar_hero_background_01_frame.png using Guid(f1942187721bb724c889785976fdd575) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ffd5eda17c4342550f1e82d9fc109af4') in 0.0114682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003770 seconds.
+  path: Assets/GothicUI/Artworks/HPbar_hero_background_02.png
+  artifactKey: Guid(1857de19887e15a44b735afaf96a8509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/HPbar_hero_background_02.png using Guid(1857de19887e15a44b735afaf96a8509) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afd2caaf255be31eb47247698273fc70') in 0.0105966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GothicUI/Artworks/HPbar_mini_lil_red.png
+  artifactKey: Guid(e261832823f1d70488f0d7360269f7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/HPbar_mini_lil_red.png using Guid(e261832823f1d70488f0d7360269f7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e87c5cf78ebcc58a485ec81b4cb838da') in 0.0097021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GothicUI/Artworks/HPbar_mini_long.png
+  artifactKey: Guid(7665550ca1097bc458384d7d44ec23c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/HPbar_mini_long.png using Guid(7665550ca1097bc458384d7d44ec23c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc87455ca5ff442bdd3f0179fb2a8200') in 0.0092158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.871190 seconds.
+  path: Assets/GothicUI/Artworks/HPbar_mini_mid_red.png
+  artifactKey: Guid(81817dd5178d9cc429e815025b75858e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/HPbar_mini_mid_red.png using Guid(81817dd5178d9cc429e815025b75858e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '276d00fa66cd47a0e4b35d9a1d2ff3fb') in 0.0072976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GothicUI/Artworks/Inventory_frame2_back.png
+  artifactKey: Guid(8e459ba112ee7ca42b3f98ab5356d44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Inventory_frame2_back.png using Guid(8e459ba112ee7ca42b3f98ab5356d44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '866f11a5acc6e6643cf8ec90f7bed247') in 0.0153264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GothicUI/Artworks/Inventory_frame3.png
+  artifactKey: Guid(d11d1fd8574f57f48a5b88d400e0b06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Inventory_frame3.png using Guid(d11d1fd8574f57f48a5b88d400e0b06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05ecad68eb3af1ade6306a789a594ad2') in 0.012746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014211 seconds.
+  path: Assets/GothicUI/Artworks/Inventory_icon_b_bonus.png
+  artifactKey: Guid(655df564858ad7e43b8d6a03387fa98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Inventory_icon_b_bonus.png using Guid(655df564858ad7e43b8d6a03387fa98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c561f519aa9f6f5ab0ec6d70db8eb5a0') in 0.0099358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GothicUI/Artworks/Inventory_icon_b_Pants.png
+  artifactKey: Guid(3224e16670140dc40a752bc8cb193ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Inventory_icon_b_Pants.png using Guid(3224e16670140dc40a752bc8cb193ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '620ced6919503e5bf51da29c012e9cb4') in 0.0108828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GothicUI/Artworks/Inventory_icon_b_jewelry.png
+  artifactKey: Guid(b583cd6f0ab9f064083c415296939a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Inventory_icon_b_jewelry.png using Guid(b583cd6f0ab9f064083c415296939a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1529fdcc0446fa8ef6f7b769f9143080') in 0.0149515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GothicUI/Artworks/Key_icon.png
+  artifactKey: Guid(81e10cefce147a949b5629115f530e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Key_icon.png using Guid(81e10cefce147a949b5629115f530e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dec53a398e0b3aa8e3b839093fa42055') in 0.007469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/GothicUI/Artworks/Loading_line.png
+  artifactKey: Guid(4e1498f256dad5b48a27b4824884d840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Loading_line.png using Guid(4e1498f256dad5b48a27b4824884d840) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c43c072caea955031fb65147340d69f') in 0.0090942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GothicUI/Artworks/Looking_icon.png
+  artifactKey: Guid(c6ea5da951f78cb408b7ded4b1055963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Looking_icon.png using Guid(c6ea5da951f78cb408b7ded4b1055963) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc3dac85a0e55b42de6e44f4a46c0597') in 0.0088533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.383325 seconds.
+  path: Assets/GothicUI/Artworks/Map_dot_green.png
+  artifactKey: Guid(6d84ef00f3f57ac478650dca3fe566ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Map_dot_green.png using Guid(6d84ef00f3f57ac478650dca3fe566ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47446de8375767856c66bc08b0799589') in 0.0094064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GothicUI/Artworks/Mask.png
+  artifactKey: Guid(744735bd529b48d4285e12af53032dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Mask.png using Guid(744735bd529b48d4285e12af53032dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4bbb55c5b3366b81c6975fb065a41bf') in 0.0182154 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GothicUI/Artworks/Moba_hpline.png
+  artifactKey: Guid(44f069abb0d6c8c468c9c0980da7c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Moba_hpline.png using Guid(44f069abb0d6c8c468c9c0980da7c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00df04eeb056513b1532927ff78a5025') in 0.0110476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013828 seconds.
+  path: Assets/GothicUI/Artworks/MOBA_item_bar_ready.png
+  artifactKey: Guid(062a781c6d58fd448af13679cb107105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/MOBA_item_bar_ready.png using Guid(062a781c6d58fd448af13679cb107105) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84ded3eaf078e02ed5f28db6311efa92') in 0.0156713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GothicUI/Artworks/pop-up_menu.png
+  artifactKey: Guid(caacd763c97b4f34dafd12208751ffa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/pop-up_menu.png using Guid(caacd763c97b4f34dafd12208751ffa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1e319da18bb78076ff153751bdfae0c') in 0.0204767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GothicUI/Artworks/Question_01.png
+  artifactKey: Guid(d383fe8c43e355640b357f993338f0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Question_01.png using Guid(d383fe8c43e355640b357f993338f0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '392ff23109a9a7ce8a28ac4cd1b9dcdd') in 0.0089154 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GothicUI/Artworks/Ring_1.png
+  artifactKey: Guid(ee9e74ead1709594b845e735ee85b073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Ring_1.png using Guid(ee9e74ead1709594b845e735ee85b073) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f40ce10f5f90bd46306b8f943d926d1') in 0.0147943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GothicUI/Artworks/Question_01_G.png
+  artifactKey: Guid(16eed5c97fe04904d8ebd36f8df58f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Question_01_G.png using Guid(16eed5c97fe04904d8ebd36f8df58f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c805d19ea0d234ce4deb04c22a61bb7b') in 0.0117209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GothicUI/Artworks/skill_bar_mid.png
+  artifactKey: Guid(8b7b289fffde23842bdc6d869bd754f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/skill_bar_mid.png using Guid(8b7b289fffde23842bdc6d869bd754f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22f944489a179984454236ef72d890f1') in 0.0137638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GothicUI/Artworks/skill_bar_MOBA_frame.png
+  artifactKey: Guid(26148a96b8c7d22469f8eaa58f3ac26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/skill_bar_MOBA_frame.png using Guid(26148a96b8c7d22469f8eaa58f3ac26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2b443856ac307bbfda10ada6fe7fab1') in 0.0113076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GothicUI/Artworks/Stand_long.png
+  artifactKey: Guid(e7f355378e78cb84499165a79a8fb13a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Stand_long.png using Guid(e7f355378e78cb84499165a79a8fb13a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6bf1ddbd55a3f98aae5505cfb29eef0f') in 0.0085561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GothicUI/Artworks/right_sup_bar_2.png
+  artifactKey: Guid(a2cff25703cd98243a42927b199c8904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/right_sup_bar_2.png using Guid(a2cff25703cd98243a42927b199c8904) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93d7904717821021ee193524b210c18e') in 0.0195267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.935679 seconds.
+  path: Assets/GothicUI/Artworks/Stand_small.png
+  artifactKey: Guid(90086145d994fd042b3666f135d22411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Stand_small.png using Guid(90086145d994fd042b3666f135d22411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0fa027752a6fa66706040be401accb39') in 0.0102563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GothicUI/Artworks/Trade_buy_bar.png
+  artifactKey: Guid(e9f3165e950944740a23af16aed74da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Trade_buy_bar.png using Guid(e9f3165e950944740a23af16aed74da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd56b90549ea7dc415da6273b16ad95c1') in 0.014088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GothicUI/Artworks/Weapon_icon.png
+  artifactKey: Guid(7c11da5b01c892f4996d1689aa293e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/Weapon_icon.png using Guid(7c11da5b01c892f4996d1689aa293e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a526b52d9251cc7c3a6bb69c788b4a71') in 0.0148292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GothicUI/Artworks/XP_bar_mid.png
+  artifactKey: Guid(c2a6398e9cfdc0648899eba3c611e742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Artworks/XP_bar_mid.png using Guid(c2a6398e9cfdc0648899eba3c611e742) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0fa64835a289d1cd1605b60f41333c1') in 0.0089523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.736900 seconds.
+  path: Assets/GothicUI/demo/LightingData.asset
+  artifactKey: Guid(2b3b02abbb71a41419d043ac575084b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/demo/LightingData.asset using Guid(2b3b02abbb71a41419d043ac575084b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a66004c50cc3efab53cb266aae655f8a') in 0.0012659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.898431 seconds.
+  path: Assets/GothicUI/Materials/Double.mat
+  artifactKey: Guid(ba60cdd58f8553745a69ac7b2cd37894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Materials/Double.mat using Guid(ba60cdd58f8553745a69ac7b2cd37894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e3df7c9305add61f625df6c7b7ac595') in 0.0538577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.811211 seconds.
+  path: Assets/GothicUI/Prefabs/DEMO HorizontalHpBar Variant.prefab
+  artifactKey: Guid(012ca09698200554f823861520ff94ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Prefabs/DEMO HorizontalHpBar Variant.prefab using Guid(012ca09698200554f823861520ff94ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27aec1a661eea8d79afb63fb4904c96f') in 0.0186151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 85
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GothicUI/Prefabs/TopBar.prefab
+  artifactKey: Guid(cfe24d1d2efb87e4998bd70749c8ca0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GothicUI/Prefabs/TopBar.prefab using Guid(cfe24d1d2efb87e4998bd70749c8ca0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64eead0392cade11f73e76bb8eebc200') in 0.0061414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.105285 seconds.
+  path: Assets/Materials/Paladin_diffuse.png
+  artifactKey: Guid(bb6d244039b2c744a9743deeceb7c0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Paladin_diffuse.png using Guid(bb6d244039b2c744a9743deeceb7c0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb0dbb3fd8c74a1931b8d4c68d8423ca') in 0.0124298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
