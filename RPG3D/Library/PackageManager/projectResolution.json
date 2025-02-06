@@ -59,16 +59,6 @@
       "source": "registry",
       "testable": false
     },
-    "com.unity.ide.vscode@1.2.4": {
-      "name": "com.unity.ide.vscode",
-      "displayName": "Visual Studio Code Editor",
-      "resolvedPath": "D:\\UnityPrjs\\MyGamePrjct\\RPG3D\\Library\\PackageCache\\com.unity.ide.vscode@eb5de66d4c77",
-      "fingerprint": "eb5de66d4c77580302e328d62de70e3074f61721",
-      "editorCompatibility": "2019.2.0a12",
-      "version": "1.2.4",
-      "source": "registry",
-      "testable": false
-    },
     "com.unity.multiplayer.center@1.0.0": {
       "name": "com.unity.multiplayer.center",
       "displayName": "Multiplayer Center",
