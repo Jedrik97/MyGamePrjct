@@ -15,7 +15,7 @@ D:/UnityPrjs/MyGamePrjct/RPG3D
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50095
+51802
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,12 +59,12 @@ D:/UnityPrjs/MyGamePrjct/RPG3D
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [22872]  Target information:
+Player connection [16772]  Target information:
 
-Player connection [22872]  * "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 925722301 [EditorId] 925722301 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O83DMA8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [16772]  * "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 2253837376 [EditorId] 2253837376 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O83DMA8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [22872] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [22872] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16772] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16772] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,7 +76,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.36f1 (9fe3b5f71dbb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/Resources/UnitySubsystems
@@ -92,46 +92,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.015332 seconds.
-- Loaded All Assemblies, in  1.147 seconds
+Registered in 0.004017 seconds.
+- Loaded All Assemblies, in  0.413 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 814 ms
+Android Extension - Scanning For ADB Devices 245 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.541 seconds
-Domain Reload Profiling: 2683ms
-	BeginReloadAssembly (481ms)
+- Finished resetting the current domain, in  0.641 seconds
+Domain Reload Profiling: 1052ms
+	BeginReloadAssembly (136ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (98ms)
-	RebuildNativeTypeToScriptingClass (28ms)
-	initialDomainReloadingComplete (151ms)
-	LoadAllAssembliesAndSetupDomain (382ms)
-		LoadAssemblies (475ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (165ms)
+		LoadAssemblies (135ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (374ms)
-			TypeCache.Refresh (371ms)
-				TypeCache.ScanAssembly (344ms)
+		AnalyzeDomain (161ms)
+			TypeCache.Refresh (159ms)
+				TypeCache.ScanAssembly (147ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1542ms)
+	FinalizeReload (642ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1451ms)
+		SetupLoadedEditorAssemblies (588ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (993ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (120ms)
-			ProcessInitializeOnLoadAttributes (206ms)
-			ProcessInitializeOnLoadMethodAttributes (121ms)
+			InitializePlatformSupportModulesInManaged (342ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (125ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -140,13 +140,13 @@ Domain Reload Profiling: 2683ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.197 seconds
+- Loaded All Assemblies, in  0.876 seconds
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.22 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
@@ -157,240 +157,302 @@ Package Manager log level set to [2]
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-RPG3D
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.777 seconds
-Domain Reload Profiling: 3972ms
-	BeginReloadAssembly (392ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (19ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (68ms)
-	RebuildCommonClasses (63ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (68ms)
-	LoadAllAssembliesAndSetupDomain (1655ms)
-		LoadAssemblies (1259ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (623ms)
-			TypeCache.Refresh (490ms)
-				TypeCache.ScanAssembly (448ms)
-			BuildScriptInfoCaches (111ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1778ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1492ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
-			SetLoadedEditorAssemblies (12ms)
-			BeforeProcessingInitializeOnLoad (272ms)
-			ProcessInitializeOnLoadAttributes (904ms)
-			ProcessInitializeOnLoadMethodAttributes (267ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 430 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7957 unused Assets / (30.4 MB). Loaded Objects now: 8545.
-Memory consumption went from 277.9 MB to 247.6 MB.
-Total: 44.634400 ms (FindLiveObjects: 2.676900 ms CreateObjectMapping: 3.258400 ms MarkObjects: 18.474700 ms  DeleteObjects: 20.220400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 17815.385389 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_green.fbx
-  artifactKey: Guid(f222748f1796b2e49a56a2fbf7563247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_green.fbx using Guid(f222748f1796b2e49a56a2fbf7563247) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '163d9c9b333df1984ef015583b75256e') in 1.7102285 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_dead_cut.fbx
-  artifactKey: Guid(3b8d3c0077d69eb4db5ee5754518f067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_dead_cut.fbx using Guid(3b8d3c0077d69eb4db5ee5754518f067) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31fed1e9444966fe115d3d7e03c8d6e0') in 0.0399262 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_stump.fbx
-  artifactKey: Guid(13bd9962aed9bef41bc2dd73a559c317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_stump.fbx using Guid(13bd9962aed9bef41bc2dd73a559c317) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a8c3b7c11f677e63d9349a3f3e81a3d') in 0.0344426 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_dead.fbx
-  artifactKey: Guid(021e9eaa88033da4c94bcdeddffe6562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_dead.fbx using Guid(021e9eaa88033da4c94bcdeddffe6562) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '028de920864ece402152eab7508b25a0') in 0.0497545 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Prepare
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 183 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7948 unused Assets / (26.5 MB). Loaded Objects now: 8557.
-Memory consumption went from 224.4 MB to 197.9 MB.
-Total: 16.516900 ms (FindLiveObjects: 0.899200 ms CreateObjectMapping: 1.048900 ms MarkObjects: 6.712500 ms  DeleteObjects: 7.854400 ms)
-
-Prepare: number of updated asset objects reloaded= 7
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.973 seconds
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.839 seconds
-Domain Reload Profiling: 1814ms
-	BeginReloadAssembly (262ms)
+- Finished resetting the current domain, in  0.791 seconds
+Domain Reload Profiling: 1665ms
+	BeginReloadAssembly (177ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (68ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (642ms)
-		LoadAssemblies (503ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (604ms)
+		LoadAssemblies (386ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (280ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (251ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (839ms)
+		AnalyzeDomain (323ms)
+			TypeCache.Refresh (248ms)
+				TypeCache.ScanAssembly (229ms)
+			BuildScriptInfoCaches (59ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (792ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (697ms)
+		SetupLoadedEditorAssemblies (648ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (169ms)
-			ProcessInitializeOnLoadAttributes (405ms)
-			ProcessInitializeOnLoadMethodAttributes (104ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (115ms)
+			ProcessInitializeOnLoadAttributes (402ms)
+			ProcessInitializeOnLoadMethodAttributes (110ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 183 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7954 unused Assets / (26.2 MB). Loaded Objects now: 8551.
-Memory consumption went from 212.4 MB to 186.2 MB.
-Total: 19.258700 ms (FindLiveObjects: 1.012300 ms CreateObjectMapping: 1.420000 ms MarkObjects: 5.964200 ms  DeleteObjects: 10.861300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 774.008736 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Rocks/PT_Menhir_Rock_02.prefab
-  artifactKey: Guid(0f3d14a9a6b2ceb469c15d151552a614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Rocks/PT_Menhir_Rock_02.prefab using Guid(0f3d14a9a6b2ceb469c15d151552a614) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efb28adf59ddbc174746ab2a31e9b61b') in 0.7799615 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+Unloading 423 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7955 unused Assets / (28.8 MB). Loaded Objects now: 8539.
+Memory consumption went from 262.9 MB to 234.1 MB.
+Total: 16.772400 ms (FindLiveObjects: 0.908600 ms CreateObjectMapping: 1.057400 ms MarkObjects: 5.406700 ms  DeleteObjects: 9.398000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Rocks/PT_Ore_Rock_01_split.prefab
-  artifactKey: Guid(4202bcf0261b7184381139880446dfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Rocks/PT_Ore_Rock_01_split.prefab using Guid(4202bcf0261b7184381139880446dfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2bd3aeab8ee83dcab381685d2fa20f9a') in 0.0288922 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+  Time since last request: 32948.166971 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(468425d094011de4fa2322da4cbf48d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(468425d094011de4fa2322da4cbf48d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25dd3e14deecbf1b1b113e918ca2ed6a') in 0.0253234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.887828 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Shrubs/PT_Generic_Shrub_01_green.prefab
-  artifactKey: Guid(ef8374d642969b14baa54045236c5fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Shrubs/PT_Generic_Shrub_01_green.prefab using Guid(ef8374d642969b14baa54045236c5fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbe478a5432fa2c6ffe7ddf7c225bc58') in 0.4275147 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+  Time since last request: 150.363410 seconds.
+  path: Assets/Maps/Lordaeron/Location/Textures/BM_LDRN_BRICKFLOOR01.png
+  artifactKey: Guid(3af4789de602db140995a13327b32141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Lordaeron/Location/Textures/BM_LDRN_BRICKFLOOR01.png using Guid(3af4789de602db140995a13327b32141) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b938b2ea2806f983800e5fe19a6a1a7f') in 0.1105078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.115897 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_dead.prefab
-  artifactKey: Guid(c6a512d95615f534cbe31aba1aaa354c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_dead.prefab using Guid(c6a512d95615f534cbe31aba1aaa354c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8a2b05603aac3f2ce00f89d848403fe') in 0.0147003 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_green.prefab
-  artifactKey: Guid(d250af4848f51154f9a2bf6a85b60ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_green.prefab using Guid(d250af4848f51154f9a2bf6a85b60ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43b9bdd0618410ec5d574cb1f3a44a9e') in 0.0303428 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_stump.prefab
-  artifactKey: Guid(fb070a2d31206d9499ecc8a77be0ebf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_stump.prefab using Guid(fb070a2d31206d9499ecc8a77be0ebf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3eeccc2113d5c8f3c64a4ce205807d26') in 0.0127529 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_logs.prefab
-  artifactKey: Guid(244ce2af788c0c346b86cbc0473811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_logs.prefab using Guid(244ce2af788c0c346b86cbc0473811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03889f60e7d92d99ffe4b6260b5774f4') in 0.0115275 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 0.000034 seconds.
+  path: Assets/Maps/Lordaeron/Location/Textures/BM_LDRN_DIRT01.png
+  artifactKey: Guid(070f4409d0ed008478eb4a097d2e8f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Lordaeron/Location/Textures/BM_LDRN_DIRT01.png using Guid(070f4409d0ed008478eb4a097d2e8f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16863a6735d59324f9b0e2221a689ba4') in 0.0219957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_green_cut.prefab
-  artifactKey: Guid(c0fdfdeafe3a1404a8766f946dd531d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_green_cut.prefab using Guid(c0fdfdeafe3a1404a8766f946dd531d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2847d3793144f65442226f6dccdbd20f') in 0.0241061 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_logs.prefab
-  artifactKey: Guid(c0c32672766a81647b04690fc9ed3595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_logs.prefab using Guid(c0c32672766a81647b04690fc9ed3595) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdef98df21898fe3663406854890eb97') in 0.0132344 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_green_cut.prefab
-  artifactKey: Guid(1caa73a6296593c46bb83d678ff6609b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_green_cut.prefab using Guid(1caa73a6296593c46bb83d678ff6609b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55a0300916277cc04888ea632606986e') in 0.0183513 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+  path: Assets/Maps/Lordaeron/Location/Textures/SLIME1NEW.png
+  artifactKey: Guid(8320356fa8248e84aa3c7783963dff09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Lordaeron/Location/Textures/SLIME1NEW.png using Guid(8320356fa8248e84aa3c7783963dff09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2543a5ac0a5a8d766bada6ccbf822659') in 0.0143358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_dead_cut.prefab
-  artifactKey: Guid(66d0615cc71cd48408b75ff3f99c97af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_dead_cut.prefab using Guid(66d0615cc71cd48408b75ff3f99c97af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c063c36fbda9b9f1f57b1f599c6562ee') in 0.0120026 seconds
+  path: Assets/Maps/Lordaeron/Location/Textures/BM_LDRN_DOMECEILING01.png
+  artifactKey: Guid(1bbe9d404c6632b4b901a978eca57b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Lordaeron/Location/Textures/BM_LDRN_DOMECEILING01.png using Guid(1bbe9d404c6632b4b901a978eca57b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbd432cb70127075924949ab1b974eec') in 0.0150956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Maps/Lordaeron/Location/Textures/MM_WROUGHTIRON_01.png
+  artifactKey: Guid(c3a053ac61e3b5144b6c0ef0331b7a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Lordaeron/Location/Textures/MM_WROUGHTIRON_01.png using Guid(c3a053ac61e3b5144b6c0ef0331b7a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b234146534e5c9e6f2d639dc38def411') in 0.0189354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Maps/Lordaeron/Location/Textures/BM_LDRN_DOME01.png
+  artifactKey: Guid(043b5d935a4ff384a85242dc7216a50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Lordaeron/Location/Textures/BM_LDRN_DOME01.png using Guid(043b5d935a4ff384a85242dc7216a50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7cc2b9da3598086a75c5549c25664168') in 0.0157341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Maps/Lordaeron/Location/Textures/BM_LDRN_TRIMS02.png
+  artifactKey: Guid(affa39ac8ceb84f4596d7029ff5bb737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Lordaeron/Location/Textures/BM_LDRN_TRIMS02.png using Guid(affa39ac8ceb84f4596d7029ff5bb737) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f000a36974cf332a93bdc63da87a1d21') in 0.0191665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Maps/Lordaeron/Location/Textures/BM_LDRN_COBBLESTONE01.png
+  artifactKey: Guid(1febdedd9a6ac8244b08d47df5639ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Lordaeron/Location/Textures/BM_LDRN_COBBLESTONE01.png using Guid(1febdedd9a6ac8244b08d47df5639ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c56951b1e2c92d463f93bf7a1b6c469') in 0.012214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Maps/Lordaeron/Location/Textures/BM_LDRN_BROWNSTONE01.png
+  artifactKey: Guid(0a0185bfa43e7b547ba5d080c633f116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Lordaeron/Location/Textures/BM_LDRN_BROWNSTONE01.png using Guid(0a0185bfa43e7b547ba5d080c633f116) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d8e981b3b4a1286d119bc0b1f30d0eb') in 0.0122162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Maps/Lordaeron/Location/Textures/BM_LDRN_TRIMS04.png
+  artifactKey: Guid(58f130a7a26a9964c91f05bca30a7c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Lordaeron/Location/Textures/BM_LDRN_TRIMS04.png using Guid(58f130a7a26a9964c91f05bca30a7c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd86b26d2288317c70580e56203ef22ff') in 0.0126644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Maps/Lordaeron/Location/Textures/BM_LDRN_CHAMBERWALL01.png
+  artifactKey: Guid(69447e0c69b7d1b409e6a35aa01aec05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Lordaeron/Location/Textures/BM_LDRN_CHAMBERWALL01.png using Guid(69447e0c69b7d1b409e6a35aa01aec05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c20f0e5e60280db573f046401e4ef8a4') in 0.0124225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.793499 seconds.
+  path: Assets/Maps/Lordaeron/Location/Models/Materials/InteriorBellTopMat.mat
+  artifactKey: Guid(109ea1bd97312524da2fca765c71c0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Lordaeron/Location/Models/Materials/InteriorBellTopMat.mat using Guid(109ea1bd97312524da2fca765c71c0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6eadee3d27cc5faac0c0376a9360a7dd') in 0.062875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Maps/Lordaeron/Location/Models/Materials/InteriorStatues02Mat.mat
+  artifactKey: Guid(bfcd3574ac966364990091c351e32ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Lordaeron/Location/Models/Materials/InteriorStatues02Mat.mat using Guid(bfcd3574ac966364990091c351e32ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '625608c9f88d724f1a3a8b650e87f08b') in 0.0057308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Maps/Lordaeron/Location/Models/Materials/InteriorStatuesMat.mat
+  artifactKey: Guid(b086b4297db4a9742bf8d197f07ad17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Lordaeron/Location/Models/Materials/InteriorStatuesMat.mat using Guid(b086b4297db4a9742bf8d197f07ad17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f842fb7fe32c2c5103abe1d99589b6a8') in 0.0087439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.795704 seconds.
+  path: Assets/Maps/Lordaeron/Objects/Materials/tex_132029.mat
+  artifactKey: Guid(40f44d237784ed24480a22c86b99be51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Lordaeron/Objects/Materials/tex_132029.mat using Guid(40f44d237784ed24480a22c86b99be51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e28e71d9aeec440f35d887336a44ff3') in 0.0102968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Maps/Lordaeron/Objects/Materials/tex_189537.mat
+  artifactKey: Guid(133c1266a990fcd46965528c94f9772f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Lordaeron/Objects/Materials/tex_189537.mat using Guid(133c1266a990fcd46965528c94f9772f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35f0a6476e9e669a543404428db116ce') in 0.0072942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Maps/Lordaeron/Objects/Materials/tex_189533.mat
+  artifactKey: Guid(c5004bc26eeb57d4497a72180f75351f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Lordaeron/Objects/Materials/tex_189533.mat using Guid(c5004bc26eeb57d4497a72180f75351f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31840bd0cb7f067d6d755c16e45ba09d') in 0.0081273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Maps/Lordaeron/Objects/Materials/tex_189540.mat
+  artifactKey: Guid(762d4a23457f5cb4ebc83939bde831b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Lordaeron/Objects/Materials/tex_189540.mat using Guid(762d4a23457f5cb4ebc83939bde831b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f06efa767a20e1295649a883f4239d0f') in 0.0081831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Maps/Lordaeron/Objects/Materials/tex_194849.mat
+  artifactKey: Guid(ade3489b3ffb5ff428e90fe237943af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Lordaeron/Objects/Materials/tex_194849.mat using Guid(ade3489b3ffb5ff428e90fe237943af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55186d124eaa50e41b274140c19cca2c') in 0.008303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Maps/Lordaeron/Objects/Materials/tex_132038.mat
+  artifactKey: Guid(a406583e99b5d874894d39c5061626b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Lordaeron/Objects/Materials/tex_132038.mat using Guid(a406583e99b5d874894d39c5061626b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fac8ddcfd5b25af087dbb80c4e971ad0') in 0.006899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Maps/Lordaeron/Objects/Materials/tex_189538.mat
+  artifactKey: Guid(523bf1188a02ac946bcf1faed7c6658e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Lordaeron/Objects/Materials/tex_189538.mat using Guid(523bf1188a02ac946bcf1faed7c6658e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e171db7cbf9b1a436acba1f530804ffa') in 0.0072346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.380017 seconds.
+  path: Assets/Maps/Lordaeron/Objects/Models/lordaeron_statue_02.obj
+  artifactKey: Guid(729da0728f7a1074abe8fd7998d96e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Lordaeron/Objects/Models/lordaeron_statue_02.obj using Guid(729da0728f7a1074abe8fd7998d96e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '946760420c6ecbda1b38df9e7ba24bb9') in 0.0591768 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Maps/Lordaeron/Objects/Models/tombstone07.obj
+  artifactKey: Guid(9706fb4898b740448b1fc81b7e9cc158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Lordaeron/Objects/Models/tombstone07.obj using Guid(9706fb4898b740448b1fc81b7e9cc158) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '731ddd7e9933fb52bb79ab6f4e79dfd0') in 0.0219287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.972049 seconds.
+  path: Assets/Maps/Lordaeron/Objects/Textures/tex_129086.png
+  artifactKey: Guid(80e476609c5be0d498203c6b4ba0c955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Lordaeron/Objects/Textures/tex_129086.png using Guid(80e476609c5be0d498203c6b4ba0c955) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1988ba435c0159f7f782eeac296b5507') in 0.014101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Maps/Lordaeron/Objects/Textures/tex_132027.png
+  artifactKey: Guid(645be3f07882b344bba836708a67863f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Lordaeron/Objects/Textures/tex_132027.png using Guid(645be3f07882b344bba836708a67863f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57357a7d9954a8e50a24166d534eafb5') in 0.0230453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Maps/Lordaeron/Objects/Textures/tex_200675.png
+  artifactKey: Guid(85dbf06793066744cb472aed3851e338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Lordaeron/Objects/Textures/tex_200675.png using Guid(85dbf06793066744cb472aed3851e338) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a240a09f8b59f2025e97497b20d08a8') in 0.0192647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Maps/Lordaeron/Objects/Textures/tex_194849.png
+  artifactKey: Guid(7fb00359a4396544d883038292683d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Lordaeron/Objects/Textures/tex_194849.png using Guid(7fb00359a4396544d883038292683d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e3d2913607741c8ee9d39ac1deed22d') in 0.0242048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Maps/Lordaeron/Objects/Textures/tex_189533.png
+  artifactKey: Guid(95799b8c9e148ef4c80253564669c8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Lordaeron/Objects/Textures/tex_189533.png using Guid(95799b8c9e148ef4c80253564669c8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '621e8fd8040704baeb2594fcf5754ff3') in 0.0295563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Maps/Lordaeron/Objects/Textures/tex_189531.png
+  artifactKey: Guid(62c5fba2d02fb7349a8c9977f231d4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Lordaeron/Objects/Textures/tex_189531.png using Guid(62c5fba2d02fb7349a8c9977f231d4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '706c281139b6c03f5c0d687578f615d6') in 0.0184321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Maps/Lordaeron/Objects/Textures/tex_200654.png
+  artifactKey: Guid(600c33b475ff44b44be74c50ef7bc8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Lordaeron/Objects/Textures/tex_200654.png using Guid(600c33b475ff44b44be74c50ef7bc8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '721e39c7a9a7d6396dc8abe25df994f9') in 0.0126647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.847638 seconds.
+  path: Assets/Maps/Lordaeron/Objects/Textures/tex_1083794.png
+  artifactKey: Guid(fd0a025a2b0c91e43b7c568c25101539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Lordaeron/Objects/Textures/tex_1083794.png using Guid(fd0a025a2b0c91e43b7c568c25101539) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df106246b8072b0046b0d9547f0ab3e7') in 0.0141626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

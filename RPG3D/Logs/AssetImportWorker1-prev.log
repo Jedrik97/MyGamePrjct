@@ -15,7 +15,7 @@ D:/UnityPrjs/MyGamePrjct/RPG3D
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-52241
+51654
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,12 +59,12 @@ D:/UnityPrjs/MyGamePrjct/RPG3D
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [5064]  Target information:
+Player connection [21820]  Target information:
 
-Player connection [5064]  * "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 2952975583 [EditorId] 2952975583 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O83DMA8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [21820]  * "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 1039875811 [EditorId] 1039875811 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O83DMA8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [5064] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [5064] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21820] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21820] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,7 +76,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.36f1 (9fe3b5f71dbb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/Resources/UnitySubsystems
@@ -92,46 +92,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56500
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56840
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.003580 seconds.
-- Loaded All Assemblies, in  0.395 seconds
+Registered in 0.005695 seconds.
+- Loaded All Assemblies, in  0.426 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 245 ms
+Android Extension - Scanning For ADB Devices 1813 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.614 seconds
-Domain Reload Profiling: 1006ms
-	BeginReloadAssembly (140ms)
+- Finished resetting the current domain, in  2.226 seconds
+Domain Reload Profiling: 2651ms
+	BeginReloadAssembly (133ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (35ms)
+	RebuildCommonClasses (48ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (154ms)
-		LoadAssemblies (138ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (173ms)
+		LoadAssemblies (131ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (150ms)
-			TypeCache.Refresh (148ms)
-				TypeCache.ScanAssembly (136ms)
+		AnalyzeDomain (170ms)
+			TypeCache.Refresh (168ms)
+				TypeCache.ScanAssembly (154ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (614ms)
+	FinalizeReload (2227ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (570ms)
+		SetupLoadedEditorAssemblies (2193ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (332ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (52ms)
-			ProcessInitializeOnLoadAttributes (120ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
+			InitializePlatformSupportModulesInManaged (1917ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (141ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -140,13 +140,13 @@ Domain Reload Profiling: 1006ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.845 seconds
+- Loaded All Assemblies, in  0.981 seconds
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
@@ -157,737 +157,76 @@ Package Manager log level set to [2]
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-RPG3D
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.824 seconds
-Domain Reload Profiling: 1667ms
-	BeginReloadAssembly (176ms)
+- Finished resetting the current domain, in  0.899 seconds
+Domain Reload Profiling: 1877ms
+	BeginReloadAssembly (226ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (39ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (43ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (581ms)
-		LoadAssemblies (371ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (656ms)
+		LoadAssemblies (459ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (310ms)
-			TypeCache.Refresh (233ms)
-				TypeCache.ScanAssembly (214ms)
-			BuildScriptInfoCaches (61ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (825ms)
+		AnalyzeDomain (323ms)
+			TypeCache.Refresh (239ms)
+				TypeCache.ScanAssembly (219ms)
+			BuildScriptInfoCaches (65ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (900ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (670ms)
+		SetupLoadedEditorAssemblies (735ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (120ms)
-			ProcessInitializeOnLoadAttributes (406ms)
-			ProcessInitializeOnLoadMethodAttributes (121ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (143ms)
+			ProcessInitializeOnLoadAttributes (444ms)
+			ProcessInitializeOnLoadMethodAttributes (124ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 423 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7955 unused Assets / (26.1 MB). Loaded Objects now: 8536.
-Memory consumption went from 262.5 MB to 236.5 MB.
-Total: 19.532900 ms (FindLiveObjects: 1.002100 ms CreateObjectMapping: 1.057400 ms MarkObjects: 6.266800 ms  DeleteObjects: 11.204900 ms)
+Unloading 7955 unused Assets / (29.6 MB). Loaded Objects now: 8539.
+Memory consumption went from 264.7 MB to 235.1 MB.
+Total: 28.662300 ms (FindLiveObjects: 1.758400 ms CreateObjectMapping: 2.140500 ms MarkObjects: 8.697200 ms  DeleteObjects: 16.064200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13633.185405 seconds.
-  path: Assets/Maps/Lordaeron/Location
-  artifactKey: Guid(ee6a5ba669bc0314ab973af50f5c7c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Lordaeron/Location using Guid(ee6a5ba669bc0314ab973af50f5c7c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c4b2744f58a278d3103e76c38bab2fc') in 0.0073134 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Maps/Lordaeron/Location/Models/pvp_lordaeron_arena.obj
-  artifactKey: Guid(8b3458db37933f74ab7b50e6b9c57586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/Lordaeron/Location/Models/pvp_lordaeron_arena.obj using Guid(8b3458db37933f74ab7b50e6b9c57586) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87e3a1ba807bccd8bbe2a0bd0257a885') in 0.3948264 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 74
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.737 seconds
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.984 seconds
-Domain Reload Profiling: 1724ms
-	BeginReloadAssembly (211ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (62ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (459ms)
-		LoadAssemblies (356ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (206ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (181ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (985ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (798ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (146ms)
-			ProcessInitializeOnLoadAttributes (467ms)
-			ProcessInitializeOnLoadMethodAttributes (155ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 183 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7954 unused Assets / (24.8 MB). Loaded Objects now: 8551.
-Memory consumption went from 214.1 MB to 189.3 MB.
-Total: 16.516700 ms (FindLiveObjects: 0.940500 ms CreateObjectMapping: 0.967100 ms MarkObjects: 5.662400 ms  DeleteObjects: 8.945600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.733 seconds
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.949 seconds
-Domain Reload Profiling: 1685ms
-	BeginReloadAssembly (199ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (55ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (459ms)
-		LoadAssemblies (358ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (198ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (176ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (950ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (762ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (140ms)
-			ProcessInitializeOnLoadAttributes (461ms)
-			ProcessInitializeOnLoadMethodAttributes (132ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 183 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7954 unused Assets / (25.0 MB). Loaded Objects now: 8553.
-Memory consumption went from 214.1 MB to 189.1 MB.
-Total: 21.963900 ms (FindLiveObjects: 1.284600 ms CreateObjectMapping: 1.483400 ms MarkObjects: 6.860200 ms  DeleteObjects: 12.334300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.710 seconds
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.860 seconds
-Domain Reload Profiling: 1571ms
-	BeginReloadAssembly (193ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (56ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (450ms)
-		LoadAssemblies (343ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (200ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (177ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (860ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (713ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (126ms)
-			ProcessInitializeOnLoadAttributes (438ms)
-			ProcessInitializeOnLoadMethodAttributes (128ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 183 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7954 unused Assets / (24.1 MB). Loaded Objects now: 8555.
-Memory consumption went from 214.1 MB to 190.0 MB.
-Total: 21.244800 ms (FindLiveObjects: 1.022900 ms CreateObjectMapping: 1.464400 ms MarkObjects: 7.018800 ms  DeleteObjects: 11.737200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.708 seconds
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.883 seconds
-Domain Reload Profiling: 1594ms
-	BeginReloadAssembly (186ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (457ms)
-		LoadAssemblies (337ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (208ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (181ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (884ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (727ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (130ms)
-			ProcessInitializeOnLoadAttributes (437ms)
-			ProcessInitializeOnLoadMethodAttributes (137ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 183 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7954 unused Assets / (24.9 MB). Loaded Objects now: 8557.
-Memory consumption went from 214.1 MB to 189.2 MB.
-Total: 18.426000 ms (FindLiveObjects: 1.079500 ms CreateObjectMapping: 1.422000 ms MarkObjects: 5.753900 ms  DeleteObjects: 10.169300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.706 seconds
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.876 seconds
-Domain Reload Profiling: 1584ms
-	BeginReloadAssembly (192ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (56ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (446ms)
-		LoadAssemblies (332ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (205ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (180ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (876ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (732ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (126ms)
-			ProcessInitializeOnLoadAttributes (452ms)
-			ProcessInitializeOnLoadMethodAttributes (132ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 183 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7954 unused Assets / (24.5 MB). Loaded Objects now: 8559.
-Memory consumption went from 214.1 MB to 189.6 MB.
-Total: 17.860000 ms (FindLiveObjects: 1.000600 ms CreateObjectMapping: 1.464200 ms MarkObjects: 5.653000 ms  DeleteObjects: 9.740500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.704 seconds
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.886 seconds
-Domain Reload Profiling: 1592ms
-	BeginReloadAssembly (194ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (55ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (444ms)
-		LoadAssemblies (334ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (202ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (178ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (886ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (724ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (128ms)
-			ProcessInitializeOnLoadAttributes (438ms)
-			ProcessInitializeOnLoadMethodAttributes (133ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 183 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7954 unused Assets / (24.2 MB). Loaded Objects now: 8561.
-Memory consumption went from 214.1 MB to 189.9 MB.
-Total: 18.093900 ms (FindLiveObjects: 1.386700 ms CreateObjectMapping: 1.326500 ms MarkObjects: 5.862100 ms  DeleteObjects: 9.517200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 867.148417 seconds.
-  path: Assets/Player/Warrior/180 turn (2).fbx
-  artifactKey: Guid(62755f53abd2d144f9e65c3f9ec5df32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Warrior/180 turn (2).fbx using Guid(62755f53abd2d144f9e65c3f9ec5df32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f06ba049edf9cfcbee9f8331188e3e24') in 0.1773966 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Player/Warrior/attack (4).fbx
-  artifactKey: Guid(7033066a67701a8469f86f678cecf75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Warrior/attack (4).fbx using Guid(7033066a67701a8469f86f678cecf75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecceda631d6a029a4462d038f6bd3ac5') in 0.0077735 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Player/Warrior/attack (2).fbx
-  artifactKey: Guid(82871121dbf72434cade3547cb2d4d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Warrior/attack (2).fbx using Guid(82871121dbf72434cade3547cb2d4d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6acb7b6f24c1a261c997c602d12eee80') in 0.0060589 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Player/Warrior/crouch idle.fbx
-  artifactKey: Guid(4bb7b598f06794444b63ec7396aba3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Warrior/crouch idle.fbx using Guid(4bb7b598f06794444b63ec7396aba3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '966250674b8b4a4e66bdbf1c4686ac42') in 0.0055798 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Player/Warrior/slash (4).fbx
-  artifactKey: Guid(cc7c78d94d94f45419d249b87ae43ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Warrior/slash (4).fbx using Guid(cc7c78d94d94f45419d249b87ae43ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '932605b411dfa450c6d4102a2e910e48') in 0.0062602 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Player/Warrior/strafe (4).fbx
-  artifactKey: Guid(eac10fb498f0eef4eb683d2e8748e9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Warrior/strafe (4).fbx using Guid(eac10fb498f0eef4eb683d2e8748e9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b95b8ffe1e2104d3ec9faf253eed7a44') in 0.005382 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Player/Warrior/jump (2).fbx
-  artifactKey: Guid(5deead51e5ada914a822433f1c4c04ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Warrior/jump (2).fbx using Guid(5deead51e5ada914a822433f1c4c04ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e35e043009798143d6d63cca97a9551a') in 0.0055896 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Player/Warrior/attack.fbx
-  artifactKey: Guid(88c0c6469557ec646ab5b850638cfdd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Warrior/attack.fbx using Guid(88c0c6469557ec646ab5b850638cfdd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85a53e22c7671128a3a37f3428262673') in 0.0062718 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Player/Warrior/crouching.fbx
-  artifactKey: Guid(fe760a69fc0f41e4d957495f17cdf8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Warrior/crouching.fbx using Guid(fe760a69fc0f41e4d957495f17cdf8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '798208295f51b1dddc72e7ec9b2e19f4') in 0.0060191 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Player/Warrior/block.fbx
-  artifactKey: Guid(3f46d36773346914b895c1b268acf1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Warrior/block.fbx using Guid(3f46d36773346914b895c1b268acf1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83ec9bd70458854fa541bbb982ecaddd') in 0.0073474 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Player/Warrior/turn (2).fbx
-  artifactKey: Guid(771fa4c6529e5264db734a38ed280fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Warrior/turn (2).fbx using Guid(771fa4c6529e5264db734a38ed280fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8574aa1ff48d48355bd955a6dfaa9b2') in 0.0062654 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Player/Warrior/Paladin WProp J Nordstrom.fbx
-  artifactKey: Guid(e85459e3877228a43aa2794a4ded6af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Warrior/Paladin WProp J Nordstrom.fbx using Guid(e85459e3877228a43aa2794a4ded6af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7466b2eb09a6aa027bfd1e907282b157') in 0.1369759 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 164
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Player/Warrior/death.fbx
-  artifactKey: Guid(d7d7660c08930254aaee9e3e91d52cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Warrior/death.fbx using Guid(d7d7660c08930254aaee9e3e91d52cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '084bfc6288b29134f3d2a66d109e7bca') in 0.0075868 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Player/Warrior/run (2).fbx
-  artifactKey: Guid(ff6bc3d1ce3947046a1516e4e8c3e062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Warrior/run (2).fbx using Guid(ff6bc3d1ce3947046a1516e4e8c3e062) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f89e92ecf54f6234fbf1bff961e49471') in 0.006704 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Player/Warrior/run.fbx
-  artifactKey: Guid(e91a9826bf681564c908ba5ce2d15044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Warrior/run.fbx using Guid(e91a9826bf681564c908ba5ce2d15044) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c80e7a1c697384c3d1065b092b0b6896') in 0.0056967 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Player/Warrior/crouch.fbx
-  artifactKey: Guid(8107fb86c2d9f344a969f5753a3c5380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Warrior/crouch.fbx using Guid(8107fb86c2d9f344a969f5753a3c5380) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c1f08db2e8ceccc9a7844e7e766ed94') in 0.0055458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Player/Warrior/casting (2).fbx
-  artifactKey: Guid(97b4ca2cd7574d84787e036f17edff30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Warrior/casting (2).fbx using Guid(97b4ca2cd7574d84787e036f17edff30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4a1134996648dfa5dfa589d266f0e8c') in 0.0057771 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Player/Warrior/strafe (2).fbx
-  artifactKey: Guid(7a1720978d1901c49ab53c27ae3e6a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Warrior/strafe (2).fbx using Guid(7a1720978d1901c49ab53c27ae3e6a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1817df6ca31ead5d524fa4c33938959a') in 0.0057933 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Player/Warrior/crouch block idle.fbx
-  artifactKey: Guid(d51526d7674b1834c986dbfd9e605651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Warrior/crouch block idle.fbx using Guid(d51526d7674b1834c986dbfd9e605651) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d4c5548d1ee294577e01d99ed5059ab') in 0.0048334 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Player/Warrior/death (2).fbx
-  artifactKey: Guid(d58deb3bec65a814994e4ff1460c32ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Warrior/death (2).fbx using Guid(d58deb3bec65a814994e4ff1460c32ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82169f626452eb2cdce36c5838b51b5e') in 0.0072143 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Player/Warrior/turn.fbx
-  artifactKey: Guid(2f8b795874d28994fa1dbe32fd9f9b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Warrior/turn.fbx using Guid(2f8b795874d28994fa1dbe32fd9f9b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91fa8ce24ceec619a4de06a3a42b64e5') in 0.0060022 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.882 seconds
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.931 seconds
-Domain Reload Profiling: 1815ms
-	BeginReloadAssembly (237ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (79ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (572ms)
-		LoadAssemblies (420ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (261ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (236ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (932ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (757ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (149ms)
-			ProcessInitializeOnLoadAttributes (459ms)
-			ProcessInitializeOnLoadMethodAttributes (123ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 183 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7954 unused Assets / (25.0 MB). Loaded Objects now: 8563.
-Memory consumption went from 214.6 MB to 189.5 MB.
-Total: 28.592300 ms (FindLiveObjects: 1.684100 ms CreateObjectMapping: 2.013800 ms MarkObjects: 8.987600 ms  DeleteObjects: 15.904500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 14.284041 seconds.
-  path: Assets/Player/Warrior/idle (4).fbx
-  artifactKey: Guid(c4dc3910180ffa7439491fa7173a02f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Warrior/idle (4).fbx using Guid(c4dc3910180ffa7439491fa7173a02f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f72ae238fac768e4f02a5569628c38ed') in 0.0987965 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
-
-========================================================================
-Received Import Request.
-  Time since last request: 59.027410 seconds.
-  path: Assets/Characters/Human
-  artifactKey: Guid(62ed6b87c2285cd4cbc0d37ffc28c49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Human using Guid(62ed6b87c2285cd4cbc0d37ffc28c49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '130d674a7a32bc5b4b87175caf909002') in 0.0006842 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.278556 seconds.
-  path: Assets/Characters/Human/Mage
-  artifactKey: Guid(91fb34859d3a9b84687b7642e254c83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Human/Mage using Guid(91fb34859d3a9b84687b7642e254c83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e94131474b22863474cd24c8eb80c298') in 0.0005695 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.151848 seconds.
-  path: Assets/Characters/Human/Mage/Models
-  artifactKey: Guid(b16ceb38b6a049c429c2200b0165b277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Human/Mage/Models using Guid(b16ceb38b6a049c429c2200b0165b277) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b25e36e94f5fe7916d447f91804d1197') in 0.0006571 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.044235 seconds.
-  path: Assets/Characters/Human/Mage/Models/Mage.fbx
-  artifactKey: Guid(11a31d2865662a04aa8d8014fa817df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Human/Mage/Models/Mage.fbx using Guid(11a31d2865662a04aa8d8014fa817df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79bf2bd7030adb64d2c0d6ca3c6b88b6') in 0.0881586 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 314
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.660498 seconds.
-  path: Assets/Characters/Ragnaros/Models/Ragnaros.fbx
-  artifactKey: Guid(a03bc4728c80df549933b9adcd2b21fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Ragnaros/Models/Ragnaros.fbx using Guid(a03bc4728c80df549933b9adcd2b21fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c7d9206b1d3a439aef2b38a3a8cfcc6') in 0.0255293 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.221539 seconds.
-  path: Assets/Characters/Sheep/Models
-  artifactKey: Guid(b6b544ebce0e63046a38de90d5e96299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Sheep/Models using Guid(b6b544ebce0e63046a38de90d5e96299) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c33d6d2c123db6c8fbf9ffe0ae34a1c7') in 0.0006791 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.056545 seconds.
-  path: Assets/Characters/Sheep/Models/Sheep.fbx
-  artifactKey: Guid(74c2832ea46912746a2e7976e48174a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Sheep/Models/Sheep.fbx using Guid(74c2832ea46912746a2e7976e48174a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '018768df57aa46619a7332f87b298ced') in 0.0214487 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 72
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.285363 seconds.
-  path: Assets/Characters/Steam Tank/Materials
-  artifactKey: Guid(55f1e01e8592ad84c81867953ae147ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Steam Tank/Materials using Guid(55f1e01e8592ad84c81867953ae147ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '302c308264c5f123297cfde970c9c20e') in 0.0008115 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.057989 seconds.
-  path: Assets/Characters/Steam Tank/Materials/alliancegarrisontank_0.mat
-  artifactKey: Guid(437258aaf30f7124eb9440b3027bf74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Steam Tank/Materials/alliancegarrisontank_0.mat using Guid(437258aaf30f7124eb9440b3027bf74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8724afb7d63afc0aea11cc8e3928b1e9') in 0.0308169 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.985536 seconds.
-  path: Assets/Characters/Steam Tank/Models/Steam Tank.fbx
-  artifactKey: Guid(9a15cdf6d702b3943991505acb98dcc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Steam Tank/Models/Steam Tank.fbx using Guid(9a15cdf6d702b3943991505acb98dcc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1598ee0e082e0f2616ca759b15edaf30') in 0.0219666 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 98
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.311684 seconds.
-  path: Assets/Characters/Steam Tank/Textures/siegevehiclealliance_01.png
-  artifactKey: Guid(b1ce0a2ff400bfe4badbb1956576f597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Steam Tank/Textures/siegevehiclealliance_01.png using Guid(b1ce0a2ff400bfe4badbb1956576f597) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e81cc54f1ee80c15b3ffefb4272c0bcd') in 0.0387713 seconds
+  Time since last request: 32674.908294 seconds.
+  path: Assets/TerrainData_52876dfc-a2c2-49d7-8afc-a46e7144adda.asset
+  artifactKey: Guid(b59fe70101b8b9f4bb7127b354eeeb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_52876dfc-a2c2-49d7-8afc-a46e7144adda.asset using Guid(b59fe70101b8b9f4bb7127b354eeeb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a2a02b197dcbc15b70d81d92e02158b') in 0.0962474 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TerrainData_ecb9edb2-61db-4960-95c7-7cace6c4ab6f.asset
+  artifactKey: Guid(201d77b50b6e4d648991ec395e18ebb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_ecb9edb2-61db-4960-95c7-7cace6c4ab6f.asset using Guid(201d77b50b6e4d648991ec395e18ebb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9da1857c34d904b2a879b49cfce0070e') in 0.0190505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TerrainData_c86ca754-c442-43e7-b1aa-64dc09ee3934.asset
+  artifactKey: Guid(5596ec41baf77734ab20924cd105ffc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_c86ca754-c442-43e7-b1aa-64dc09ee3934.asset using Guid(5596ec41baf77734ab20924cd105ffc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0224c28dd3cc431b78140167b9f30ae') in 0.0206572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.220865 seconds.
+  path: Assets/HDRPDefaultResources/HDRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(67155b9be36d99940b842616c4b0d05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/HDRenderPipelineGlobalSettings.asset using Guid(67155b9be36d99940b842616c4b0d05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8da0c7c9cfd767bbe0bf1b12b3c58da') in 0.2521764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
 
