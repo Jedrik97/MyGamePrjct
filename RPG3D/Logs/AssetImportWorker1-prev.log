@@ -1,0 +1,492 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.36f1 (9fe3b5f71dbb) revision 10478517'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16202 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/UnityPrjs/MyGamePrjct/RPG3D
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+51579
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: D:/UnityPrjs/MyGamePrjct/RPG3D
+D:/UnityPrjs/MyGamePrjct/RPG3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [20816]  Target information:
+
+Player connection [20816]  * "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 3215057405 [EditorId] 3215057405 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O83DMA8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20816] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [20816] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.36f1 (9fe3b5f71dbb)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityPrjs/MyGamePrjct/RPG3D/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28e1)
+    Vendor:   NVIDIA
+    VRAM:     5921 MB
+    Driver:   32.0.15.5597
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003500 seconds.
+- Loaded All Assemblies, in  0.389 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 229 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.606 seconds
+Domain Reload Profiling: 993ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (156ms)
+		LoadAssemblies (132ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (150ms)
+				TypeCache.ScanAssembly (137ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (607ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (561ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (323ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (118ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.864 seconds
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-RPG3D
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.907 seconds
+Domain Reload Profiling: 1769ms
+	BeginReloadAssembly (174ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (603ms)
+		LoadAssemblies (387ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (318ms)
+			TypeCache.Refresh (240ms)
+				TypeCache.ScanAssembly (219ms)
+			BuildScriptInfoCaches (60ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (908ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (748ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (459ms)
+			ProcessInitializeOnLoadMethodAttributes (143ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 472 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8062 unused Assets / (31.7 MB). Loaded Objects now: 8680.
+Memory consumption went from 335.9 MB to 304.2 MB.
+Total: 20.648700 ms (FindLiveObjects: 1.081600 ms CreateObjectMapping: 1.305000 ms MarkObjects: 6.242800 ms  DeleteObjects: 12.017500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 11085.493289 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Model/Fallen_Bark_V0.fbx
+  artifactKey: Guid(7b290040708901e498ea92d5d6be8f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Model/Fallen_Bark_V0.fbx using Guid(7b290040708901e498ea92d5d6be8f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82241f998609e8df5c53ec9d0a493a3f') in 0.2782472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Model/Fantasy_Tree.fbx
+  artifactKey: Guid(dbdb03b9dd044494ab4e367ff24a1fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Model/Fantasy_Tree.fbx using Guid(dbdb03b9dd044494ab4e367ff24a1fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df180027266026a6fd9517511aa1fe23') in 0.0576985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Model/Fallen_Bark.fbx
+  artifactKey: Guid(5dac879780bf8f6449dc33303f501b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Model/Fallen_Bark.fbx using Guid(5dac879780bf8f6449dc33303f501b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1f56b312d1a4c845dd3fcb7345fa875') in 0.0432217 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Model/Iron_Fence.fbx
+  artifactKey: Guid(e654b65ecb21d204388c7b5216b098bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Model/Iron_Fence.fbx using Guid(e654b65ecb21d204388c7b5216b098bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '702512555b2b2838f7a0ba4c5cb4abac') in 0.0765724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Model/Tine_Block.fbx
+  artifactKey: Guid(6b380b6f827da59479f7e3cca44eb56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Model/Tine_Block.fbx using Guid(6b380b6f827da59479f7e3cca44eb56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f671d7772c71e0e3df41e174f309084e') in 0.0464417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Model/Halloween_Tomb.fbx
+  artifactKey: Guid(35785de529e345b40bedd1a6b4806220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Model/Halloween_Tomb.fbx using Guid(35785de529e345b40bedd1a6b4806220) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6493c5406adb2424560171d7140829af') in 0.0770988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Model/Iron_Torch.fbx
+  artifactKey: Guid(ace50ce0f3118554d97cbb2184067050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Model/Iron_Torch.fbx using Guid(ace50ce0f3118554d97cbb2184067050) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7840ddf451d22be3e31f81e50dcfffce') in 0.0394577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/New Material.mat
+  artifactKey: Guid(42fada406dc1f08479e8ec2f4a955252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/New Material.mat using Guid(42fada406dc1f08479e8ec2f4a955252) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99e18070d5d581ac76cb8b78c597997e') in 0.0119543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Model/Cliff.fbx
+  artifactKey: Guid(d2c368b9ef327ce469032a7c1031899d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Model/Cliff.fbx using Guid(d2c368b9ef327ce469032a7c1031899d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '222fb9fb858e07f65029c9fc462e96ac') in 0.0418574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Model/Iron_FenceV1.fbx
+  artifactKey: Guid(6bd5a508cb8c32d489648c8d9ce59e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Model/Iron_FenceV1.fbx using Guid(6bd5a508cb8c32d489648c8d9ce59e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99791487bd991640ef4689f6738c2128') in 0.0443889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Model/Lamps1.fbx
+  artifactKey: Guid(89c2620392e26d44cbcb982880738918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Model/Lamps1.fbx using Guid(89c2620392e26d44cbcb982880738918) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f853e1ce1bc486345b9d31d624d8f8f') in 0.0687168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Model/Wooden_Fence.fbx
+  artifactKey: Guid(c23b4bc904c08924e81e4954441baacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Model/Wooden_Fence.fbx using Guid(c23b4bc904c08924e81e4954441baacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbd6aac5b9a8da49533e90d2761014da') in 0.0511437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Model/Wooden_Piece.fbx
+  artifactKey: Guid(3d37d89366d484d44b1ebcf6f7104738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Model/Wooden_Piece.fbx using Guid(3d37d89366d484d44b1ebcf6f7104738) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1990e8c1805dc74d7e77b0fb8acacf50') in 0.0572673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Model/Pumpkin.fbx
+  artifactKey: Guid(5f12756ad52bfb04596d5981f3f8bb67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Model/Pumpkin.fbx using Guid(5f12756ad52bfb04596d5981f3f8bb67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ed1c07e97d9d11b7efd233b52c47e4f') in 0.0383584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Model/DirtPyra.fbx
+  artifactKey: Guid(597b1e0f75d6dbf41af95fc542d99faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Model/DirtPyra.fbx using Guid(597b1e0f75d6dbf41af95fc542d99faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d0ab033b2711926f224ca937ba82479') in 0.0114067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps
+  artifactKey: Guid(5c239e395f5fc714784ae412137184de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps using Guid(5c239e395f5fc714784ae412137184de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'daf4f32348b5c267f5ce700c2f453bda') in 0.0007928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.861916 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/DirtPyra.prefab
+  artifactKey: Guid(b049234a96ffc824fa98fd439c55648d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/DirtPyra.prefab using Guid(b049234a96ffc824fa98fd439c55648d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45dd7e27c0ef0750afc4e8b190547c38') in 0.0445316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/Iron_SmallCellar1.prefab
+  artifactKey: Guid(26ff4cebaf9191746b86ca12fcfbe257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/Iron_SmallCellar1.prefab using Guid(26ff4cebaf9191746b86ca12fcfbe257) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed702099c7e1917b4811c256edce2ebd') in 0.0326811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/Iron_FenceV1_S4.prefab
+  artifactKey: Guid(443e8400ce8642c4a91e9361c37de52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/Iron_FenceV1_S4.prefab using Guid(443e8400ce8642c4a91e9361c37de52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c46b7c1aaf500746b4dc92fadc31ece6') in 0.0400586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/Iron_FenceV1_S2.prefab
+  artifactKey: Guid(a31b51f30c7ee464f9dfc902e035ef20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/Iron_FenceV1_S2.prefab using Guid(a31b51f30c7ee464f9dfc902e035ef20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e87cbca1c2422a071912ad8496dff1ff') in 0.0238178 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/fence1_.prefab
+  artifactKey: Guid(2de80870bb9dcf54184341b8764bb388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/fence1_.prefab using Guid(2de80870bb9dcf54184341b8764bb388) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '530b4c0633ac75de6292539bb43b428f') in 0.0135981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/Iron_Lamp.prefab
+  artifactKey: Guid(eb670ac98b403b14ba64e2d7b393dec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/Iron_Lamp.prefab using Guid(eb670ac98b403b14ba64e2d7b393dec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37581d398ae3444602b023ed1ba79aca') in 0.0470051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/fence_.prefab
+  artifactKey: Guid(13626cc8162e3314983759fd97196fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/fence_.prefab using Guid(13626cc8162e3314983759fd97196fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d1e6f3d9325ab9c6f05afc0ae3ee5c0') in 0.0145564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.474079 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/Lantern.prefab
+  artifactKey: Guid(f9dc09918ccf96c4aaa7684619f333ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/Lantern.prefab using Guid(f9dc09918ccf96c4aaa7684619f333ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5cae3c15495ccdf507676e428117e9a9') in 0.024072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/Stylize_Stump.prefab
+  artifactKey: Guid(1fa4426e99603814786cd2e422c3f52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/Stylize_Stump.prefab using Guid(1fa4426e99603814786cd2e422c3f52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3dea0a9e10af4b2a5b9579a8e8d88fc5') in 0.0191527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/Torch_V1.prefab
+  artifactKey: Guid(7264c4d4956573c428a84d25602e831e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/Torch_V1.prefab using Guid(7264c4d4956573c428a84d25602e831e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3775b8f473f15e2563de684f643edb57') in 0.0222246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/Prop_Basket_Broken_Black_V1.prefab
+  artifactKey: Guid(fed0825f73061e447a00606b90f93db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/Prop_Basket_Broken_Black_V1.prefab using Guid(fed0825f73061e447a00606b90f93db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2fc4ad43b85562ac14c040b473e3232') in 0.0200786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/Ragr1_V1.prefab
+  artifactKey: Guid(1158fafb9a9691a44b7cb1d79bea799f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/Ragr1_V1.prefab using Guid(1158fafb9a9691a44b7cb1d79bea799f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '351dbe8614a2ef6143e48ddf5fb382a2') in 0.0196733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/Torch_V2.prefab
+  artifactKey: Guid(aaa223ab9864f2543bdc29bb123b1384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/Torch_V2.prefab using Guid(aaa223ab9864f2543bdc29bb123b1384) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a97471760b36d74ab2f85b4e8a7cda5e') in 0.0199175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/Stylize_Ivy_V9.prefab
+  artifactKey: Guid(7c4a9b77e3dff314bb1433e88d31776f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/Stylize_Ivy_V9.prefab using Guid(7c4a9b77e3dff314bb1433e88d31776f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'deea617785a96f3d339eb3c11b38d16d') in 0.0150172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.797404 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/Cage (1).prefab
+  artifactKey: Guid(097ebf1569ea4ba448c0b4a5457617fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/Cage (1).prefab using Guid(097ebf1569ea4ba448c0b4a5457617fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e0edd66787d8ac325e4a96aacba6a6a') in 0.0206738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/Crate_Fruit_V0.prefab
+  artifactKey: Guid(dc1022c6be8bbeb4f9fa4bbf9330ca58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/Crate_Fruit_V0.prefab using Guid(dc1022c6be8bbeb4f9fa4bbf9330ca58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc19ed96300aaaa27deba50bf940d150') in 0.0183451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/Basket_Pot_Red_Black_V0.prefab
+  artifactKey: Guid(70d142d445032ec41a40a9b665050370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/Basket_Pot_Red_Black_V0.prefab using Guid(70d142d445032ec41a40a9b665050370) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef1a47f550c065e0d162d480a805896d') in 0.0203207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/BenchSeat.prefab
+  artifactKey: Guid(881a17371b9cc5d4aae4b368401e8828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/BenchSeat.prefab using Guid(881a17371b9cc5d4aae4b368401e8828) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8b004634113d4f743de251b8fe5cee8') in 0.0174081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.418014 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/Wooden_Gate.prefab
+  artifactKey: Guid(8fe6e52eea15af242a85241424754e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/Wooden_Gate.prefab using Guid(8fe6e52eea15af242a85241424754e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd06805c963379ab8780cc086cc8f40c3') in 0.0254449 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/wooden_Surface.prefab
+  artifactKey: Guid(260a83f669edd8a4598b047b301e7e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizeFreeProps/Content/Stylize_FreeProps/Prefab/wooden_Surface.prefab using Guid(260a83f669edd8a4598b047b301e7e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb2df78fb0d9e7da927c5c164953823b') in 0.0158416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
