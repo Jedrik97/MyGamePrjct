@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
@@ -16,9 +17,15 @@ public class PlayerMovement : MonoBehaviour
     // Ссылка на камеру для движения относительно её направления
     private Transform cameraTransform;
 
+    
+
     private void Awake()
     {
         _controller = GetComponent<CharacterController>();
+        
+    }
+    private void Start()
+    {
         cameraTransform = Camera.main.transform;
     }
 
