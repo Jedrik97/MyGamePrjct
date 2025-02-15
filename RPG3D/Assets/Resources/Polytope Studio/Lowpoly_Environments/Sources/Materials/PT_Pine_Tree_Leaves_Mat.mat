@@ -86,7 +86,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AO: 5.58
+    - _AO: 5.6
     - _BaseLight: 0.72
     - _BumpScale: 1
     - _CUSTOMCOLORSTINTING: 1
@@ -105,7 +105,7 @@ Material:
     - _MaskClipValue: 0.5
     - _Metallic: 0
     - _Mode: 3
-    - _Occlusion: 5.88
+    - _Occlusion: 5.7
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _SNOWONOFF: 0
@@ -138,7 +138,7 @@ Material:
     - _ZWrite: 0
     - __dirty: 0
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.10068343, g: 0.6754716, b: 0.49996698, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GroundColor: {r: 0.010346207, g: 0.07075471, b: 0.040550455, a: 1}
     - _TopColor: {r: 0.01815593, g: 0.19695005, b: 0.2264151, a: 1}

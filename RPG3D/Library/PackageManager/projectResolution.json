@@ -19,6 +19,16 @@
       "source": "builtin",
       "testable": false
     },
+    "com.unity.burst@1.8.18": {
+      "name": "com.unity.burst",
+      "displayName": "Burst",
+      "resolvedPath": "D:\\UnityPrjs\\MyGamePrjct\\RPG3D\\Library\\PackageCache\\com.unity.burst@616862665d8c",
+      "fingerprint": "616862665d8c8ffe643d505aebb5de2ee73b0ab0",
+      "editorCompatibility": "2020.3.0a1",
+      "version": "1.8.18",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.cinemachine@3.1.3": {
       "name": "com.unity.cinemachine",
       "displayName": "Cinemachine",
@@ -508,16 +518,6 @@
       "fingerprint": "d3e1e500c9a0fa3a1e812117108982dd612c2e27",
       "editorCompatibility": "2022.3.0a1",
       "version": "2.7.2",
-      "source": "registry",
-      "testable": false
-    },
-    "com.unity.burst@1.8.18": {
-      "name": "com.unity.burst",
-      "displayName": "Burst",
-      "resolvedPath": "D:\\UnityPrjs\\MyGamePrjct\\RPG3D\\Library\\PackageCache\\com.unity.burst@616862665d8c",
-      "fingerprint": "616862665d8c8ffe643d505aebb5de2ee73b0ab0",
-      "editorCompatibility": "2020.3.0a1",
-      "version": "1.8.18",
       "source": "registry",
       "testable": false
     },

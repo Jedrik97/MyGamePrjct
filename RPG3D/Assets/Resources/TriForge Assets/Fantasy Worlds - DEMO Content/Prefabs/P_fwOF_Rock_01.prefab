@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1681224996073516063}
   - component: {fileID: 2775955588113319053}
-  - component: {fileID: 7308341836442214987}
   m_Layer: 0
   m_Name: P_fwOF_Rock_01
   m_TagString: Untagged
@@ -53,28 +52,6 @@ LODGroup:
     renderers:
     - renderer: {fileID: 7322507497811744417}
   m_Enabled: 1
---- !u!64 &7308341836442214987
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 336222436434858099}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3611471854593489396, guid: 40e9efa1eec80434e8f4ec7d54191999, type: 3}
 --- !u!1 &4986969098577478910
 GameObject:
   m_ObjectHideFlags: 0
@@ -133,6 +110,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:

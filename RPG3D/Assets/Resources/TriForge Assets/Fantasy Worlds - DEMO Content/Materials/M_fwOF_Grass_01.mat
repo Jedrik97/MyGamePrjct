@@ -100,13 +100,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BaseColorSaturation: 0.924
+    - _BaseColorSaturation: 0.853
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _FadeDistance: 40
-    - _FadeFalloff: 2.5
+    - _FadeFalloff: 2.61
     - _FlipBackNormals: 0
     - _Float0: 0.57
     - _Float11: 0.4
@@ -126,8 +126,8 @@ Material:
     - _Parallax: 0.02
     - _RootMaskStrength: -0.47
     - _Rotation: 79.7
-    - _RotationMapInfluence: 0.6
-    - _SecondaryBendingStrength: 0.72
+    - _RotationMapInfluence: 0.632
+    - _SecondaryBendingStrength: 0.363
     - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
     - _Specular: 0.007
@@ -141,14 +141,15 @@ Material:
     - _TransShadow: 1
     - _Translucency: 3
     - _UVSec: 0
-    - _WindRootMaskStrength: 0.2
+    - _WindRootMaskStrength: 0.638
     - _WindRotationMapSpeed: 0.3
-    - _WindStrength: 0.4
+    - _WindStrength: 0.364
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
     - _Color: {r: 0.7549274, g: 0.90188676, b: 0.692581, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _RootColor: {r: 0.1254902, g: 0.18823531, b: 0.10196079, a: 1}
+    - _RootColor: {r: 0.14334051, g: 0.3056603, b: 0.082470596, a: 1}
     - _Vector0: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
