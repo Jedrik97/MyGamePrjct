@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="afec9f6a-8f66-475b-b447-1232bfb3a0bc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Blink/Art/Characters/Stylized/Humans/Armors_Humans/Materials_ArmorsHumans/StarterArmor_1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Blink/Art/Characters/Stylized/Humans/Armors_Humans/Materials_ArmorsHumans/StarterArmor_1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Blink/Art/Characters/Stylized/Humans/Armors_Humans/Materials_ArmorsHumans/StarterArmor_2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Blink/Art/Characters/Stylized/Humans/Armors_Humans/Materials_ArmorsHumans/StarterArmor_2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Blink/Art/Characters/Stylized/Humans/Armors_Humans/Materials_ArmorsHumans/StarterArmor_3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Blink/Art/Characters/Stylized/Humans/Armors_Humans/Materials_ArmorsHumans/StarterArmor_3.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Blink/Art/Characters/Stylized/Humans/Materials_Humans/Accessories.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Blink/Art/Characters/Stylized/Humans/Materials_Humans/Accessories.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Blink/Art/Characters/Stylized/Humans/Materials_Humans/Beard1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Blink/Art/Characters/Stylized/Humans/Materials_Humans/Beard1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Blink/Art/Characters/Stylized/Humans/Materials_Humans/Beard3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Blink/Art/Characters/Stylized/Humans/Materials_Humans/Beard3.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Blink/Art/Characters/Stylized/Humans/Materials_Humans/Body.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Blink/Art/Characters/Stylized/Humans/Materials_Humans/Body.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Blink/Art/Characters/Stylized/Humans/Materials_Humans/Eyebrows.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Blink/Art/Characters/Stylized/Humans/Materials_Humans/Eyebrows.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Blink/Art/Characters/Stylized/Humans/Materials_Humans/Eyes.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Blink/Art/Characters/Stylized/Humans/Materials_Humans/Eyes.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Blink/Art/Characters/Stylized/Humans/Materials_Humans/EyesOuter.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Blink/Art/Characters/Stylized/Humans/Materials_Humans/EyesOuter.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Blink/Art/Characters/Stylized/Humans/Materials_Humans/Face1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Blink/Art/Characters/Stylized/Humans/Materials_Humans/Face1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Blink/Art/Characters/Stylized/Humans/Materials_Humans/Hair1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Blink/Art/Characters/Stylized/Humans/Materials_Humans/Hair1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Blink/Art/Characters/Stylized/Humans/Materials_Humans/Hair2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Blink/Art/Characters/Stylized/Humans/Materials_Humans/Hair2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Druid Cat/Materials/Druid Cat Body.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Druid Cat/Materials/Druid Cat Body.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Druid Cat/Materials/Druid Cat Eyes.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Druid Cat/Materials/Druid Cat Eyes.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Druid Cat/Materials/Druid Cat Mane.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Druid Cat/Materials/Druid Cat Mane.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Dummy/Materials/woodendummy_0.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Dummy/Materials/woodendummy_0.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_0.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_0.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_10.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_10.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_11.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_11.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_12.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_12.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_13.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_13.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_14.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_14.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_15.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_15.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_3.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_4.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_4.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_5.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_5.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_6.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_6.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_7.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_7.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_8.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_8.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_9.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_9.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/Art/Materials/Skeleton_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/Art/Materials/Skeleton_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Super Zombie/Materials/superzombie_0.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Enemies/Super Zombie/Materials/superzombie_0.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Super Zombie/Materials/superzombie_2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Enemies/Super Zombie/Materials/superzombie_2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Super Zombie/Materials/superzombie_3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Enemies/Super Zombie/Materials/superzombie_3.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Human/Mage/Materials/Mage Body HD.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Human/Mage/Materials/Mage Body HD.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Human/Mage/Materials/Mage Hair HD.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Human/Mage/Materials/Mage Hair HD.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Sheep/Materials/sheep_0.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Sheep/Materials/sheep_0.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Steam Tank/Materials/alliancegarrisontank_0.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Steam Tank/Materials/alliancegarrisontank_0.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Steam Tank/Materials/alliancegarrisontank_1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Steam Tank/Materials/alliancegarrisontank_1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Warrior/Materials/Paladin_MAT.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Warrior/Materials/Paladin_MAT.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Warrior/Materials/Prozrachniy.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Warrior/Materials/Prozrachniy.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Terrain.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Materials/Material_1.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Materials/Material_1.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Materials/Material_2.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Materials/Material_2.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Materials/Material_3.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Materials/Material_3.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Materials/Material_4.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Materials/Material_4.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Materials/Material_5.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Materials/Material_5.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Materials/Material_6.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Materials/Material_6.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Materials/Material_6.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Materials/Material_6.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Materials/Material_8.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Materials/Material_8.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Materials/Material_8.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Materials/Material_8.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Meshes/Barrel_1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Meshes/Barrel_1.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Meshes/Branch_1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Meshes/Branch_1.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Meshes/Bush_2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Meshes/Bush_2.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Meshes/Chest_1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Meshes/Chest_1.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Meshes/Chest_plank_apple.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Meshes/Chest_plank_apple.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Meshes/Fence_1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Meshes/Fence_1.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Meshes/Fence_branches_1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Meshes/Fence_branches_1.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Meshes/Flower_1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Meshes/Flower_1.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Meshes/Grass_1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Meshes/Grass_1.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Meshes/House_1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Meshes/House_1.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Meshes/Laundry_hanger_1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Meshes/Laundry_hanger_1.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Meshes/Sack_closed_2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Meshes/Sack_closed_2.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Meshes/Tree_1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Meshes/Tree_1.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Meshes/Wheelbarrow.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Meshes/Wheelbarrow.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Prefabs/Barrel_1.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Prefabs/Barrel_1.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Prefabs/Branch_1.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Prefabs/Branch_1.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Prefabs/Bush_2.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Prefabs/Bush_2.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Prefabs/Chest_1.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Prefabs/Chest_1.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Prefabs/Chest_plank_apple.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Prefabs/Chest_plank_apple.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Prefabs/Fence_1.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Prefabs/Fence_1.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Prefabs/Fence_branches_1.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Prefabs/Fence_branches_1.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Prefabs/Flower_1.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Prefabs/Flower_1.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Prefabs/Grass_1.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Prefabs/Grass_1.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Prefabs/House_1.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Prefabs/House_1.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Prefabs/Laundry_hanger_1.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Prefabs/Laundry_hanger_1.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Prefabs/Sack_closed_2.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Prefabs/Sack_closed_2.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Prefabs/Tree_1.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Prefabs/Tree_1.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Prefabs/Wheelbarrow.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Prefabs/Wheelbarrow.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Terrain/Ground_dirt_1.terrainlayer.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Terrain/Ground_dirt_1.terrainlayer.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Terrain/Ground_dirt_1_grass_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Terrain/Ground_dirt_1_grass_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Terrain/Ground_dirt_1_grass_1.terrainlayer.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Terrain/Ground_dirt_1_grass_1.terrainlayer.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Terrain/Ground_grass.terrainlayer.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Terrain/Ground_grass.terrainlayer.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Ground_dirt_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Ground_dirt_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Ground_dirt_1_grass_1_normals.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Ground_dirt_1_grass_1_normals.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Ground_dirt_1_grass_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Ground_dirt_1_grass_2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Ground_dirt_1_grass_2.terrainlayer.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Ground_dirt_1_grass_2.terrainlayer.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Ground_dirt_1_grass_2_normals.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Ground_dirt_1_grass_2_normals.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Ground_dirt_1_normals.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Ground_dirt_1_normals.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Ground_grass.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Ground_grass.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Ground_grass_normals.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Ground_grass_normals.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Texture_1_2k.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Texture_1_2k.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Texture_1_normal_2k.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Texture_1_normal_2k.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Texture_2_2k.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Texture_2_2k.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Texture_2_normal_2k.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Texture_2_normal_2k.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Texture_3_2k.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Texture_3_2k.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Texture_3_normal_2k.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Texture_3_normal_2k.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Texture_4_2k.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Texture_4_2k.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Texture_4_normal_2k.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Texture_4_normal_2k.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Texture_5_2k.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Texture_5_2k.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Texture_5_normal_2k.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Texture_5_normal_2k.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Texture_6_2k.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Texture_6_2k.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Texture_6_normal_2k.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Texture_6_normal_2k.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Texture_8_alpha_2k.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Charttyp/Stylized fantasy pagan village/Texture/Texture_8_alpha_2k.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Terrain_mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Terrain_mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Polytope Studio/Lowpoly_Village/Sources/Materials/PT_mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Polytope Studio/Lowpoly_Village/Sources/Materials/PT_mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TriForge Assets/Fantasy Worlds - DEMO Content/Materials/M_fwOF_Stones_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/TriForge Assets/Fantasy Worlds - DEMO Content/Materials/M_fwOF_Stones_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/1900b0aE.dag" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/1900b0aE.dag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/backend1.traceevents" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/backend1.traceevents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/backend2.traceevents" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/backend2.traceevents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/buildprogram0.traceevents" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/buildprogram0.traceevents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/fullprofile.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/fullprofile.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/tundra.log.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/tundra.log.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageManager/ProjectCache" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageManager/ProjectCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageManager/ProjectCache.md5" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageManager/ProjectCache.md5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Search/transactions.db" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Search/transactions.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ShaderCache.db" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/UndoData.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Library/UndoData.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/UndoStack.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Library/UndoStack.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ilpp.pid" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ilpp.pid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker2-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker2-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker3-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker3-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker4.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker5.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker6.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker7.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker8.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0-0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker1-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker1-0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker2-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker2-0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker3-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker3-0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker4-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker5-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker6-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker7-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker8-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-4.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2tFuvcOTpOEhSqClT6JcdHwHRu5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath D:\UnityPrjs\MyGamePrjct\RPG3D -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="D:\UnityPrjs\MyGamePrjct\RPG3D" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\UnityPrjs\MyGamePrjct\RPG3D -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="D:\UnityPrjs\MyGamePrjct\RPG3D" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="afec9f6a-8f66-475b-b447-1232bfb3a0bc" name="Changes" comment="" />
+      <created>1739960376658</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739960376658</updated>
+      <workItem from="1739960377844" duration="1000" />
+      <workItem from="1739960599315" duration="85000" />
+      <workItem from="1739961551222" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
+    <option name="unityProject" value="true" />
+    <option name="unityProjectFolder" value="true" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
