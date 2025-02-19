@@ -5602,7 +5602,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 64f219c038228ff4da30bed9d27cff88, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 41.49415
+      value: 37.86
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 64f219c038228ff4da30bed9d27cff88, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5610,7 +5610,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 64f219c038228ff4da30bed9d27cff88, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -17.307583
+      value: -16.91
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 64f219c038228ff4da30bed9d27cff88, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6074,16 +6074,16 @@ Terrain:
   m_Enabled: 1
   serializedVersion: 6
   m_TerrainData: {fileID: 15600000, guid: 468425d094011de4fa2322da4cbf48d9, type: 2}
-  m_TreeDistance: 5000
-  m_TreeBillboardDistance: 50
+  m_TreeDistance: 3845
+  m_TreeBillboardDistance: 5
   m_TreeCrossFadeLength: 5
-  m_TreeMaximumFullLODCount: 50
-  m_DetailObjectDistance: 87
+  m_TreeMaximumFullLODCount: 8873
+  m_DetailObjectDistance: 545
   m_DetailObjectDensity: 1
-  m_HeightmapPixelError: 5
-  m_SplatMapDistance: 1000
-  m_HeightmapMinimumLODSimplification: 0
-  m_HeightmapMaximumLOD: 0
+  m_HeightmapPixelError: 20.4
+  m_SplatMapDistance: 1252
+  m_HeightmapMinimumLODSimplification: 1
+  m_HeightmapMaximumLOD: 1
   m_ShadowCastingMode: 2
   m_DrawHeightmap: 1
   m_DrawInstanced: 1
@@ -6508,7 +6508,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.1
-  far clip plane: 5000
+  far clip plane: 400
   field of view: 26.991467
   orthographic: 0
   orthographic size: 10
@@ -12976,7 +12976,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 7b290040708901e498ea92d5d6be8f90, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 42.27391
+      value: 43.15
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7b290040708901e498ea92d5d6be8f90, type: 3}
       propertyPath: m_LocalPosition.y
@@ -12984,7 +12984,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7b290040708901e498ea92d5d6be8f90, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -14.601746
+      value: -12.86
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7b290040708901e498ea92d5d6be8f90, type: 3}
       propertyPath: m_LocalRotation.w
