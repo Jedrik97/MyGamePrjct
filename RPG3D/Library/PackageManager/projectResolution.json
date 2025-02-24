@@ -109,6 +109,16 @@
       "source": "registry",
       "testable": false
     },
+    "com.unity.inputsystem@1.12.0": {
+      "name": "com.unity.inputsystem",
+      "displayName": "Input System",
+      "resolvedPath": "D:\\UnityPrjs\\MyGamePrjct\\RPG3D\\Library\\PackageCache\\com.unity.inputsystem@920b46832575",
+      "fingerprint": "920b46832575a5beecb201e0a4570b4984b7ec34",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "1.12.0",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.multiplayer.center@1.0.0": {
       "name": "com.unity.multiplayer.center",
       "displayName": "Multiplayer Center",

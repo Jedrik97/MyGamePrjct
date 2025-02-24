@@ -70,13 +70,19 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
-/RPG3D/Library
-/RPG3D/Library
-/RPG3D/Library
+
 /RPG3D/Temp
 /RPG3D/Assets/TerrainSampleAssets
-/RPG3D/Library
 /RPG3D/Assets/All In One - Heightmaps
 /RPG3D/Assets/TriForge Assets
 
 
+/RPG3D/Logs
+/RPG3D/Library/BurstCache
+/RPG3D/Library/BurstCache/RPG3D/Library/Bee
+/RPG3D/Library/APIUpdater
+/RPG3D/Library/Artifacts
+/RPG3D/Library/Bee/artifacts
+/RPG3D/Library/Bee
+/RPG3D/Library/PackageCache/com.unity.inputsystem@920b46832575/InputSystem
+/RPG3D/Library
