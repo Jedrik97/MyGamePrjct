@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 7566820}
   - component: {fileID: 7566822}
   - component: {fileID: 7566821}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BenchSeat (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -217,7 +217,7 @@ GameObject:
   - component: {fileID: 10643491}
   - component: {fileID: 10643493}
   - component: {fileID: 10643492}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -303,7 +303,7 @@ GameObject:
   - component: {fileID: 32062337}
   - component: {fileID: 32062339}
   - component: {fileID: 32062338}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -389,7 +389,7 @@ GameObject:
   - component: {fileID: 38515648}
   - component: {fileID: 38515650}
   - component: {fileID: 38515649}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -475,7 +475,7 @@ GameObject:
   - component: {fileID: 48540893}
   - component: {fileID: 48540895}
   - component: {fileID: 48540894}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -559,7 +559,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 72871524}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Graves
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -787,6 +787,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: BenchSeat
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0d2fc0e6a3543684487c99ca470c0486, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2786152407621660450, guid: 0d2fc0e6a3543684487c99ca470c0486, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3891957763334660011, guid: 0d2fc0e6a3543684487c99ca470c0486, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4484886854507725936, guid: 0d2fc0e6a3543684487c99ca470c0486, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.94
@@ -816,7 +828,7 @@ GameObject:
   - component: {fileID: 107656638}
   - component: {fileID: 107656640}
   - component: {fileID: 107656639}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -939,9 +951,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5041680104280202014, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -2473544792401275038, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -1807497458963052081, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -288120865736603969, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
       propertyPath: m_Name
       value: Tine_Block (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -964,7 +996,7 @@ GameObject:
   - component: {fileID: 123634202}
   - component: {fileID: 123634204}
   - component: {fileID: 123634203}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1050,7 +1082,7 @@ GameObject:
   - component: {fileID: 136183662}
   - component: {fileID: 136183664}
   - component: {fileID: 136183663}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1125,6 +1157,305 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 136183661}
   m_Mesh: {fileID: 3356318645633074387, guid: e654b65ecb21d204388c7b5216b098bd, type: 3}
+--- !u!1 &162337573
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 162337580}
+  - component: {fileID: 162337579}
+  - component: {fileID: 162337578}
+  - component: {fileID: 162337577}
+  - component: {fileID: 162337576}
+  - component: {fileID: 162337575}
+  - component: {fileID: 162337574}
+  - component: {fileID: 162337581}
+  m_Layer: 0
+  m_Name: FreeLook Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &162337574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162337573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca7de3aefa901374ba29464584a3109a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CameraRadius: 0.4
+  Decollision:
+    Enabled: 0
+    ObstacleLayers:
+      serializedVersion: 2
+      m_Bits: 1
+    UseFollowTarget:
+      Enabled: 0
+      YOffset: 0
+    Damping: 0.5
+    SmoothingTime: 0
+  TerrainResolution:
+    Enabled: 1
+    TerrainLayers:
+      serializedVersion: 2
+      m_Bits: 65
+    MaximumRaycast: 10
+    Damping: 0.5
+--- !u!114 &162337575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162337573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89875cdc57c54474a8a74efd9b2a3b5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScanRecursively: 1
+  SuppressInputWhileBlending: 1
+  IgnoreTimeScale: 0
+  m_ControllerManager:
+    Controllers:
+    - Name: Look Orbit X
+      Owner: {fileID: 162337578}
+      Enabled: 1
+      Input:
+        InputAction: {fileID: -5630151704836100654, guid: 1d6e640e716dc4ff6989b73d02023f2b, type: 3}
+        Gain: 1
+        LegacyInput: 
+        LegacyGain: 1
+        CancelDeltaTime: 0
+      InputValue: 0
+      Driver:
+        AccelTime: 0.2
+        DecelTime: 0.2
+    - Name: Look Orbit Y
+      Owner: {fileID: 162337578}
+      Enabled: 1
+      Input:
+        InputAction: {fileID: -5630151704836100654, guid: 1d6e640e716dc4ff6989b73d02023f2b, type: 3}
+        Gain: -1
+        LegacyInput: 
+        LegacyGain: 1
+        CancelDeltaTime: 0
+      InputValue: 0
+      Driver:
+        AccelTime: 0.2
+        DecelTime: 0.2
+    - Name: Orbit Scale
+      Owner: {fileID: 162337578}
+      Enabled: 1
+      Input:
+        InputAction: {fileID: 5082991133974614888, guid: 1d6e640e716dc4ff6989b73d02023f2b, type: 3}
+        Gain: -1
+        LegacyInput: 
+        LegacyGain: 1
+        CancelDeltaTime: 0
+      InputValue: 0
+      Driver:
+        AccelTime: 0
+        DecelTime: 0
+  PlayerIndex: -1
+  AutoEnableInputs: 1
+--- !u!114 &162337576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162337573}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a076c17fe76165e4f8ed21498b877bf9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Modifiers:
+  - rid: 5501099128098652366
+  references:
+    version: 2
+    RefIds:
+    - rid: 5501099128098652366
+      type: {class: CinemachineFreeLookModifier/DistanceModifier, ns: Unity.Cinemachine, asm: Unity.Cinemachine}
+      data:
+        Distance:
+          Top: 7.24
+          Bottom: 7.24
+--- !u!114 &162337577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162337573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38bda98361e1de48a4ca2bd86ea3c17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Composition:
+    ScreenPosition: {x: 0, y: 0}
+    DeadZone:
+      Enabled: 0
+      Size: {x: 0.2, y: 0.2}
+    HardLimits:
+      Enabled: 0
+      Size: {x: 0.8, y: 0.8}
+      Offset: {x: 0, y: 0}
+  CenterOnActivate: 1
+  TargetOffset: {x: 0, y: 0, z: 0}
+  Damping: {x: 0.5, y: 0.5}
+  Lookahead:
+    Enabled: 0
+    Time: 0
+    Smoothing: 0
+    IgnoreY: 0
+--- !u!114 &162337578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162337573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b5d7c088409d9a40b7b09aa707777f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetOffset: {x: 0, y: 0, z: 0}
+  TrackerSettings:
+    BindingMode: 4
+    PositionDamping: {x: 1, y: 1, z: 1}
+    AngularDampingMode: 0
+    RotationDamping: {x: 1, y: 1, z: 1}
+    QuaternionDamping: 1
+  OrbitStyle: 0
+  Radius: 7.24
+  Orbits:
+    Top:
+      Radius: 2
+      Height: 5
+    Center:
+      Radius: 4
+      Height: 2.25
+    Bottom:
+      Radius: 2.5
+      Height: 0.1
+    SplineCurvature: 0.5
+  RecenteringTarget: 2
+  HorizontalAxis:
+    Value: 0
+    Center: -0
+    Range: {x: -180, y: 180}
+    Wrap: 1
+    Recentering:
+      Enabled: 1
+      Wait: 1
+      Time: 2
+    Restrictions: 0
+  VerticalAxis:
+    Value: 17.5
+    Center: 17.5
+    Range: {x: -10, y: 45}
+    Wrap: 0
+    Recentering:
+      Enabled: 1
+      Wait: 1
+      Time: 2
+    Restrictions: 0
+  RadialAxis:
+    Value: 1
+    Center: 1
+    Range: {x: 1, y: 1}
+    Wrap: 0
+    Recentering:
+      Enabled: 1
+      Wait: 1
+      Time: 2
+    Restrictions: 0
+--- !u!114 &162337579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162337573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9dfa5b682dcd46bda6128250e975f58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Priority:
+    Enabled: 0
+    m_Value: 0
+  OutputChannel: 1
+  StandbyUpdate: 2
+  m_StreamingVersion: 20241001
+  m_LegacyPriority: 0
+  Target:
+    TrackingTarget: {fileID: 480308565}
+    LookAtTarget: {fileID: 0}
+    CustomLookAtTarget: 0
+  Lens:
+    FieldOfView: 60.000004
+    OrthographicSize: 10
+    NearClipPlane: 0.1
+    FarClipPlane: 5000
+    Dutch: 0
+    ModeOverride: 0
+    PhysicalProperties:
+      GateFit: 2
+      SensorSize: {x: 21.946, y: 16.002}
+      LensShift: {x: 0, y: 0}
+      FocusDistance: 10
+      Iso: 200
+      ShutterSpeed: 0.005
+      Aperture: 16
+      BladeCount: 5
+      Curvature: {x: 2, y: 11}
+      BarrelClipping: 0.25
+      Anamorphism: 0
+  BlendHint: 0
+--- !u!4 &162337580
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162337573}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.15212339, y: 0.000000004485902, z: -6.904426e-10, w: 0.98836154}
+  m_LocalPosition: {x: 2.12, y: 5.98411, z: -3.2949107}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &162337581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162337573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44d70cc20219cd84593f67d248eafe36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Offset: {x: 0, y: 0, z: 0}
+  ApplyAfter: 1
+  PreserveComposition: 0
 --- !u!1001 &173616574
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1136,6 +1467,10 @@ PrefabInstance:
     - target: {fileID: 6916478003129015796, guid: 7f9b942d11032b64980b927b03e51f67, type: 3}
       propertyPath: m_Name
       value: Stamina Rock
+      objectReference: {fileID: 0}
+    - target: {fileID: 6916478003129015796, guid: 7f9b942d11032b64980b927b03e51f67, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6916478003129015796, guid: 7f9b942d11032b64980b927b03e51f67, type: 3}
       propertyPath: m_IsActive
@@ -1202,7 +1537,7 @@ GameObject:
   - component: {fileID: 180253365}
   - component: {fileID: 180253367}
   - component: {fileID: 180253366}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1290,6 +1625,10 @@ PrefabInstance:
       value: Chest_1
       objectReference: {fileID: 0}
     - target: {fileID: 7130306698040513011, guid: a2d0e5373a1b63a4698a18db0e1839ae, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7130306698040513011, guid: a2d0e5373a1b63a4698a18db0e1839ae, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -1354,7 +1693,7 @@ GameObject:
   - component: {fileID: 229489812}
   - component: {fileID: 229489814}
   - component: {fileID: 229489813}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1440,7 +1779,7 @@ GameObject:
   - component: {fileID: 232763008}
   - component: {fileID: 232763010}
   - component: {fileID: 232763009}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1526,6 +1865,10 @@ PrefabInstance:
     - target: {fileID: 8238900535562158827, guid: a4300ec32e38bfa45b153f339877e151, type: 3}
       propertyPath: m_Name
       value: Sack_closed_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8238900535562158827, guid: a4300ec32e38bfa45b153f339877e151, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8238900535562158827, guid: a4300ec32e38bfa45b153f339877e151, type: 3}
       propertyPath: m_IsActive
@@ -1629,9 +1972,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5041680104280202014, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -2473544792401275038, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -1807497458963052081, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -288120865736603969, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
       propertyPath: m_Name
       value: Tine_Block (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1691,9 +2054,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5041680104280202014, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -2473544792401275038, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -1807497458963052081, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -288120865736603969, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
       propertyPath: m_Name
       value: Tine_Block (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1716,7 +2099,7 @@ GameObject:
   - component: {fileID: 292986291}
   - component: {fileID: 292986293}
   - component: {fileID: 292986292}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1804,8 +2187,16 @@ PrefabInstance:
       value: Wheelbarrow
       objectReference: {fileID: 0}
     - target: {fileID: 3758258495374528445, guid: 74da8838202e91e4cb48cbb796610a97, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3758258495374528445, guid: 74da8838202e91e4cb48cbb796610a97, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3777749630683896059, guid: 74da8838202e91e4cb48cbb796610a97, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4567728217394566407, guid: 74da8838202e91e4cb48cbb796610a97, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1846,6 +2237,10 @@ PrefabInstance:
     - target: {fileID: 4567728217394566407, guid: 74da8838202e91e4cb48cbb796610a97, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6957473430780204053, guid: 74da8838202e91e4cb48cbb796610a97, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1905,13 +2300,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 3.264
       objectReference: {fileID: 0}
+    - target: {fileID: -2732435156467191681, guid: d2c368b9ef327ce469032a7c1031899d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d2c368b9ef327ce469032a7c1031899d, type: 3}
       propertyPath: m_Name
       value: Cliff
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d2c368b9ef327ce469032a7c1031899d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d2c368b9ef327ce469032a7c1031899d, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050834404831772787, guid: d2c368b9ef327ce469032a7c1031899d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -1935,7 +2342,7 @@ GameObject:
   - component: {fileID: 321706385}
   - component: {fileID: 321706387}
   - component: {fileID: 321706386}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2021,7 +2428,7 @@ GameObject:
   - component: {fileID: 322410843}
   - component: {fileID: 322410845}
   - component: {fileID: 322410844}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2142,7 +2549,7 @@ GameObject:
   - component: {fileID: 331713381}
   - component: {fileID: 331713383}
   - component: {fileID: 331713382}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2228,7 +2635,7 @@ GameObject:
   - component: {fileID: 334595274}
   - component: {fileID: 334595276}
   - component: {fileID: 334595275}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2314,7 +2721,7 @@ GameObject:
   - component: {fileID: 344492659}
   - component: {fileID: 344492661}
   - component: {fileID: 344492660}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2437,9 +2844,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6580828247892832497, guid: 66d684df6ab669c4c9cf21b2c65db120, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -4966312986812776632, guid: 66d684df6ab669c4c9cf21b2c65db120, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -4721022842482259351, guid: 66d684df6ab669c4c9cf21b2c65db120, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -2165799887626159519, guid: 66d684df6ab669c4c9cf21b2c65db120, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 66d684df6ab669c4c9cf21b2c65db120, type: 3}
       propertyPath: m_Name
       value: Stylize_Pots
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 66d684df6ab669c4c9cf21b2c65db120, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7372919451289946631, guid: 66d684df6ab669c4c9cf21b2c65db120, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2462,7 +2893,7 @@ GameObject:
   - component: {fileID: 383018349}
   - component: {fileID: 383018351}
   - component: {fileID: 383018350}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2589,6 +3020,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Iron_Lamp (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1787c461cd5954f4c88928480d1fc128, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2610,7 +3045,7 @@ GameObject:
   - component: {fileID: 397438635}
   - component: {fileID: 397438637}
   - component: {fileID: 397438636}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2749,7 +3184,7 @@ GameObject:
   - component: {fileID: 420485977}
   - component: {fileID: 420485979}
   - component: {fileID: 420485978}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2835,7 +3270,7 @@ GameObject:
   - component: {fileID: 422134138}
   - component: {fileID: 422134140}
   - component: {fileID: 422134139}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2963,6 +3398,10 @@ PrefabInstance:
       value: Laundry_hanger_1
       objectReference: {fileID: 0}
     - target: {fileID: 8700824426363313339, guid: 50b05f5887ffab04cada141d5819faca, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8700824426363313339, guid: 50b05f5887ffab04cada141d5819faca, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -2987,7 +3426,7 @@ GameObject:
   - component: {fileID: 456360312}
   - component: {fileID: 456360314}
   - component: {fileID: 456360313}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3110,9 +3549,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6684574447633755568, guid: b5feab0a6edb21c408a77d0c521a08c8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -4279060502949550520, guid: b5feab0a6edb21c408a77d0c521a08c8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -3548958784885401978, guid: b5feab0a6edb21c408a77d0c521a08c8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b5feab0a6edb21c408a77d0c521a08c8, type: 3}
       propertyPath: m_Name
       value: Tree_Root_V1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b5feab0a6edb21c408a77d0c521a08c8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3084542590017134100, guid: b5feab0a6edb21c408a77d0c521a08c8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3135,7 +3594,7 @@ GameObject:
   - component: {fileID: 479798141}
   - component: {fileID: 479798143}
   - component: {fileID: 479798142}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3368,7 +3827,7 @@ GameObject:
   - component: {fileID: 496946643}
   - component: {fileID: 496946645}
   - component: {fileID: 496946644}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3527,7 +3986,7 @@ GameObject:
   - component: {fileID: 511571562}
   - component: {fileID: 511571564}
   - component: {fileID: 511571563}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3613,7 +4072,7 @@ GameObject:
   - component: {fileID: 523040654}
   - component: {fileID: 523040656}
   - component: {fileID: 523040655}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3699,7 +4158,7 @@ GameObject:
   - component: {fileID: 524440770}
   - component: {fileID: 524440772}
   - component: {fileID: 524440771}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3794,9 +4253,17 @@ PrefabInstance:
       propertyPath: LightsModule.intensityCurve.scalar
       value: 3.18
       objectReference: {fileID: 0}
+    - target: {fileID: 1141807910198149572, guid: 2ee7574cb1211da4ba89d1838327b5c4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1255053967005034563, guid: 2ee7574cb1211da4ba89d1838327b5c4, type: 3}
       propertyPath: m_Name
       value: VFX_Fire_Floor_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1255053967005034563, guid: 2ee7574cb1211da4ba89d1838327b5c4, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1255053967005034564, guid: 2ee7574cb1211da4ba89d1838327b5c4, type: 3}
       propertyPath: m_RootOrder
@@ -3854,6 +4321,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3235701488893169939, guid: 2ee7574cb1211da4ba89d1838327b5c4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3807481148728578608, guid: 2ee7574cb1211da4ba89d1838327b5c4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4502111466653747097, guid: 2ee7574cb1211da4ba89d1838327b5c4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7296065346891611915, guid: 2ee7574cb1211da4ba89d1838327b5c4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3870,7 +4353,7 @@ GameObject:
   - component: {fileID: 532332826}
   - component: {fileID: 532332828}
   - component: {fileID: 532332827}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3956,7 +4439,7 @@ GameObject:
   - component: {fileID: 559730794}
   - component: {fileID: 559730796}
   - component: {fileID: 559730795}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4078,7 +4561,7 @@ GameObject:
   - component: {fileID: 569588503}
   - component: {fileID: 569588505}
   - component: {fileID: 569588504}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4206,8 +4689,16 @@ PrefabInstance:
       value: Block_Stair
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 735c2bfda0a86ea4192d83d69068c28a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 735c2bfda0a86ea4192d83d69068c28a, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1320006325137127501, guid: 735c2bfda0a86ea4192d83d69068c28a, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -4231,7 +4722,7 @@ GameObject:
   - component: {fileID: 588886693}
   - component: {fileID: 588886695}
   - component: {fileID: 588886694}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4317,7 +4808,7 @@ GameObject:
   - component: {fileID: 611398661}
   - component: {fileID: 611398663}
   - component: {fileID: 611398662}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4440,13 +4931,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2734227338256917175, guid: 5dac879780bf8f6449dc33303f501b17, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -886053097014555332, guid: 5dac879780bf8f6449dc33303f501b17, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5dac879780bf8f6449dc33303f501b17, type: 3}
       propertyPath: m_Name
       value: Fallen_Bark
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5dac879780bf8f6449dc33303f501b17, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5dac879780bf8f6449dc33303f501b17, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4667045346110529969, guid: 5dac879780bf8f6449dc33303f501b17, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4506,9 +5013,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5041680104280202014, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -2473544792401275038, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -1807497458963052081, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -288120865736603969, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
       propertyPath: m_Name
       value: Tine_Block
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4568,6 +5095,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5574312487056148746, guid: 5f12756ad52bfb04596d5981f3f8bb67, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -3916876344557763069, guid: 5f12756ad52bfb04596d5981f3f8bb67, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: -3497793414691624495, guid: 5f12756ad52bfb04596d5981f3f8bb67, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.35
@@ -4575,6 +5110,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5f12756ad52bfb04596d5981f3f8bb67, type: 3}
       propertyPath: m_Name
       value: Pumpkin
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5f12756ad52bfb04596d5981f3f8bb67, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3502520122443407955, guid: 5f12756ad52bfb04596d5981f3f8bb67, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4597,7 +5140,7 @@ GameObject:
   - component: {fileID: 663151227}
   - component: {fileID: 663151229}
   - component: {fileID: 663151228}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4683,7 +5226,7 @@ GameObject:
   - component: {fileID: 671433652}
   - component: {fileID: 671433654}
   - component: {fileID: 671433653}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4769,7 +5312,7 @@ GameObject:
   - component: {fileID: 672497584}
   - component: {fileID: 672497586}
   - component: {fileID: 672497585}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4855,7 +5398,7 @@ GameObject:
   - component: {fileID: 674547057}
   - component: {fileID: 674547059}
   - component: {fileID: 674547058}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4990,6 +5533,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Iron_Fence
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e654b65ecb21d204388c7b5216b098bd, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7380418016598425288, guid: e654b65ecb21d204388c7b5216b098bd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.06
@@ -5025,7 +5572,7 @@ GameObject:
   - component: {fileID: 702283661}
   - component: {fileID: 702283663}
   - component: {fileID: 702283662}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5111,7 +5658,7 @@ GameObject:
   - component: {fileID: 705455725}
   - component: {fileID: 705455727}
   - component: {fileID: 705455726}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5234,9 +5781,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5041680104280202014, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -2473544792401275038, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -1807497458963052081, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -288120865736603969, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
       propertyPath: m_Name
       value: Tine_Block (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5356,7 +5923,7 @@ GameObject:
   - component: {fileID: 763695680}
   - component: {fileID: 763695682}
   - component: {fileID: 763695681}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5442,7 +6009,7 @@ GameObject:
   - component: {fileID: 764721255}
   - component: {fileID: 764721257}
   - component: {fileID: 764721256}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5565,9 +6132,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5041680104280202014, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -2473544792401275038, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -1807497458963052081, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -288120865736603969, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
       propertyPath: m_Name
       value: Tine_Block (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5627,9 +6214,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5041680104280202014, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -2473544792401275038, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -1807497458963052081, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -288120865736603969, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
       propertyPath: m_Name
       value: Tine_Block (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5652,7 +6259,7 @@ GameObject:
   - component: {fileID: 833951104}
   - component: {fileID: 833951106}
   - component: {fileID: 833951105}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5775,13 +6382,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3400840588007079121, guid: 64f219c038228ff4da30bed9d27cff88, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 64f219c038228ff4da30bed9d27cff88, type: 3}
       propertyPath: m_Name
       value: Stylize_Stump
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 64f219c038228ff4da30bed9d27cff88, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 64f219c038228ff4da30bed9d27cff88, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578170563332075404, guid: 64f219c038228ff4da30bed9d27cff88, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7124796524792952368, guid: 64f219c038228ff4da30bed9d27cff88, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5793,53 +6416,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 64f219c038228ff4da30bed9d27cff88, type: 3}
   m_PrefabInstance: {fileID: 848354299}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &867927744
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 867927746}
-  - component: {fileID: 867927745}
-  m_Layer: 0
-  m_Name: CameraManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &867927745
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 867927744}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d664d99da8a8cfa448a90c095ee4a356, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  virtualCamera: {fileID: 1012857253}
-  rotationSpeed: 2
-  verticalSpeed: 2
---- !u!4 &867927746
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 867927744}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.9829445, y: -1.9465247, z: 0.8447168}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &874679674
 GameObject:
   m_ObjectHideFlags: 0
@@ -5851,7 +6427,7 @@ GameObject:
   - component: {fileID: 874679675}
   - component: {fileID: 874679677}
   - component: {fileID: 874679676}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5937,7 +6513,7 @@ GameObject:
   - component: {fileID: 876852434}
   - component: {fileID: 876852436}
   - component: {fileID: 876852435}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6023,7 +6599,7 @@ GameObject:
   - component: {fileID: 881781660}
   - component: {fileID: 881781662}
   - component: {fileID: 881781661}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6098,74 +6674,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 881781659}
   m_Mesh: {fileID: 3356318645633074387, guid: e654b65ecb21d204388c7b5216b098bd, type: 3}
---- !u!1 &906508414
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 906508417}
-  - component: {fileID: 906508416}
-  - component: {fileID: 906508415}
-  m_Layer: 0
-  m_Name: EventSystem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &906508415
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 906508414}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
---- !u!114 &906508416
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 906508414}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
-  m_sendNavigationEvents: 1
-  m_DragThreshold: 10
---- !u!4 &906508417
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 906508414}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &909652061
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6177,6 +6685,10 @@ PrefabInstance:
     - target: {fileID: 6274931372259543853, guid: 95eec7eaaa07f9d4eb9c3defb4ccbe5c, type: 3}
       propertyPath: m_Name
       value: Branch_1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6274931372259543853, guid: 95eec7eaaa07f9d4eb9c3defb4ccbe5c, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6655995321351164311, guid: 95eec7eaaa07f9d4eb9c3defb4ccbe5c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6327,7 +6839,7 @@ GameObject:
   - component: {fileID: 926741192}
   - component: {fileID: 926741194}
   - component: {fileID: 926741193}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6450,9 +6962,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7870915111518396395, guid: 35785de529e345b40bedd1a6b4806220, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -5620584926437922427, guid: 35785de529e345b40bedd1a6b4806220, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -1234583184605002017, guid: 35785de529e345b40bedd1a6b4806220, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 35785de529e345b40bedd1a6b4806220, type: 3}
       propertyPath: m_Name
       value: Halloween_Tomb
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 35785de529e345b40bedd1a6b4806220, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2029857476372711698, guid: 35785de529e345b40bedd1a6b4806220, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689899998787515705, guid: 35785de529e345b40bedd1a6b4806220, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6512,9 +7048,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5041680104280202014, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -2473544792401275038, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -1807497458963052081, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -288120865736603969, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
       propertyPath: m_Name
       value: Tine_Block (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6574,9 +7130,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5041680104280202014, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -2473544792401275038, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -1807497458963052081, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -288120865736603969, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
       propertyPath: m_Name
       value: Tine_Block (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6636,9 +7212,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5041680104280202014, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -2473544792401275038, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -1807497458963052081, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -288120865736603969, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
       propertyPath: m_Name
       value: Tine_Block (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6710,8 +7306,8 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.1
-  far clip plane: 400
-  field of view: 26.991467
+  far clip plane: 5000
+  field of view: 60.000004
   orthographic: 0
   orthographic size: 10
   m_Depth: -1
@@ -6737,8 +7333,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.1330191, y: 0.000000004598196, z: -6.1713196e-10, w: 0.9911135}
-  m_LocalPosition: {x: 1.288, y: 7.28, z: -1.33}
+  m_LocalRotation: {x: 0.15212339, y: 0.0000000044859023, z: -6.9044653e-10, w: 0.98836154}
+  m_LocalPosition: {x: 2.12, y: 5.98411, z: -3.2949107}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6751,7 +7347,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
   m_Name: 
@@ -6783,7 +7379,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 360564da0d0eaa24f9b93b3fa5d121ea, type: 3}
   m_Name: 
@@ -6807,7 +7403,7 @@ GameObject:
   - component: {fileID: 969618276}
   - component: {fileID: 969618278}
   - component: {fileID: 969618277}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6893,7 +7489,7 @@ GameObject:
   - component: {fileID: 976906956}
   - component: {fileID: 976906958}
   - component: {fileID: 976906957}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wooden_post (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7056,7 +7652,7 @@ GameObject:
   - component: {fileID: 994440438}
   - component: {fileID: 994440440}
   - component: {fileID: 994440439}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7136,243 +7732,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1255053967005034564, guid: 2ee7574cb1211da4ba89d1838327b5c4, type: 3}
   m_PrefabInstance: {fileID: 531204092}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1012857248
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1012857254}
-  - component: {fileID: 1012857253}
-  - component: {fileID: 1012857252}
-  - component: {fileID: 1012857251}
-  - component: {fileID: 1012857250}
-  - component: {fileID: 1012857249}
-  m_Layer: 0
-  m_Name: FreeLook Camera
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &1012857249
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1012857248}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89875cdc57c54474a8a74efd9b2a3b5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ScanRecursively: 1
-  SuppressInputWhileBlending: 1
-  IgnoreTimeScale: 0
-  m_ControllerManager:
-    Controllers:
-    - Name: Look Orbit X
-      Owner: {fileID: 1012857252}
-      Enabled: 1
-      Input:
-        LegacyInput: Mouse X
-        LegacyGain: 100
-        CancelDeltaTime: 0
-      InputValue: 0
-      Driver:
-        AccelTime: 0.2
-        DecelTime: 0.2
-    - Name: Look Orbit Y
-      Owner: {fileID: 1012857252}
-      Enabled: 1
-      Input:
-        LegacyInput: Mouse Y
-        LegacyGain: -100
-        CancelDeltaTime: 0
-      InputValue: 0
-      Driver:
-        AccelTime: 0.2
-        DecelTime: 0.2
-    - Name: Orbit Scale
-      Owner: {fileID: 1012857252}
-      Enabled: 1
-      Input:
-        LegacyInput: Mouse ScrollWheel
-        LegacyGain: -100
-        CancelDeltaTime: 0
-      InputValue: 0
-      Driver:
-        AccelTime: 0
-        DecelTime: 0
---- !u!114 &1012857250
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1012857248}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a076c17fe76165e4f8ed21498b877bf9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Modifiers: []
-  references:
-    version: 2
-    RefIds: []
---- !u!114 &1012857251
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1012857248}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f38bda98361e1de48a4ca2bd86ea3c17, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Composition:
-    ScreenPosition: {x: 0, y: 0}
-    DeadZone:
-      Enabled: 0
-      Size: {x: 0.2, y: 0.2}
-    HardLimits:
-      Enabled: 0
-      Size: {x: 0.8, y: 0.8}
-      Offset: {x: 0, y: 0}
-  CenterOnActivate: 1
-  TargetOffset: {x: 0, y: 0, z: 0}
-  Damping: {x: 0.5, y: 0.5}
-  Lookahead:
-    Enabled: 0
-    Time: 0
-    Smoothing: 0
-    IgnoreY: 0
---- !u!114 &1012857252
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1012857248}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b5d7c088409d9a40b7b09aa707777f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TargetOffset: {x: 0, y: 0, z: 0}
-  TrackerSettings:
-    BindingMode: 4
-    PositionDamping: {x: 1, y: 1, z: 1}
-    AngularDampingMode: 0
-    RotationDamping: {x: 1, y: 1, z: 1}
-    QuaternionDamping: 1
-  OrbitStyle: 1
-  Radius: 10
-  Orbits:
-    Top:
-      Radius: 2
-      Height: 5
-    Center:
-      Radius: 4
-      Height: 2.25
-    Bottom:
-      Radius: 2.5
-      Height: 0.1
-    SplineCurvature: 0.5
-  RecenteringTarget: 2
-  HorizontalAxis:
-    Value: 0
-    Center: 0
-    Range: {x: -180, y: 180}
-    Wrap: 1
-    Recentering:
-      Enabled: 0
-      Wait: 1
-      Time: 2
-    Restrictions: 0
-  VerticalAxis:
-    Value: 17.5
-    Center: 17.5
-    Range: {x: -10, y: 45}
-    Wrap: 0
-    Recentering:
-      Enabled: 0
-      Wait: 1
-      Time: 2
-    Restrictions: 0
-  RadialAxis:
-    Value: 1
-    Center: 1
-    Range: {x: 1, y: 1}
-    Wrap: 0
-    Recentering:
-      Enabled: 0
-      Wait: 1
-      Time: 2
-    Restrictions: 0
---- !u!114 &1012857253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1012857248}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9dfa5b682dcd46bda6128250e975f58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Priority:
-    Enabled: 0
-    m_Value: 0
-  OutputChannel: 1
-  StandbyUpdate: 2
-  m_StreamingVersion: 20241001
-  m_LegacyPriority: 0
-  Target:
-    TrackingTarget: {fileID: 480308565}
-    LookAtTarget: {fileID: 0}
-    CustomLookAtTarget: 0
-  Lens:
-    FieldOfView: 60.000004
-    OrthographicSize: 10
-    NearClipPlane: 0.1
-    FarClipPlane: 5000
-    Dutch: 0
-    ModeOverride: 0
-    PhysicalProperties:
-      GateFit: 2
-      SensorSize: {x: 21.946, y: 16.002}
-      LensShift: {x: 0, y: 0}
-      FocusDistance: 10
-      Iso: 200
-      ShutterSpeed: 0.005
-      Aperture: 16
-      BladeCount: 5
-      Curvature: {x: 2, y: 11}
-      BarrelClipping: 0.25
-      Anamorphism: 0
-  BlendHint: 0
---- !u!4 &1012857254
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1012857248}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.25340137, y: -0.000000002303476, z: 0.000000024750861, w: 0.9673613}
-  m_LocalPosition: {x: 2.12, y: 6.057, z: -0.3900001}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1041775556
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7424,6 +7783,10 @@ PrefabInstance:
     - target: {fileID: 3129320776499935013, guid: 2a98471b12665cd47a24efe0308e3373, type: 3}
       propertyPath: m_Name
       value: wooden_cart
+      objectReference: {fileID: 0}
+    - target: {fileID: 3129320776499935013, guid: 2a98471b12665cd47a24efe0308e3373, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7494,6 +7857,10 @@ PrefabInstance:
       value: Magic Rock
       objectReference: {fileID: 0}
     - target: {fileID: 8459777382255285093, guid: aed3188779df2d04db96347951eb6d9b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8459777382255285093, guid: aed3188779df2d04db96347951eb6d9b, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -7518,6 +7885,10 @@ PrefabInstance:
     - target: {fileID: 6362847707080742842, guid: 6a5caa44c0844d9439552f508eab067c, type: 3}
       propertyPath: m_Name
       value: Strength Rock
+      objectReference: {fileID: 0}
+    - target: {fileID: 6362847707080742842, guid: 6a5caa44c0844d9439552f508eab067c, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6362847707080742842, guid: 6a5caa44c0844d9439552f508eab067c, type: 3}
       propertyPath: m_IsActive
@@ -7584,7 +7955,7 @@ GameObject:
   - component: {fileID: 1069967706}
   - component: {fileID: 1069967708}
   - component: {fileID: 1069967707}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7707,9 +8078,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5041680104280202014, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -2473544792401275038, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -1807497458963052081, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -288120865736603969, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
       propertyPath: m_Name
       value: Tine_Block (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7732,7 +8123,7 @@ GameObject:
   - component: {fileID: 1070843594}
   - component: {fileID: 1070843596}
   - component: {fileID: 1070843595}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7855,13 +8246,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4591482627061153955, guid: dbdb03b9dd044494ab4e367ff24a1fc5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -96616038615312342, guid: dbdb03b9dd044494ab4e367ff24a1fc5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: dbdb03b9dd044494ab4e367ff24a1fc5, type: 3}
       propertyPath: m_Name
       value: Fantasy_Tree
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: dbdb03b9dd044494ab4e367ff24a1fc5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dbdb03b9dd044494ab4e367ff24a1fc5, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6802899775072111727, guid: dbdb03b9dd044494ab4e367ff24a1fc5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7390962236318498316, guid: dbdb03b9dd044494ab4e367ff24a1fc5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7884,7 +8295,7 @@ GameObject:
   - component: {fileID: 1096216631}
   - component: {fileID: 1096216633}
   - component: {fileID: 1096216632}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7970,7 +8381,7 @@ GameObject:
   - component: {fileID: 1097517194}
   - component: {fileID: 1097517196}
   - component: {fileID: 1097517195}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8056,7 +8467,7 @@ GameObject:
   - component: {fileID: 1100694724}
   - component: {fileID: 1100694726}
   - component: {fileID: 1100694725}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8142,7 +8553,7 @@ GameObject:
   - component: {fileID: 1111508793}
   - component: {fileID: 1111508795}
   - component: {fileID: 1111508794}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8228,7 +8639,7 @@ GameObject:
   - component: {fileID: 1118085544}
   - component: {fileID: 1118085546}
   - component: {fileID: 1118085545}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8314,7 +8725,7 @@ GameObject:
   - component: {fileID: 1122596663}
   - component: {fileID: 1122596665}
   - component: {fileID: 1122596664}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8400,7 +8811,7 @@ GameObject:
   - component: {fileID: 1133086999}
   - component: {fileID: 1133087001}
   - component: {fileID: 1133087000}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8522,7 +8933,7 @@ GameObject:
   - component: {fileID: 1144772558}
   - component: {fileID: 1144772560}
   - component: {fileID: 1144772559}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8608,7 +9019,7 @@ GameObject:
   - component: {fileID: 1147813531}
   - component: {fileID: 1147813533}
   - component: {fileID: 1147813532}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8694,7 +9105,7 @@ GameObject:
   - component: {fileID: 1148084440}
   - component: {fileID: 1148084442}
   - component: {fileID: 1148084441}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8780,7 +9191,7 @@ GameObject:
   - component: {fileID: 1151293553}
   - component: {fileID: 1151293555}
   - component: {fileID: 1151293554}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8866,7 +9277,7 @@ GameObject:
   - component: {fileID: 1155030334}
   - component: {fileID: 1155030336}
   - component: {fileID: 1155030335}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8950,7 +9361,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1156192911}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Power Rocks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8987,7 +9398,7 @@ GameObject:
   - component: {fileID: 1207509780}
   - component: {fileID: 1207509782}
   - component: {fileID: 1207509781}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9110,9 +9521,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5041680104280202014, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -2473544792401275038, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -1807497458963052081, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -288120865736603969, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
       propertyPath: m_Name
       value: Tine_Block (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9208,7 +9639,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1211728678}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Benches
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9283,9 +9714,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5041680104280202014, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -2473544792401275038, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -1807497458963052081, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -288120865736603969, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
       propertyPath: m_Name
       value: Tine_Block (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9308,7 +9759,7 @@ GameObject:
   - component: {fileID: 1236329672}
   - component: {fileID: 1236329674}
   - component: {fileID: 1236329673}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9394,7 +9845,7 @@ GameObject:
   - component: {fileID: 1242438359}
   - component: {fileID: 1242438361}
   - component: {fileID: 1242438360}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9480,7 +9931,7 @@ GameObject:
   - component: {fileID: 1253408411}
   - component: {fileID: 1253408413}
   - component: {fileID: 1253408412}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9603,6 +10054,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1949780310088907209, guid: e654b65ecb21d204388c7b5216b098bd, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: -1466979185729694538, guid: e654b65ecb21d204388c7b5216b098bd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.049
@@ -9610,6 +10065,10 @@ PrefabInstance:
     - target: {fileID: -1466979185729694538, guid: e654b65ecb21d204388c7b5216b098bd, type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.648
+      objectReference: {fileID: 0}
+    - target: {fileID: -1234583184605002017, guid: e654b65ecb21d204388c7b5216b098bd, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 639963279142174254, guid: e654b65ecb21d204388c7b5216b098bd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9622,6 +10081,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e654b65ecb21d204388c7b5216b098bd, type: 3}
       propertyPath: m_Name
       value: Iron_Fence (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e654b65ecb21d204388c7b5216b098bd, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261907992718082698, guid: e654b65ecb21d204388c7b5216b098bd, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7380418016598425288, guid: e654b65ecb21d204388c7b5216b098bd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9997,7 +10464,7 @@ GameObject:
   - component: {fileID: 1264584822}
   - component: {fileID: 1264584824}
   - component: {fileID: 1264584823}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10120,9 +10587,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5041680104280202014, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -2473544792401275038, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -1807497458963052081, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -288120865736603969, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
       propertyPath: m_Name
       value: Tine_Block (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10145,7 +10632,7 @@ GameObject:
   - component: {fileID: 1275301570}
   - component: {fileID: 1275301572}
   - component: {fileID: 1275301571}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10236,7 +10723,7 @@ GameObject:
   - component: {fileID: 1280757194}
   - component: {fileID: 1280757196}
   - component: {fileID: 1280757195}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10322,7 +10809,7 @@ GameObject:
   - component: {fileID: 1281817862}
   - component: {fileID: 1281817864}
   - component: {fileID: 1281817863}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10408,7 +10895,7 @@ GameObject:
   - component: {fileID: 1293227289}
   - component: {fileID: 1293227291}
   - component: {fileID: 1293227290}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10536,8 +11023,16 @@ PrefabInstance:
       value: Lamps1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 89c2620392e26d44cbcb982880738918, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 89c2620392e26d44cbcb982880738918, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5626898870252485958, guid: 89c2620392e26d44cbcb982880738918, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -10604,6 +11099,10 @@ PrefabInstance:
       value: Barrel_1
       objectReference: {fileID: 0}
     - target: {fileID: 2073653693290618865, guid: 8b6a94e46a7a3ce4694a73a263603d0e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073653693290618865, guid: 8b6a94e46a7a3ce4694a73a263603d0e, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -10627,7 +11126,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1343887443}
   - component: {fileID: 1343887444}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10725,7 +11224,7 @@ GameObject:
   - component: {fileID: 1356337717}
   - component: {fileID: 1356337719}
   - component: {fileID: 1356337718}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10848,13 +11347,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2734227338256917175, guid: 5dac879780bf8f6449dc33303f501b17, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -886053097014555332, guid: 5dac879780bf8f6449dc33303f501b17, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5dac879780bf8f6449dc33303f501b17, type: 3}
       propertyPath: m_Name
       value: Fallen_Bark (1)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5dac879780bf8f6449dc33303f501b17, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5dac879780bf8f6449dc33303f501b17, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4667045346110529969, guid: 5dac879780bf8f6449dc33303f501b17, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10935,7 +11450,7 @@ GameObject:
   - component: {fileID: 1387386669}
   - component: {fileID: 1387386671}
   - component: {fileID: 1387386670}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11021,7 +11536,7 @@ GameObject:
   - component: {fileID: 1389771218}
   - component: {fileID: 1389771220}
   - component: {fileID: 1389771219}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11107,7 +11622,7 @@ GameObject:
   - component: {fileID: 1397909481}
   - component: {fileID: 1397909483}
   - component: {fileID: 1397909482}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11193,7 +11708,7 @@ GameObject:
   - component: {fileID: 1413376515}
   - component: {fileID: 1413376517}
   - component: {fileID: 1413376516}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11417,6 +11932,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.472
       objectReference: {fileID: 0}
+    - target: {fileID: -2851906625860998713, guid: c38879948c278314c890d12cf91f1dc4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -2203908487048126162, guid: c38879948c278314c890d12cf91f1dc4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: -1878957455951711360, guid: c38879948c278314c890d12cf91f1dc4, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.191
@@ -11437,9 +11960,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 1.75
       objectReference: {fileID: 0}
+    - target: {fileID: -607631865593771928, guid: c38879948c278314c890d12cf91f1dc4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c38879948c278314c890d12cf91f1dc4, type: 3}
       propertyPath: m_Name
       value: Barrel_And_Crates
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c38879948c278314c890d12cf91f1dc4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567416704318455051, guid: c38879948c278314c890d12cf91f1dc4, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2674308686717378713, guid: c38879948c278314c890d12cf91f1dc4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -11448,6 +11983,10 @@ PrefabInstance:
     - target: {fileID: 2674308686717378713, guid: c38879948c278314c890d12cf91f1dc4, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 4163332320665848883, guid: c38879948c278314c890d12cf91f1dc4, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4707693605051354577, guid: c38879948c278314c890d12cf91f1dc4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11465,9 +12004,17 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.05
       objectReference: {fileID: 0}
+    - target: {fileID: 5116564715516294729, guid: c38879948c278314c890d12cf91f1dc4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5817683498014688877, guid: c38879948c278314c890d12cf91f1dc4, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.364
+      objectReference: {fileID: 0}
+    - target: {fileID: 7229888144256755123, guid: c38879948c278314c890d12cf91f1dc4, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11527,9 +12074,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5041680104280202014, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -2473544792401275038, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -1807497458963052081, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -288120865736603969, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
       propertyPath: m_Name
       value: Tine_Block (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11552,7 +12119,7 @@ GameObject:
   - component: {fileID: 1439770578}
   - component: {fileID: 1439770580}
   - component: {fileID: 1439770579}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11716,6 +12283,10 @@ PrefabInstance:
       value: Chest_plank_apple
       objectReference: {fileID: 0}
     - target: {fileID: 2563416599362055880, guid: 2146705ef107259438aca88b0e511407, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2563416599362055880, guid: 2146705ef107259438aca88b0e511407, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -11780,7 +12351,7 @@ GameObject:
   - component: {fileID: 1471682375}
   - component: {fileID: 1471682377}
   - component: {fileID: 1471682376}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11866,7 +12437,7 @@ GameObject:
   - component: {fileID: 1483534970}
   - component: {fileID: 1483534972}
   - component: {fileID: 1483534971}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11950,7 +12521,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1499429786}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Environment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11975,58 +12546,6 @@ Transform:
   - {fileID: 1041775557}
   - {fileID: 1912487186}
   - {fileID: 1763328325}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1501644682
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1501644684}
-  - component: {fileID: 1501644683}
-  m_Layer: 0
-  m_Name: Target Group
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &1501644683
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1501644682}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5eb80d8e62d9d145bb50fb783c0f731, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PositionMode: 0
-  RotationMode: 1
-  UpdateMethod: 2
-  Targets:
-  - Object: {fileID: 480308565}
-    Weight: 1
-    Radius: 1
-  m_LegacyTargets: []
---- !u!4 &1501644684
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1501644682}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.288, y: 0.08, z: 0.94}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1503199712
@@ -12157,7 +12676,7 @@ GameObject:
   - component: {fileID: 1546378500}
   - component: {fileID: 1546378502}
   - component: {fileID: 1546378501}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12280,9 +12799,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5041680104280202014, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -2473544792401275038, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -1807497458963052081, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -288120865736603969, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
       propertyPath: m_Name
       value: Tine_Block (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12305,7 +12844,7 @@ GameObject:
   - component: {fileID: 1560822902}
   - component: {fileID: 1560822904}
   - component: {fileID: 1560822903}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12391,7 +12930,7 @@ GameObject:
   - component: {fileID: 1562237661}
   - component: {fileID: 1562237663}
   - component: {fileID: 1562237662}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12477,7 +13016,7 @@ GameObject:
   - component: {fileID: 1570453239}
   - component: {fileID: 1570453241}
   - component: {fileID: 1570453240}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12564,6 +13103,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Branch_1
       objectReference: {fileID: 0}
+    - target: {fileID: 6274931372259543853, guid: 95eec7eaaa07f9d4eb9c3defb4ccbe5c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6655995321351164311, guid: 95eec7eaaa07f9d4eb9c3defb4ccbe5c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 40.414623
@@ -12620,7 +13163,7 @@ GameObject:
   - component: {fileID: 1583780246}
   - component: {fileID: 1583780248}
   - component: {fileID: 1583780247}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12706,7 +13249,7 @@ GameObject:
   - component: {fileID: 1584807611}
   - component: {fileID: 1584807613}
   - component: {fileID: 1584807612}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12791,7 +13334,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1593645163}
   - component: {fileID: 1593645164}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12887,7 +13430,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1598114004}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Fence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12921,7 +13464,7 @@ GameObject:
   - component: {fileID: 1598907112}
   - component: {fileID: 1598907114}
   - component: {fileID: 1598907113}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13007,7 +13550,7 @@ GameObject:
   - component: {fileID: 1603710255}
   - component: {fileID: 1603710257}
   - component: {fileID: 1603710256}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13093,7 +13636,7 @@ GameObject:
   - component: {fileID: 1611159408}
   - component: {fileID: 1611159410}
   - component: {fileID: 1611159409}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13179,7 +13722,7 @@ GameObject:
   - component: {fileID: 1613454403}
   - component: {fileID: 1613454405}
   - component: {fileID: 1613454404}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13265,7 +13808,7 @@ GameObject:
   - component: {fileID: 1616343874}
   - component: {fileID: 1616343876}
   - component: {fileID: 1616343875}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BenchSeat (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13341,6 +13884,296 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1616343873}
   m_Mesh: {fileID: -7757989588479849503, guid: 0d2fc0e6a3543684487c99ca470c0486, type: 3}
+--- !u!1 &1618623973
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1618623978}
+  - component: {fileID: 1618623977}
+  - component: {fileID: 1618623976}
+  - component: {fileID: 1618623975}
+  - component: {fileID: 1618623979}
+  - component: {fileID: 1618623974}
+  m_Layer: 0
+  m_Name: CinemachineCamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1618623974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618623973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89875cdc57c54474a8a74efd9b2a3b5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScanRecursively: 1
+  SuppressInputWhileBlending: 1
+  IgnoreTimeScale: 0
+  m_ControllerManager:
+    Controllers:
+    - Name: Look Orbit X
+      Owner: {fileID: 1618623976}
+      Enabled: 1
+      Input:
+        InputAction: {fileID: -5630151704836100654, guid: 1d6e640e716dc4ff6989b73d02023f2b, type: 3}
+        Gain: 1
+        LegacyInput: 
+        LegacyGain: 1
+        CancelDeltaTime: 0
+      InputValue: 0
+      Driver:
+        AccelTime: 0.2
+        DecelTime: 0.2
+    - Name: Look Orbit Y
+      Owner: {fileID: 1618623976}
+      Enabled: 1
+      Input:
+        InputAction: {fileID: -5630151704836100654, guid: 1d6e640e716dc4ff6989b73d02023f2b, type: 3}
+        Gain: -1
+        LegacyInput: 
+        LegacyGain: 1
+        CancelDeltaTime: 0
+      InputValue: 0
+      Driver:
+        AccelTime: 0.2
+        DecelTime: 0.2
+    - Name: Orbit Scale
+      Owner: {fileID: 1618623976}
+      Enabled: 1
+      Input:
+        InputAction: {fileID: 5082991133974614888, guid: 1d6e640e716dc4ff6989b73d02023f2b, type: 3}
+        Gain: -1
+        LegacyInput: 
+        LegacyGain: 1
+        CancelDeltaTime: 0
+      InputValue: 0
+      Driver:
+        AccelTime: 0
+        DecelTime: 0
+    - Name: Look X (Pan)
+      Owner: {fileID: 1618623975}
+      Enabled: 1
+      Input:
+        InputAction: {fileID: -5630151704836100654, guid: 1d6e640e716dc4ff6989b73d02023f2b, type: 3}
+        Gain: 1
+        LegacyInput: 
+        LegacyGain: 1
+        CancelDeltaTime: 0
+      InputValue: 0
+      Driver:
+        AccelTime: 0.2
+        DecelTime: 0.2
+    - Name: Look Y (Tilt)
+      Owner: {fileID: 1618623975}
+      Enabled: 1
+      Input:
+        InputAction: {fileID: -5630151704836100654, guid: 1d6e640e716dc4ff6989b73d02023f2b, type: 3}
+        Gain: -1
+        LegacyInput: 
+        LegacyGain: 1
+        CancelDeltaTime: 0
+      InputValue: 0
+      Driver:
+        AccelTime: 0.2
+        DecelTime: 0.2
+  PlayerIndex: -1
+  AutoEnableInputs: 1
+--- !u!114 &1618623975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618623973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62d54399b04b4fa48a73e121d4937dd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ReferenceFrame: 0
+  RecenterTarget: 0
+  PanAxis:
+    Value: 0
+    Center: 0
+    Range: {x: -180, y: 180}
+    Wrap: 1
+    Recentering:
+      Enabled: 0
+      Wait: 1
+      Time: 2
+    Restrictions: 0
+  TiltAxis:
+    Value: 0
+    Center: 0
+    Range: {x: -70, y: 70}
+    Wrap: 0
+    Recentering:
+      Enabled: 0
+      Wait: 1
+      Time: 2
+    Restrictions: 0
+--- !u!114 &1618623976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618623973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b5d7c088409d9a40b7b09aa707777f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetOffset: {x: 0, y: 0, z: 0}
+  TrackerSettings:
+    BindingMode: 4
+    PositionDamping: {x: 1, y: 1, z: 1}
+    AngularDampingMode: 0
+    RotationDamping: {x: 1, y: 1, z: 1}
+    QuaternionDamping: 1
+  OrbitStyle: 0
+  Radius: 10
+  Orbits:
+    Top:
+      Radius: 2
+      Height: 5
+    Center:
+      Radius: 4
+      Height: 2.25
+    Bottom:
+      Radius: 2.5
+      Height: 0.1
+    SplineCurvature: 0.5
+  RecenteringTarget: 2
+  HorizontalAxis:
+    Value: 0
+    Center: 0
+    Range: {x: -180, y: 180}
+    Wrap: 1
+    Recentering:
+      Enabled: 0
+      Wait: 1
+      Time: 2
+    Restrictions: 0
+  VerticalAxis:
+    Value: 17.5
+    Center: 17.5
+    Range: {x: -10, y: 45}
+    Wrap: 0
+    Recentering:
+      Enabled: 0
+      Wait: 1
+      Time: 2
+    Restrictions: 0
+  RadialAxis:
+    Value: 1
+    Center: 1
+    Range: {x: 1, y: 1}
+    Wrap: 0
+    Recentering:
+      Enabled: 0
+      Wait: 1
+      Time: 2
+    Restrictions: 0
+--- !u!114 &1618623977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618623973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9dfa5b682dcd46bda6128250e975f58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Priority:
+    Enabled: 0
+    m_Value: 0
+  OutputChannel: 1
+  StandbyUpdate: 2
+  m_StreamingVersion: 20241001
+  m_LegacyPriority: 0
+  Target:
+    TrackingTarget: {fileID: 480308565}
+    LookAtTarget: {fileID: 0}
+    CustomLookAtTarget: 0
+  Lens:
+    FieldOfView: 60.000004
+    OrthographicSize: 10
+    NearClipPlane: 0.1
+    FarClipPlane: 5000
+    Dutch: 0
+    ModeOverride: 0
+    PhysicalProperties:
+      GateFit: 2
+      SensorSize: {x: 21.946, y: 16.002}
+      LensShift: {x: 0, y: 0}
+      FocusDistance: 10
+      Iso: 200
+      ShutterSpeed: 0.005
+      Aperture: 16
+      BladeCount: 5
+      Curvature: {x: 2, y: 11}
+      BarrelClipping: 0.25
+      Anamorphism: 0
+  BlendHint: 0
+--- !u!4 &1618623978
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618623973}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.12, y: 6.8140583, z: -5.92717}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1618623979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618623973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca7de3aefa901374ba29464584a3109a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CameraRadius: 0.4
+  Decollision:
+    Enabled: 0
+    ObstacleLayers:
+      serializedVersion: 2
+      m_Bits: 1
+    UseFollowTarget:
+      Enabled: 0
+      YOffset: 0
+    Damping: 0.5
+    SmoothingTime: 0
+  TerrainResolution:
+    Enabled: 1
+    TerrainLayers:
+      serializedVersion: 2
+      m_Bits: 65
+    MaximumRaycast: 10
+    Damping: 0.5
 --- !u!1001 &1628941493
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13389,9 +14222,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6215489016077816892, guid: 7b290040708901e498ea92d5d6be8f90, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -4436971348348691600, guid: 7b290040708901e498ea92d5d6be8f90, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -148403666155803262, guid: 7b290040708901e498ea92d5d6be8f90, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7b290040708901e498ea92d5d6be8f90, type: 3}
       propertyPath: m_Name
       value: Fallen_Bark_V0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7b290040708901e498ea92d5d6be8f90, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7b290040708901e498ea92d5d6be8f90, type: 3}
       propertyPath: m_IsActive
@@ -13459,6 +14308,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BenchSeat (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0d2fc0e6a3543684487c99ca470c0486, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2786152407621660450, guid: 0d2fc0e6a3543684487c99ca470c0486, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4484886854507725936, guid: 0d2fc0e6a3543684487c99ca470c0486, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.94
@@ -13489,7 +14346,7 @@ GameObject:
   - component: {fileID: 1645955077}
   - component: {fileID: 1645955079}
   - component: {fileID: 1645955078}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13575,7 +14432,7 @@ GameObject:
   - component: {fileID: 1651796388}
   - component: {fileID: 1651796390}
   - component: {fileID: 1651796389}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13663,6 +14520,10 @@ PrefabInstance:
       value: Agility Rock
       objectReference: {fileID: 0}
     - target: {fileID: 5948607858795106357, guid: c80546d16d938c04990c6d33d46e4952, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5948607858795106357, guid: c80546d16d938c04990c6d33d46e4952, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -13727,7 +14588,7 @@ GameObject:
   - component: {fileID: 1657257300}
   - component: {fileID: 1657257302}
   - component: {fileID: 1657257301}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13813,7 +14674,7 @@ GameObject:
   - component: {fileID: 1666185352}
   - component: {fileID: 1666185354}
   - component: {fileID: 1666185353}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13902,7 +14763,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1672682089}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lamps
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13942,7 +14803,7 @@ GameObject:
   - component: {fileID: 1674806293}
   - component: {fileID: 1674806295}
   - component: {fileID: 1674806294}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14028,7 +14889,7 @@ GameObject:
   - component: {fileID: 1697287359}
   - component: {fileID: 1697287361}
   - component: {fileID: 1697287360}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14114,7 +14975,7 @@ GameObject:
   - component: {fileID: 1713165322}
   - component: {fileID: 1713165324}
   - component: {fileID: 1713165323}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14237,9 +15098,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5041680104280202014, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -2473544792401275038, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -1807497458963052081, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -288120865736603969, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
       propertyPath: m_Name
       value: Tine_Block (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14303,6 +15184,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Laundry_hanger_1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8700824426363313339, guid: 50b05f5887ffab04cada141d5819faca, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14321,6 +15206,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1912487186}
     m_Modifications:
+    - target: {fileID: 10242811880629119, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 66880804547416719, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 81707317226417643, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 126091429162256680, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 146281183362743499, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
       propertyPath: m_LocalPosition.x
       value: 41.75
@@ -14361,13 +15262,509 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 176348288028942320, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 250295422529827916, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 289671393156896531, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 290904402308112457, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 344139293548886927, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 344516621301451250, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 475031058351305115, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 616697200267725708, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 627846571451985682, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 665322302059670433, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 670017486046406257, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
       propertyPath: m_Name
       value: House_1
       objectReference: {fileID: 0}
     - target: {fileID: 670017486046406257, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 670017486046406257, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 674914898524229367, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 743143975610821049, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 810337255575553272, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 819299096056615474, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 839088781419750227, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 994953833380959805, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1111070309915778444, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1121545160238591446, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183161088717891786, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1272036067133839671, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1292672967312111523, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1322003398490277463, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1339881662481454691, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1370795236299000999, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1463775431748705876, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469256740344344575, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1556568853451844160, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600470153529429196, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1713742054171133486, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740632028416837280, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1803691553232920277, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1902502367006157658, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2019613493015120247, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2047363426138481974, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076262913839156880, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2079819629247489318, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173200366166746024, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2193501298980660300, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2493685481585908643, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2540454117607383831, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2557233929847432353, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2667064521985243940, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2847904649854760659, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2877164441788041089, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2979836221927748061, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3024042276053450515, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3100754479468473678, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3163931313550672324, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3212334686562076979, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3287264869002662959, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3319450587409834830, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359606506119930241, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3393435435381251103, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3498803556287865073, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3765722294314656243, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3771345279034035967, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3789938505013310532, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3917065051300604504, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3942917306714721336, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3958543542428708672, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3966428910145385416, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3979410571717811230, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3982651106334852962, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4024994506843497420, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027488948008195907, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4060897619788344960, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4139817528833030846, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4221616258760519681, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279236344165716557, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4369465863763295204, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4447722929496868258, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468236296283582009, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4494651509981196452, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4556705560816008177, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4558074774237607779, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740764980067056393, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765502625046202925, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4822860274901805368, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4891971197842742668, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4975997583806729805, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5233780365444041057, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5267944454168824263, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5369088617102749374, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376852259774887966, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5459848878881455552, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474676500953306672, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5492648537604724104, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503175006010853656, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5823722860708444498, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984215225055933102, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6152844867369951162, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6488849221030739078, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6489477885529849349, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6498839904688503153, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6519427876723146603, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6559977521214457935, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6714466327081012500, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6728095648698730561, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852160423920352832, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7047672415074965006, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7049899506829855398, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220669473835864052, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7246536455408554311, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7275755891374360262, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7548210451894910079, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7635734902715022906, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7761046585219591338, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027464449665085356, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028126267645079910, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8057222771259611249, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8246560782956647597, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8257520548833404278, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331212693643243568, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8397611488579319644, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460908730663497471, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8552956514176911112, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559827098016232131, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8591153805755681339, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8697493564765318983, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8794550627939167427, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004361536634490639, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9081023712352682571, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9212769085194734443, guid: 962b3bc8cfb64ac4cbdf99003a38ce22, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14480,7 +15877,7 @@ GameObject:
   - component: {fileID: 1748514920}
   - component: {fileID: 1748514922}
   - component: {fileID: 1748514921}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14564,7 +15961,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1763328325}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Graveyard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14615,7 +16012,7 @@ GameObject:
   - component: {fileID: 1777739301}
   - component: {fileID: 1777739303}
   - component: {fileID: 1777739302}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BenchSeat (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14748,6 +16145,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Iron_Lamp
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1787c461cd5954f4c88928480d1fc128, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14769,7 +16170,7 @@ GameObject:
   - component: {fileID: 1804688049}
   - component: {fileID: 1804688051}
   - component: {fileID: 1804688050}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: fence_ (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14855,7 +16256,7 @@ GameObject:
   - component: {fileID: 1810386978}
   - component: {fileID: 1810386980}
   - component: {fileID: 1810386979}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14978,13 +16379,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4274128822402974387, guid: c579842f752458e408cd9c35f7d03c0c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -298875227356676098, guid: c579842f752458e408cd9c35f7d03c0c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 750016235004561119, guid: c579842f752458e408cd9c35f7d03c0c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c579842f752458e408cd9c35f7d03c0c, type: 3}
       propertyPath: m_Name
       value: Tree_Root_V2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c579842f752458e408cd9c35f7d03c0c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c579842f752458e408cd9c35f7d03c0c, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7905620642271069425, guid: c579842f752458e408cd9c35f7d03c0c, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15016,9 +16437,17 @@ PrefabInstance:
       propertyPath: LightsModule.intensityCurve.scalar
       value: 3.18
       objectReference: {fileID: 0}
+    - target: {fileID: 1141807910198149572, guid: 2ee7574cb1211da4ba89d1838327b5c4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1255053967005034563, guid: 2ee7574cb1211da4ba89d1838327b5c4, type: 3}
       propertyPath: m_Name
       value: VFX_Fire_Floor_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1255053967005034563, guid: 2ee7574cb1211da4ba89d1838327b5c4, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1255053967005034564, guid: 2ee7574cb1211da4ba89d1838327b5c4, type: 3}
       propertyPath: m_RootOrder
@@ -15076,6 +16505,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3235701488893169939, guid: 2ee7574cb1211da4ba89d1838327b5c4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3807481148728578608, guid: 2ee7574cb1211da4ba89d1838327b5c4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4502111466653747097, guid: 2ee7574cb1211da4ba89d1838327b5c4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7296065346891611915, guid: 2ee7574cb1211da4ba89d1838327b5c4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15129,9 +16574,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5041680104280202014, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -2473544792401275038, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -1807497458963052081, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -288120865736603969, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
       propertyPath: m_Name
       value: Tine_Block (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6b380b6f827da59479f7e3cca44eb56e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15154,7 +16619,7 @@ GameObject:
   - component: {fileID: 1884751281}
   - component: {fileID: 1884751283}
   - component: {fileID: 1884751282}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15238,7 +16703,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1912487186}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: House
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15281,7 +16746,7 @@ GameObject:
   - component: {fileID: 1926504842}
   - component: {fileID: 1926504844}
   - component: {fileID: 1926504843}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15408,6 +16873,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lamps1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 89c2620392e26d44cbcb982880738918, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5626898870252485958, guid: 89c2620392e26d44cbcb982880738918, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6654178346307536642, guid: 89c2620392e26d44cbcb982880738918, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.46
@@ -15458,7 +16931,7 @@ GameObject:
   - component: {fileID: 1954521547}
   - component: {fileID: 1954521549}
   - component: {fileID: 1954521548}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15597,7 +17070,7 @@ GameObject:
   - component: {fileID: 1960309929}
   - component: {fileID: 1960309931}
   - component: {fileID: 1960309930}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15683,7 +17156,7 @@ GameObject:
   - component: {fileID: 1961505921}
   - component: {fileID: 1961505923}
   - component: {fileID: 1961505922}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15769,7 +17242,7 @@ GameObject:
   - component: {fileID: 1984610260}
   - component: {fileID: 1984610262}
   - component: {fileID: 1984610261}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15892,13 +17365,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3506988821097246598, guid: d2c368b9ef327ce469032a7c1031899d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -2732435156467191681, guid: d2c368b9ef327ce469032a7c1031899d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d2c368b9ef327ce469032a7c1031899d, type: 3}
       propertyPath: m_Name
       value: Cliff (1)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d2c368b9ef327ce469032a7c1031899d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d2c368b9ef327ce469032a7c1031899d, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050834404831772787, guid: d2c368b9ef327ce469032a7c1031899d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15921,7 +17410,7 @@ GameObject:
   - component: {fileID: 1992604915}
   - component: {fileID: 1992604917}
   - component: {fileID: 1992604916}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16384,7 +17873,7 @@ GameObject:
   - component: {fileID: 1998904122}
   - component: {fileID: 1998904124}
   - component: {fileID: 1998904123}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16545,7 +18034,7 @@ GameObject:
   - component: {fileID: 2013205914}
   - component: {fileID: 2013205916}
   - component: {fileID: 2013205915}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16631,7 +18120,7 @@ GameObject:
   - component: {fileID: 2013556087}
   - component: {fileID: 2013556089}
   - component: {fileID: 2013556088}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16716,7 +18205,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2018717270}
   - component: {fileID: 2018717271}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16814,7 +18303,7 @@ GameObject:
   - component: {fileID: 2026056228}
   - component: {fileID: 2026056230}
   - component: {fileID: 2026056229}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16975,7 +18464,7 @@ GameObject:
   - component: {fileID: 2031627375}
   - component: {fileID: 2031627377}
   - component: {fileID: 2031627376}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17061,7 +18550,7 @@ GameObject:
   - component: {fileID: 2041321562}
   - component: {fileID: 2041321564}
   - component: {fileID: 2041321563}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17208,7 +18697,7 @@ GameObject:
   - component: {fileID: 2066655986}
   - component: {fileID: 2066655988}
   - component: {fileID: 2066655987}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17294,7 +18783,7 @@ GameObject:
   - component: {fileID: 2073642411}
   - component: {fileID: 2073642413}
   - component: {fileID: 2073642412}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17380,7 +18869,7 @@ GameObject:
   - component: {fileID: 2076748869}
   - component: {fileID: 2076748871}
   - component: {fileID: 2076748870}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17466,7 +18955,7 @@ GameObject:
   - component: {fileID: 2080118070}
   - component: {fileID: 2080118072}
   - component: {fileID: 2080118071}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence.001 (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17605,7 +19094,7 @@ GameObject:
   - component: {fileID: 2096726425}
   - component: {fileID: 2096726427}
   - component: {fileID: 2096726426}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ironfence (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17690,7 +19179,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2133642852}
   - component: {fileID: 2133642851}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17787,9 +19276,7 @@ SceneRoots:
   - {fileID: 480308565}
   - {fileID: 921559150}
   - {fileID: 1441528303}
-  - {fileID: 1501644684}
-  - {fileID: 867927746}
-  - {fileID: 1012857254}
-  - {fileID: 906508417}
   - {fileID: 2044878210}
   - {fileID: 1499429786}
+  - {fileID: 1618623978}
+  - {fileID: 162337580}
