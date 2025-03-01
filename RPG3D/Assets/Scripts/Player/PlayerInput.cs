@@ -1,24 +1,22 @@
-using UnityEngine;
 using System;
+using UnityEngine;
 
 public class PlayerInput : MonoBehaviour
 {
-    public event Action<Vector2, bool> OnMove; // bool для бега
-    public event Action OnJump;
+    public static event Action<Vector2> OnMoveInput;
+    public static event Action OnJumpInput;
 
-    private void Update()
+    void Update()
     {
-        Vector2 movement = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-        bool isRunning = Input.GetKey(KeyCode.LeftShift);
+        float horizontal = Input.GetAxis("Horizontal");
+        float vertical = Input.GetAxis("Vertical");
+        Vector2 inputVector = new Vector2(horizontal, vertical).normalized;
 
-        if (movement.magnitude > 0.1f)
-        {
-            OnMove?.Invoke(movement, isRunning);
-        }
+        OnMoveInput?.Invoke(inputVector);
 
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            OnJump?.Invoke();
+            OnJumpInput?.Invoke();
         }
     }
 }
