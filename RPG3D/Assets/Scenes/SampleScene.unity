@@ -2512,7 +2512,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 327031108}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Boundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3130,7 +3130,7 @@ GameObject:
   m_Component:
   - component: {fileID: 401900889}
   - component: {fileID: 401900890}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11171,7 +11171,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1370741418}
   - component: {fileID: 1370741419}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16796,7 +16796,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1956852453}
   - component: {fileID: 1956852454}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18820,7 +18820,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2094980947}
   - component: {fileID: 2094980948}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20988,7 +20988,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8e30b43d33b67e4ab9ace0fa1437dcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1.7
+  walkSpeed: 2
+  runSpeed: 4
   rotationSpeed: 100
   jumpForce: 3
   gravity: 9.81

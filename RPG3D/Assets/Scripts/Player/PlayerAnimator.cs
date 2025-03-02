@@ -3,6 +3,7 @@ using UnityEngine;
 public class PlayerAnimator : MonoBehaviour
 {
     private Animator animator;
+    private bool isRunning = false; // Следим за бегом
 
     private void OnEnable()
     {
@@ -13,25 +14,36 @@ public class PlayerAnimator : MonoBehaviour
     private void Start()
     {
         animator = GetComponent<Animator>();
-
-        animator.SetFloat("WalkX", 0);
-        animator.SetFloat("WalkZ", 0);
-        animator.SetBool("Idle", true);
-        animator.SetBool("Jump", false);
     }
 
-    private void HandleMovement(float x, float z)
+    private void HandleMovement(float x, float z, bool running)
     {
-        bool isIdle = x == 0 && z == 0;
+        isRunning = running;
+        animator.SetBool("IsRunning", isRunning); // Устанавливаем состояние бега
 
-        animator.SetFloat("WalkX", x);
-        animator.SetFloat("WalkZ", z);
-        animator.SetBool("Idle", isIdle);
+        if (isRunning)
+        {
+            animator.SetFloat("RunX", x);
+            animator.SetFloat("RunZ", z);
+        }
+        else
+        {
+            animator.SetFloat("WalkX", x);
+            animator.SetFloat("WalkZ", z);
+        }
+
+        animator.SetBool("Idle", x == 0 && z == 0);
     }
 
     private void HandleJump(bool isJumping)
     {
-        animator.SetBool("Jump", isJumping);
+        if (isJumping)
+        {
+            if (isRunning)
+                animator.SetTrigger("JumpRun"); // Запускаем анимацию прыжка в беге
+            else
+                animator.SetTrigger("Jump"); // Запускаем обычный прыжок
+        }
     }
 
     private void OnDisable()
