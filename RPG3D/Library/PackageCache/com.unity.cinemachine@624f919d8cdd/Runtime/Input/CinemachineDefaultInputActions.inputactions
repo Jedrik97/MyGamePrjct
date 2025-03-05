@@ -54,7 +54,7 @@
                     "name": "Jump",
                     "type": "Button",
                     "id": "2eeac458-9774-44ec-9abf-4fe5ffd9a9e0",
-                    "expectedControlType": "",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -63,7 +63,7 @@
                     "name": "Zoom",
                     "type": "Value",
                     "id": "e36b5f92-3364-439f-84bd-ed85338f5e03",
-                    "expectedControlType": "Axis",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -72,7 +72,7 @@
                     "name": "Aim",
                     "type": "Button",
                     "id": "fab4bb95-853e-427a-a81e-1d5331916686",
-                    "expectedControlType": "",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -211,7 +211,7 @@
                 },
                 {
                     "name": "One Modifier",
-                    "id": "0195b10d-c93a-4b62-88ee-b74c133f55ae",
+                    "id": "7d79c772-dfbb-4f9a-b6c9-134cb2c50e0a",
                     "path": "OneModifier",
                     "interactions": "",
                     "processors": "",
@@ -221,11 +221,11 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "modifier",
-                    "id": "75e1524a-b8df-41f0-a6d5-df3ccf06f0f9",
+                    "name": "Modifier",
+                    "id": "6c991407-6d48-41c7-b7f7-1798940b6f95",
                     "path": "<Mouse>/rightButton",
                     "interactions": "",
-                    "processors": "DeltaTimeScale,ScaleVector2(x=100,y=100)",
+                    "processors": "ScaleVector2(x=100,y=100),DeltaTimeScale",
                     "groups": "",
                     "action": "Look",
                     "isComposite": false,
@@ -233,10 +233,10 @@
                 },
                 {
                     "name": "binding",
-                    "id": "d5404584-af16-42e9-a04d-bfd18e33b2f1",
+                    "id": "24154944-7e89-4eea-913c-8ad9952156d3",
                     "path": "<Mouse>/delta",
                     "interactions": "",
-                    "processors": "DeltaTimeScale,ScaleVector2(x=0.1,y=0.1)",
+                    "processors": "ScaleVector2(x=0.1,y=0.1),DeltaTimeScale",
                     "groups": "",
                     "action": "Look",
                     "isComposite": false,
@@ -311,9 +311,9 @@
                 {
                     "name": "",
                     "id": "643cea24-fe45-41e1-8c40-d547b89ab7f6",
-                    "path": "<Mouse>/scroll/y",
+                    "path": "<Mouse>/scroll",
                     "interactions": "",
-                    "processors": "Scale(factor=100),Clamp(min=-4,max=4)",
+                    "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "Zoom",
                     "isComposite": false,
