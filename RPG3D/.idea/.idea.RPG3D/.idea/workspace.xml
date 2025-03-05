@@ -6,257 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="bf4db2aa-da2b-4178-a68e-89b837474be5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG3D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG3D/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Animations.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Animations/Masks.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Animations/Masks/Ragnaros - LowerBody.mask" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Animations/Masks/Ragnaros - LowerBody.mask.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Animations/Masks/Ragnaros - UpperBody.mask" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Animations/Masks/Ragnaros - UpperBody.mask.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Animations/Ragnaros - Stand [0].anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Animations/Ragnaros - Stand [0].anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_0.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_0.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_10.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_10.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_11.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_11.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_12.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_12.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_13.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_13.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_14.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_14.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_15.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_15.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_3.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_3.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_4.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_4.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_5.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_5.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_6.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_6.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_7.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_7.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_8.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_8.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_9.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Materials/ragnaros_9.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Models/Ragnaros.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Models/Ragnaros.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Textures/ragnaroshammer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Textures/ragnaroshammer.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Textures/ragnarosskin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Ragnaros/Textures/ragnarosskin.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/Art.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/Art/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/Art/Materials/Skeleton_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/Art/Materials/Skeleton_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/Art/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/Art/Textures/Skeleton_BaseColor.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/Art/Textures/Skeleton_BaseColor.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/Art/Textures/Skeleton_Emissive.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/Art/Textures/Skeleton_Emissive.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/Skeleton.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/Skeleton.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/Skeleton_Model_100.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/Skeleton_Model_100.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/running crawl.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/running crawl.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/zombie attack.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/zombie attack.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/zombie biting (2).fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/zombie biting (2).fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/zombie biting.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/zombie biting.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/zombie crawl.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/zombie crawl.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/zombie death.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/zombie death.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/zombie dying.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/zombie dying.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/zombie idle.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/zombie idle.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/zombie neck bite.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/zombie neck bite.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/zombie run.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/zombie run.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/zombie scream.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/zombie scream.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/zombie walk.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Skeleton/zombie walk.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Super Zombie.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Super Zombie/Animations.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Super Zombie/Animations/Super Zombie - Stand [9].anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Super Zombie/Animations/Super Zombie - Stand [9].anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Super Zombie/Masks.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Super Zombie/Masks/Super Zombie - LowerBody.mask" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Super Zombie/Masks/Super Zombie - LowerBody.mask.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Super Zombie/Masks/Super Zombie - UpperBody.mask" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Super Zombie/Masks/Super Zombie - UpperBody.mask.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Super Zombie/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Super Zombie/Materials/superzombie_0.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Super Zombie/Materials/superzombie_0.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Super Zombie/Materials/superzombie_2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Super Zombie/Materials/superzombie_2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Super Zombie/Materials/superzombie_3.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Super Zombie/Materials/superzombie_3.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Super Zombie/Materials/superzombie_4.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Super Zombie/Materials/superzombie_4.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Super Zombie/Materials/superzombie_5.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Super Zombie/Materials/superzombie_5.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Super Zombie/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Super Zombie/Models/Super Zombie.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Super Zombie/Models/Super Zombie.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Super Zombie/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Super Zombie/Textures/superzombiegreen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Super Zombie/Textures/superzombiegreen.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Super Zombie/Textures/t_vfx_fire02_a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Enemies/Super Zombie/Textures/t_vfx_fire02_a.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/1_one_handed.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/1_one_handed/DS_onehand_attack_A.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/1_one_handed/DS_onehand_attack_A.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/1_one_handed/DS_onehand_attack_B.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/1_one_handed/DS_onehand_attack_B.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/1_one_handed/DS_onehand_attack_C.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/1_one_handed/DS_onehand_attack_C.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/1_one_handed/DS_onehand_damage_A.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/1_one_handed/DS_onehand_damage_A.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/1_one_handed/DS_onehand_damage_B.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/1_one_handed/DS_onehand_damage_B.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/1_one_handed/DS_onehand_damage_C.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/1_one_handed/DS_onehand_damage_C.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/1_one_handed/DS_onehand_death_A.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/1_one_handed/DS_onehand_death_A.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/1_one_handed/DS_onehand_death_B.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/1_one_handed/DS_onehand_death_B.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/1_one_handed/DS_onehand_death_C.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/1_one_handed/DS_onehand_death_C.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/1_one_handed/DS_onehand_idle_A.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/1_one_handed/DS_onehand_idle_A.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/1_one_handed/DS_onehand_walk.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/1_one_handed/DS_onehand_walk.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/2_shield.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/2_shield/DS_shield_attack_A.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/2_shield/DS_shield_attack_A.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/2_shield/DS_shield_attack_B.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/2_shield/DS_shield_attack_B.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/2_shield/DS_shield_attack_C.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/2_shield/DS_shield_attack_C.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/2_shield/DS_shield_damage_A.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/2_shield/DS_shield_damage_A.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/2_shield/DS_shield_damage_B.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/2_shield/DS_shield_damage_B.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/2_shield/DS_shield_damage_C.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/2_shield/DS_shield_damage_C.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/2_shield/DS_shield_death_A.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/2_shield/DS_shield_death_A.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/2_shield/DS_shield_death_B.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/2_shield/DS_shield_death_B.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/2_shield/DS_shield_death_C.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/2_shield/DS_shield_death_C.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/2_shield/DS_shield_idle_A.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/2_shield/DS_shield_idle_A.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/2_shield/DS_shield_walk.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/2_shield/DS_shield_walk.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/3_two_handed.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/3_two_handed/DS_twohanded_attack_A.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/3_two_handed/DS_twohanded_attack_A.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/3_two_handed/DS_twohanded_attack_B.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/3_two_handed/DS_twohanded_attack_B.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/3_two_handed/DS_twohanded_damage_A.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/3_two_handed/DS_twohanded_damage_A.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/3_two_handed/DS_twohanded_damage_B.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/3_two_handed/DS_twohanded_damage_B.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/3_two_handed/DS_twohanded_damage_C.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/3_two_handed/DS_twohanded_damage_C.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/3_two_handed/DS_twohanded_death_A.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/3_two_handed/DS_twohanded_death_A.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/3_two_handed/DS_twohanded_death_B.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/3_two_handed/DS_twohanded_death_B.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/3_two_handed/DS_twohanded_death_C.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/3_two_handed/DS_twohanded_death_C.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/3_two_handed/DS_twohanded_idle_A.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/3_two_handed/DS_twohanded_idle_A.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/3_two_handed/DS_twohanded_walk.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/3_two_handed/DS_twohanded_walk.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/4_bow.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/4_bow/DS_bow_attack_A.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/4_bow/DS_bow_attack_A.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/4_bow/DS_bow_damage_A.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/4_bow/DS_bow_damage_A.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/4_bow/DS_bow_damage_B.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/4_bow/DS_bow_damage_B.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/4_bow/DS_bow_damage_C.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/4_bow/DS_bow_damage_C.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/4_bow/DS_bow_death_A.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/4_bow/DS_bow_death_A.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/4_bow/DS_bow_death_B.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/4_bow/DS_bow_death_B.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/4_bow/DS_bow_death_C.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/4_bow/DS_bow_death_C.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/4_bow/DS_bow_idle_A.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/4_bow/DS_bow_idle_A.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/4_bow/DS_bow_walk.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Animation/4_bow/DS_bow_walk.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Models/Dungeon_Skeleton.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Models/Dungeon_Skeleton.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Models/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Models/Materials/DS_equipment_standard.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Models/Materials/DS_equipment_standard.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Models/Materials/DS_skeleton_standard.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Models/Materials/DS_skeleton_standard.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Prefabs/Skeleton_A.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Prefabs/Skeleton_A.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Prefabs/Skeleton_B.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Prefabs/Skeleton_B.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Prefabs/Skeleton_C.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Prefabs/Skeleton_C.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Prefabs/Skeleton_D.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Prefabs/Skeleton_D.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Prefabs/Skeleton_E.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Prefabs/Skeleton_E.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Prefabs/Skeleton_F.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Prefabs/Skeleton_F.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Prefabs/Skeleton_TwoHanded_A.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Prefabs/Skeleton_TwoHanded_A.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Prefabs/Skeleton_TwoHanded_B.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Prefabs/Skeleton_TwoHanded_B.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Prefabs/Skeleton_archer_A.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Prefabs/Skeleton_archer_A.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Prefabs/Skeleton_archer_B.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Prefabs/Skeleton_archer_B.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Textures/DS_equipment_standard.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Textures/DS_equipment_standard.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Textures/DS_skeleton_standard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Skeletons/Textures/DS_skeleton_standard.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Terrain.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyPathFollower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyPathFollower.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FieldOfView/FieldOfView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FieldOfView/FieldOfView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FieldOfView/FieldOfViewEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FieldOfView/FieldOfViewEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/HealtPlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/HealtPlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WayPointSystem/WayPointVision.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WayPointSystem/WayPointVision.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/APIUpdater/project-dependencies.graph" beforeDir="false" afterPath="$PROJECT_DIR$/Library/APIUpdater/project-dependencies.graph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/AnnotationManager" beforeDir="false" afterPath="$PROJECT_DIR$/Library/AnnotationManager" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB-lock" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB-lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Camera/CameraController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Camera/CameraController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Camera/WoWCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Camera/WoWCamera.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/1900b0aE-inputdata.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/1900b0aE-inputdata.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/1900b0aE.dag" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/1900b0aE.dag" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/1900b0aE.dag.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/1900b0aE.dag.json" afterDir="false" />
@@ -270,62 +24,17 @@
       <change beforePath="$PROJECT_DIR$/Library/Bee/fullprofile.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/fullprofile.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/tundra.log.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/tundra.log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BuildProfiles/PlatformProfile.4e3c793746204150860bf175a9a41a05.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BuildProfiles/PlatformProfile.4e3c793746204150860bf175a9a41a05.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BuildProfiles/SharedProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BuildProfiles/SharedProfile.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/BurstCacheManifest.cm" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/BurstCacheManifest.cm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/018ac3151a1997bab536c724ce9bf831.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/018ac3151a1997bab536c724ce9bf831.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/05f0b8c4817d4d3e8980ea08322ccddf.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/05f0b8c4817d4d3e8980ea08322ccddf.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/0fb0ceb263209656b8ea977b7b059a49.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/0fb0ceb263209656b8ea977b7b059a49.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/1b32dd62c44741036c1a7c4dfd861a5f.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/1b32dd62c44741036c1a7c4dfd861a5f.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/1f0b5e10fb59c59123283c1c77bc0018.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/1f0b5e10fb59c59123283c1c77bc0018.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/1fa9172f40bada814269e266162296f9.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/1fa9172f40bada814269e266162296f9.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/22cff0864a16d3511aec7ab0677888b1.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/22cff0864a16d3511aec7ab0677888b1.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/251533d0265ce66deaec28ce7288a0a0.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/251533d0265ce66deaec28ce7288a0a0.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/2850fa009c43b3d5fee0a50f0fe9a0af.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/2850fa009c43b3d5fee0a50f0fe9a0af.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/39371f24d434f123333d06e990d4a4b5.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/39371f24d434f123333d06e990d4a4b5.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/3aa7767756913884e27019266e846ff5.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/3aa7767756913884e27019266e846ff5.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/3dc5897da031517a8d5ab0e81f722310.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/3dc5897da031517a8d5ab0e81f722310.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/3f2971f7f3de9ef278254742cb4c0936.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/3f2971f7f3de9ef278254742cb4c0936.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/4a11bc8a23c1cfa0f4923becd8b6a98b.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/4a11bc8a23c1cfa0f4923becd8b6a98b.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/4e1557a53d4ca661921e6c11908065a9.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/4e1557a53d4ca661921e6c11908065a9.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/4e8bce95bfb3a67b54a310eabdb14b10.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/4e8bce95bfb3a67b54a310eabdb14b10.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/53a447354fede0803cf639cd158afe68.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/53a447354fede0803cf639cd158afe68.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/53d1e474e75fae906f1a9bf8e23c7ac9.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/53d1e474e75fae906f1a9bf8e23c7ac9.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/607eddb354e8d4ea7ad1407ac8ee9b0a.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/607eddb354e8d4ea7ad1407ac8ee9b0a.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/73bd93db7a0ee5bdbe167a19b44ce084.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/73bd93db7a0ee5bdbe167a19b44ce084.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/82498bc5c17bc5a48f5a2dea1fb2b9e9.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/82498bc5c17bc5a48f5a2dea1fb2b9e9.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/840488db358c9a558a94afac7c21f293.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/840488db358c9a558a94afac7c21f293.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/89a1a6ffa6983d20897af09776f4469f.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/89a1a6ffa6983d20897af09776f4469f.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/8bd375117381c8f40ed1fc10f10e1697.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/8bd375117381c8f40ed1fc10f10e1697.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/90953de273ca2020ec73e7e3f43e7d4e.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/90953de273ca2020ec73e7e3f43e7d4e.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/9183ee6b4a9d8600a95c88de0d5b68ba.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/9183ee6b4a9d8600a95c88de0d5b68ba.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/a123de796804036935b9ae9812afd840.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/a123de796804036935b9ae9812afd840.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/a5fde98afc5acb7b246461a77606ffcd.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/a5fde98afc5acb7b246461a77606ffcd.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/b5d0957a4ebfd04aa7911407d44464ab.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/b5d0957a4ebfd04aa7911407d44464ab.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/b60073b76271a84114ad4030f1fb3cd1.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/b60073b76271a84114ad4030f1fb3cd1.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/beb497e134b24e0d443f6a91ee099283.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/beb497e134b24e0d443f6a91ee099283.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/c233388d277f5ceac00c17832b7e94ce.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/c233388d277f5ceac00c17832b7e94ce.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/c5d506b44419285ad6822a8fa221b7b5.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/c5d506b44419285ad6822a8fa221b7b5.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/c9c5b482ad89f8d13e40e28cd27e7872.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/c9c5b482ad89f8d13e40e28cd27e7872.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/d7e327c57c5c628b424734c724a6297e.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/d7e327c57c5c628b424734c724a6297e.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/dbbff5cc3b8363831c1c094b2d96216a.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/dbbff5cc3b8363831c1c094b2d96216a.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/e331c7b1fa5090f90a7bd7c89ae8bb33.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/e331c7b1fa5090f90a7bd7c89ae8bb33.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/e81f7d00c5ff9ada70bf1defd0993a6f.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/e81f7d00c5ff9ada70bf1defd0993a6f.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/eb364122ee1dc2b0b93a6d697e6f7eaa.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/eb364122ee1dc2b0b93a6d697e6f7eaa.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/eb5762c176c563408800b67be30a9bca.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/eb5762c176c563408800b67be30a9bca.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/f1b9c62948ad793479a2eea513614212.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/f1b9c62948ad793479a2eea513614212.bhc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/f7362322765a5ee89add6c5d41347903.bhc" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BurstCache/JIT/Hashes/f7362322765a5ee89add6c5d41347903.bhc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorInstance.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@624f919d8cdd/Runtime/Input/CinemachineDefaultInputActions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@624f919d8cdd/Runtime/Input/CinemachineDefaultInputActions.inputactions" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/PreviousActionData.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PreviousActionData.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/PreviousActionStack.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PreviousActionStack.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptMapper" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptMapper" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Search/transactions.db" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Search/transactions.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ShaderCache.db" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB-lock" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB-lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/UndoData.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Library/UndoData.bin" afterDir="false" />
@@ -337,8 +46,6 @@
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0-0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker1-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker1-0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -435,7 +142,8 @@
       <workItem from="1741031150184" duration="2662000" />
       <workItem from="1741109375824" duration="1104000" />
       <workItem from="1741110662451" duration="1575000" />
-      <workItem from="1741151220369" duration="10840000" />
+      <workItem from="1741151220369" duration="13099000" />
+      <workItem from="1741183996716" duration="4082000" />
     </task>
     <servers />
   </component>
