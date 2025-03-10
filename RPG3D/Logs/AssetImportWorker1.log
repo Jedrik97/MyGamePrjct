@@ -15,7 +15,7 @@ D:/UnityPrjs/MyGamePrjct/RPG3D
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49809
+52445
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,12 +59,12 @@ D:/UnityPrjs/MyGamePrjct/RPG3D
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8952]  Target information:
+Player connection [3656]  Target information:
 
-Player connection [8952]  * "[IP] 192.168.200.105 [Port] 0 [Flags] 2 [Guid] 1325388575 [EditorId] 1325388575 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O83DMA8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [3656]  * "[IP] 192.168.200.105 [Port] 0 [Flags] 2 [Guid] 2693248356 [EditorId] 2693248356 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O83DMA8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [8952] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8952] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [3656] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [3656] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,7 +76,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 6.27 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.36f1 (9fe3b5f71dbb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/Resources/UnitySubsystems
@@ -93,46 +93,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.004906 seconds.
-- Loaded All Assemblies, in  0.454 seconds
+Registered in 0.004239 seconds.
+- Loaded All Assemblies, in  0.419 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 494 ms
+Android Extension - Scanning For ADB Devices 509 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.990 seconds
-Domain Reload Profiling: 1441ms
-	BeginReloadAssembly (157ms)
+- Finished resetting the current domain, in  0.914 seconds
+Domain Reload Profiling: 1330ms
+	BeginReloadAssembly (142ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (183ms)
-		LoadAssemblies (154ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (171ms)
+		LoadAssemblies (139ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (179ms)
-			TypeCache.Refresh (176ms)
-				TypeCache.ScanAssembly (154ms)
+		AnalyzeDomain (167ms)
+			TypeCache.Refresh (165ms)
+				TypeCache.ScanAssembly (151ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (990ms)
+	FinalizeReload (914ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (904ms)
+		SetupLoadedEditorAssemblies (859ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (625ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (604ms)
+			SetLoadedEditorAssemblies (4ms)
 			BeforeProcessingInitializeOnLoad (54ms)
-			ProcessInitializeOnLoadAttributes (141ms)
-			ProcessInitializeOnLoadMethodAttributes (79ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -142,267 +142,63 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.147 seconds
+- Loaded All Assemblies, in  1.141 seconds
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 4.14 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.45 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 4.45 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.32 ms, found 3 plugins.
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-RPG3D
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.183 seconds
-Domain Reload Profiling: 2327ms
-	BeginReloadAssembly (202ms)
+- Finished resetting the current domain, in  1.242 seconds
+Domain Reload Profiling: 2379ms
+	BeginReloadAssembly (210ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
+		CreateAndSetChildDomain (40ms)
 	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (844ms)
-		LoadAssemblies (528ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (827ms)
+		LoadAssemblies (530ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (437ms)
-			TypeCache.Refresh (320ms)
-				TypeCache.ScanAssembly (292ms)
-			BuildScriptInfoCaches (96ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (1184ms)
+		AnalyzeDomain (419ms)
+			TypeCache.Refresh (290ms)
+				TypeCache.ScanAssembly (260ms)
+			BuildScriptInfoCaches (106ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1242ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (996ms)
+		SetupLoadedEditorAssemblies (1052ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (151ms)
-			ProcessInitializeOnLoadAttributes (535ms)
-			ProcessInitializeOnLoadMethodAttributes (287ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (141ms)
+			ProcessInitializeOnLoadAttributes (584ms)
+			ProcessInitializeOnLoadMethodAttributes (304ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
 Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 5.29 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 4.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 480 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 9629 unused Assets / (27.8 MB). Loaded Objects now: 10195.
-Memory consumption went from 303.5 MB to 275.7 MB.
-Total: 25.882000 ms (FindLiveObjects: 1.500500 ms CreateObjectMapping: 1.434100 ms MarkObjects: 11.558400 ms  DeleteObjects: 11.387400 ms)
+Unloading 9629 unused Assets / (27.4 MB). Loaded Objects now: 10195.
+Memory consumption went from 301.8 MB to 274.4 MB.
+Total: 23.540000 ms (FindLiveObjects: 1.182600 ms CreateObjectMapping: 1.401000 ms MarkObjects: 11.349100 ms  DeleteObjects: 9.605800 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 2664.291071 seconds.
-  path: Assets/Scenes/SampleScene/NavMesh-Terrain 2.asset
-  artifactKey: Guid(3caeb64ea61512042912d0fd76f08ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene/NavMesh-Terrain 2.asset using Guid(3caeb64ea61512042912d0fd76f08ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0591521d6536d4f787661507b0323e30') in 0.0274736 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 994.824839 seconds.
-  path: Assets/Resources/TextMesh Pro/Shaders/TMPro.cginc
-  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '396a4b8ab0d3aefd022fdabb2ee7ddc5') in 0.0054827 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Resources/TextMesh Pro/Shaders/TMPro_Properties.cginc
-  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d90e021f59760b075e931bab8c833a7') in 0.0011924 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.849061 seconds.
-  path: Assets/Resources/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
-  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93972ec5d24bdb52c0ba6fad890a98bf') in 0.2028817 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Resources/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
-  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abcb07f92e39c10f4e142eec22457713') in 0.0560717 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.711961 seconds.
-  path: Assets/Resources/TerrainSampleAssets/Materials/Fern.asset
-  artifactKey: Guid(405b9ff318b139d478492b258cc6f606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/TerrainSampleAssets/Materials/Fern.asset using Guid(405b9ff318b139d478492b258cc6f606) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f55fdd1716c264fce58a4b431faab76') in 0.1825059 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Resources/TerrainSampleAssets/Materials/Plant.asset
-  artifactKey: Guid(f53f3a3078db3cd4a9bcd875d3b2a557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/TerrainSampleAssets/Materials/Plant.asset using Guid(f53f3a3078db3cd4a9bcd875d3b2a557) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65dab30fff4e98fe01da69905d275591') in 0.0204505 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.261041 seconds.
-  path: Assets/Resources/TerrainSampleAssets/Models/Plant_C.asset
-  artifactKey: Guid(c671cabf34dd5314ca28492ced9c9001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/TerrainSampleAssets/Models/Plant_C.asset using Guid(c671cabf34dd5314ca28492ced9c9001) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '757da58211adc7a52fc63c15bf081b34') in 0.0407618 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.564106 seconds.
-  path: Assets/Resources/TerrainSampleAssets/Prefabs/Grass_D.prefab
-  artifactKey: Guid(4dfd50a1f648e984f8188be70774f281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/TerrainSampleAssets/Prefabs/Grass_D.prefab using Guid(4dfd50a1f648e984f8188be70774f281) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f4d5089cc1aff0d2bf150b52a27eeae') in 0.040297 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Resources/TerrainSampleAssets/Prefabs/Plant_B.prefab
-  artifactKey: Guid(0a701dc0b49cb264c88918e012866821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/TerrainSampleAssets/Prefabs/Plant_B.prefab using Guid(0a701dc0b49cb264c88918e012866821) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6945a1c8d67cd9f988f6525eccd1a165') in 0.0130615 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Resources/TerrainSampleAssets/Prefabs/Plant_D.prefab
-  artifactKey: Guid(8569bec78272c564ab74ca5b8a4762f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/TerrainSampleAssets/Prefabs/Plant_D.prefab using Guid(8569bec78272c564ab74ca5b8a4762f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02d28fd94b8f7faa0086f35ba22fd152') in 0.011534 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 44.475045 seconds.
-  path: Assets/Resources/Environment/Erbeilo3d_StylizeFreeProps/Terrain/Terrain_Layer/Ground_Rock_Stylize_V2 1.terrainlayer
-  artifactKey: Guid(8727b6572ebf11f4aafce4394c5f8383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Environment/Erbeilo3d_StylizeFreeProps/Terrain/Terrain_Layer/Ground_Rock_Stylize_V2 1.terrainlayer using Guid(8727b6572ebf11f4aafce4394c5f8383) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97cfec08a7941ee5f27485216e7ca023') in 0.0985318 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.613361 seconds.
-  path: Assets/HDRPDefaultResources/HDRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(977cfae5a6d61944a8287ebe60b87b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDRPDefaultResources/HDRenderPipelineGlobalSettings.asset using Guid(977cfae5a6d61944a8287ebe60b87b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '594f1ed7840e9de600207183a74b4ee7') in 0.4834261 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
-
-========================================================================
-Received Import Request.
-  Time since last request: 3999.389380 seconds.
-  path: Assets/Resources/Environment/Stylized fantasy pagan village/Materials/Material_2.mat
-  artifactKey: Guid(a2a830195e47af44e98181cfc346e409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Environment/Stylized fantasy pagan village/Materials/Material_2.mat using Guid(a2a830195e47af44e98181cfc346e409) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e04948c0871f2ea8e62c32e2180abe15') in 0.0336267 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Resources/Environment/Stylized fantasy pagan village/Materials/Material_3.mat
-  artifactKey: Guid(2d966525461c54040bc242b3cb382ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Environment/Stylized fantasy pagan village/Materials/Material_3.mat using Guid(2d966525461c54040bc242b3cb382ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73b9943739b7a4230cd8a2f4821981e3') in 0.0170981 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Resources/Environment/Stylized fantasy pagan village/Materials/Material_6.mat
-  artifactKey: Guid(efe8ba70e4e17b7429b107de9f88972d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Environment/Stylized fantasy pagan village/Materials/Material_6.mat using Guid(efe8ba70e4e17b7429b107de9f88972d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5b82fb7bd0dea949e3b059bc4691839') in 0.021474 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Resources/Environment/Stylized fantasy pagan village/Materials/Material_5.mat
-  artifactKey: Guid(cdac03f89934c9e4590ce77ceb8f24ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Environment/Stylized fantasy pagan village/Materials/Material_5.mat using Guid(cdac03f89934c9e4590ce77ceb8f24ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c920b0be85ec97f770ac049353d06511') in 0.0141984 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.967640 seconds.
-  path: Assets/Resources/Environment/Polytope Studio/Lowpoly_Environments/Prefabs/Rocks/PT_Ore_Rock_01.prefab
-  artifactKey: Guid(3dd97330b2ebd884e9f796894e026064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Environment/Polytope Studio/Lowpoly_Environments/Prefabs/Rocks/PT_Ore_Rock_01.prefab using Guid(3dd97330b2ebd884e9f796894e026064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97412e6b3e7e875bf94a930de00ca4b8') in 0.0279726 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Resources/Environment/Polytope Studio/Lowpoly_Environments/Prefabs/Rocks/Stamina Rock.prefab
-  artifactKey: Guid(7f9b942d11032b64980b927b03e51f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Environment/Polytope Studio/Lowpoly_Environments/Prefabs/Rocks/Stamina Rock.prefab using Guid(7f9b942d11032b64980b927b03e51f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '428074e859b5d2d3b414cfffc7512deb') in 0.0148755 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 44.319694 seconds.
-  path: Assets/Resources/Environment/Erbeilo3d_StylizeFreeProps/Terrain/Terrain_Texture/Dirt_Stylize1_Normal.png
-  artifactKey: Guid(099a42754a7a8954d96398649ecd2b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Environment/Erbeilo3d_StylizeFreeProps/Terrain/Terrain_Texture/Dirt_Stylize1_Normal.png using Guid(099a42754a7a8954d96398649ecd2b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9eb4fc0eb46b838028d68ea07ff8805') in 0.0908277 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Resources/Environment/Erbeilo3d_StylizeFreeProps/Terrain/Terrain_Texture/Dirt_Stylize_Mask.png
-  artifactKey: Guid(e795b134dbd2da64797b7befbea76ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Environment/Erbeilo3d_StylizeFreeProps/Terrain/Terrain_Texture/Dirt_Stylize_Mask.png using Guid(e795b134dbd2da64797b7befbea76ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3bfcdb366ce6a93c9e90712a116e235b') in 0.0116356 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.213051 seconds.
-  path: Assets/Resources/Environment/TriForge Assets/Fantasy Worlds - DEMO Content/Textures/T_fwOF_ForestPlants_01_N.png
-  artifactKey: Guid(0d09bcb90c7d4594c9b0378baf559835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Environment/TriForge Assets/Fantasy Worlds - DEMO Content/Textures/T_fwOF_ForestPlants_01_N.png using Guid(0d09bcb90c7d4594c9b0378baf559835) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '588ad5161fba22e63dafb6ac800f20f9') in 0.1577696 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Resources/Environment/TriForge Assets/Fantasy Worlds - DEMO Content/Textures/T_fwOF_Stones_01_N.png
-  artifactKey: Guid(479d3fd4a07ddbb4db1b4e65c448fb55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Environment/TriForge Assets/Fantasy Worlds - DEMO Content/Textures/T_fwOF_Stones_01_N.png using Guid(479d3fd4a07ddbb4db1b4e65c448fb55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c13244d7a428b512944b3d8751f5b650') in 0.0354687 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Resources/Environment/TriForge Assets/Fantasy Worlds - DEMO Content/Textures/T_fwOF_Grass_MAOS.png
-  artifactKey: Guid(8947feed88d38a944818f414938d716c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Environment/TriForge Assets/Fantasy Worlds - DEMO Content/Textures/T_fwOF_Grass_MAOS.png using Guid(8947feed88d38a944818f414938d716c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5537b0d0b2093b268f09de5626edee4e') in 0.0481826 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Resources/Environment/TriForge Assets/Fantasy Worlds - DEMO Content/Textures/T_fwOF_Rocks_01_MAOS.png
-  artifactKey: Guid(ada26fdb50c323d4d8cb596b14d5008a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Environment/TriForge Assets/Fantasy Worlds - DEMO Content/Textures/T_fwOF_Rocks_01_MAOS.png using Guid(ada26fdb50c323d4d8cb596b14d5008a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58f7bd0b782e5e269e60700de21a7b21') in 0.0449851 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
