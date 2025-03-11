@@ -1,23 +1,31 @@
+// TargetingSystem.cs
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
 public class TargetingSystem : MonoBehaviour
 {
-    [Header("Настройка поиска цели")]
-    public LayerMask enemyLayer;        
-    public float tabSearchRadius = 15f; 
+    [Header("Target Search Settings")]
+    public LayerMask enemyLayer;
+    public float tabSearchRadius = 15f;
 
-    [Header("UI элементы")]
-    public Image targetFrame;          
-    public TMP_Text enemyNameText;     
-    public Slider enemyHealthBar;      
-
-    [Header("Ссылка на игрока (для поиска по Tab)")]
+    [Header("Player Reference")]
     public Transform playerTransform;
-    
+
+    private Image targetFrame;
+    private TMP_Text enemyNameText;
+    private Slider enemyHealthBar;
+    private Transform lastHoveredTarget;
+
     public Transform currentTarget { get; private set; }
     public bool autoAttackEnabled { get; private set; }
+
+    void Awake()
+    {
+        targetFrame = GameObject.Find("TargetFrame")?.GetComponent<Image>();
+        enemyNameText = GameObject.Find("EnemyNameText")?.GetComponent<TMP_Text>();
+        enemyHealthBar = GameObject.Find("EnemyHealthBar")?.GetComponent<Slider>();
+    }
 
     void Start()
     {
@@ -26,142 +34,161 @@ public class TargetingSystem : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            ClearTarget();
-        }
-
-        HandleMouseHover();
-        HandleLeftClickSelection();
-        HandleRightClickSelection();
-        HandleTabSelection();
+        HandleTargeting();
+        HandleTabTargeting();
+        HandleTargetClearing();
     }
-    
-    void HandleMouseHover()
-    {
-        if (currentTarget != null)
-            return;
 
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+    void HandleTargeting()
+    {
         RaycastHit hit;
-        if (Physics.Raycast(ray, out hit, 100f, enemyLayer))
-        {
-            Enemy enemy = hit.collider.GetComponent<Enemy>();
-            if (enemy == null)
-                enemy = hit.collider.GetComponentInParent<Enemy>();
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
-            if (enemy != null)
-            {
-                targetFrame.transform.position = enemy.transform.position;
-                targetFrame.enabled = true;
-                return;
-            }
-        }
-        targetFrame.enabled = false;
-    }
-    
-    void HandleLeftClickSelection()
-    {
-        if (Input.GetMouseButtonDown(0)) 
+        if (Physics.Raycast(ray, out hit, tabSearchRadius, enemyLayer))
         {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-            if (Physics.Raycast(ray, out hit, 100f, enemyLayer))
-            {
-                Enemy enemy = hit.collider.GetComponent<Enemy>();
-                if (enemy == null)
-                    enemy = hit.collider.GetComponentInParent<Enemy>();
+            Transform hitTarget = hit.transform;
+            Enemy enemy = hitTarget.GetComponent<Enemy>();
 
-                if (enemy != null)
+            if (hitTarget != lastHoveredTarget && currentTarget != hitTarget)
+            {
+                if (lastHoveredTarget != null)
                 {
-                    SetTarget(enemy, false);
+                    lastHoveredTarget.GetComponent<Enemy>()?.HideUI();
                 }
-            }
-        }
-    }
-    
-    void HandleRightClickSelection()
-    {
-        if (Input.GetMouseButtonDown(1))
-        {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-            if (Physics.Raycast(ray, out hit, 100f, enemyLayer))
-            {
-                Enemy enemy = hit.collider.GetComponent<Enemy>();
-                if (enemy == null)
-                    enemy = hit.collider.GetComponentInParent<Enemy>();
 
-                if (enemy != null)
-                {
-                    SetTarget(enemy, true);
-                }
+                enemy?.ShowUI();
+                lastHoveredTarget = hitTarget;
+            }
+
+            if (Input.GetMouseButtonDown(0)) // Left Click
+            {
+                SetTarget(hitTarget, false);
+                enemy?.ShowUI();
+            }
+            else if (Input.GetMouseButtonDown(1)) // Right Click
+            {
+                SetTarget(hitTarget, true);
+                enemy?.ShowUI();
             }
         }
+        else if (lastHoveredTarget != null && currentTarget != lastHoveredTarget)
+        {
+            lastHoveredTarget.GetComponent<Enemy>()?.HideUI();
+            lastHoveredTarget = null;
+        }
     }
-    
-    void HandleTabSelection()
+
+    void HandleTabTargeting()
     {
         if (Input.GetKeyDown(KeyCode.Tab))
         {
-            Collider[] hits = Physics.OverlapSphere(playerTransform.position, tabSearchRadius, enemyLayer);
-            Enemy nearestEnemy = null;
-            float nearestDistance = Mathf.Infinity;
-
-            foreach (Collider col in hits)
+            Transform closestEnemy = FindClosestEnemy();
+            if (closestEnemy != null)
             {
-                Enemy enemy = col.GetComponent<Enemy>();
-                if (enemy == null)
-                    enemy = col.GetComponentInParent<Enemy>();
-
-                if (enemy != null && enemy.currentHealth > 0)
+                if (currentTarget != null)
                 {
-                    float dist = Vector3.Distance(playerTransform.position, enemy.transform.position);
-                    if (dist < nearestDistance)
-                    {
-                        nearestDistance = dist;
-                        nearestEnemy = enemy;
-                    }
+                    currentTarget.GetComponent<Enemy>()?.HideUI();
                 }
-            }
-
-            if (nearestEnemy != null)
-            {
-                SetTarget(nearestEnemy, false);
+                
+                SetTarget(closestEnemy, false);
+                closestEnemy.GetComponent<Enemy>()?.ShowUI();
             }
         }
     }
-    
-    public void SetTarget(Enemy enemy, bool autoAttack)
-    {
-        currentTarget = enemy.transform;
-        autoAttackEnabled = autoAttack;
 
-        enemyNameText.text = enemy.enemyName;
-        enemyHealthBar.maxValue = enemy.maxHealth;
-        enemyHealthBar.value = enemy.currentHealth;
-        
-        ShowUI();
+    void HandleTargetClearing()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape) && currentTarget != null)
+        {
+            currentTarget.GetComponent<Enemy>()?.HideUI();
+            ClearTarget();
+        }
     }
-    
+
+    Transform FindClosestEnemy()
+    {
+        Collider[] hitColliders = Physics.OverlapSphere(playerTransform.position, tabSearchRadius, enemyLayer);
+        Transform closestTarget = null;
+        float closestDistance = float.MaxValue;
+
+        foreach (Collider col in hitColliders)
+        {
+            float distance = Vector3.Distance(playerTransform.position, col.transform.position);
+            if (distance < closestDistance)
+            {
+                closestDistance = distance;
+                closestTarget = col.transform;
+            }
+        }
+
+        return closestTarget;
+    }
+
+    void SetTarget(Transform target, bool enableAutoAttack)
+    {
+        if (currentTarget != target)
+        {
+            if (currentTarget != null)
+            {
+                currentTarget.GetComponent<Enemy>()?.HideUI();
+            }
+
+            currentTarget = target;
+            autoAttackEnabled = enableAutoAttack;
+
+            if (autoAttackEnabled)
+            {
+                Debug.Log("Auto Attack Enabled");
+            }
+            else
+            {
+                Debug.Log("Auto Attack Disabled");
+            }
+
+            ShowUI();
+            target.GetComponent<Enemy>()?.ShowUI();
+        }
+    }
+
+    void ShowTargetUI(Transform target)
+    {
+        Enemy enemy = target.GetComponent<Enemy>();
+        if (enemy != null)
+        {
+            if (targetFrame) targetFrame.enabled = true;
+            if (enemyNameText) enemyNameText.text = enemy.enemyName;
+            if (enemyHealthBar)
+            {
+                enemyHealthBar.maxValue = enemy.maxHealth;
+                enemyHealthBar.value = enemy.currentHealth;
+            }
+
+            if (targetFrame) targetFrame.transform.position = target.position;
+        }
+    }
+
+    void ShowUI()
+    {
+        if (targetFrame) targetFrame.enabled = true;
+        if (enemyNameText) enemyNameText.enabled = true;
+        if (enemyHealthBar) enemyHealthBar.gameObject.SetActive(true);
+    }
+
+    void HideUI()
+    {
+        if (targetFrame) targetFrame.enabled = false;
+        if (enemyNameText) enemyNameText.enabled = false;
+        if (enemyHealthBar) enemyHealthBar.gameObject.SetActive(false);
+    }
+
     public void ClearTarget()
     {
+        if (currentTarget != null)
+        {
+            currentTarget.GetComponent<Enemy>()?.HideUI();
+        }
         currentTarget = null;
         autoAttackEnabled = false;
         HideUI();
-    }
-    
-    void ShowUI()
-    {
-        targetFrame.enabled = true;
-        enemyNameText.enabled = true;
-        enemyHealthBar.gameObject.SetActive(true);
-    }
-    
-    void HideUI()
-    {
-        targetFrame.enabled = false;
-        enemyNameText.enabled = false;
-        enemyHealthBar.gameObject.SetActive(false);
     }
 }

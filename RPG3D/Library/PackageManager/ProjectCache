@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638760214063157777
+      ticks: 638773021238356570
     m_Hash: 1262381980
   m_LockFileStatus:
     m_FilePath: D:/UnityPrjs/MyGamePrjct/RPG3D/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638760214063263504
+      ticks: 638773021253506502
     m_Hash: 1248586303
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -2075,11 +2075,13 @@ m_ResolvedPackages:
     - 5.0.0-pre.1
     - 5.0.0-pre.3
     - 5.0.0-pre.4
+    - 5.0.0-pre.5
     compatible:
     - 4.12.2
     - 5.0.0-pre.1
     - 5.0.0-pre.3
     - 5.0.0-pre.4
+    - 5.0.0-pre.5
     recommended: 4.12.2
     deprecated: []
   dependencies:
@@ -3018,6 +3020,7 @@ m_ResolvedPackages:
     - 1.7.4
     - 1.7.5
     - 1.7.6
+    - 1.7.7
     - 1.8.0
     - 1.8.1
     - 1.8.2
@@ -3242,16 +3245,20 @@ m_ResolvedPackages:
     - 1.7.6
     - 1.7.7
     - 1.7.8
+    - 1.8.0-pre.1
     - 1.8.0
     - 1.9.0
     - 1.9.1
     - 1.9.2
     - 1.9.4
     - 1.9.5
+    - 1.9.6
     compatible:
     - 1.9.5
-    recommended: 1.9.5
-    deprecated: []
+    - 1.9.6
+    recommended: 1.9.6
+    deprecated:
+    - 1.8.0-pre.1
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0

@@ -1,30 +1,38 @@
+// Enemy.cs
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {
-    public string enemyName = "Skeleton";
+    [Header("Enemy Stats")]
+    public string enemyName;
     public int maxHealth = 100;
     public int currentHealth = 100;
     public int attackDamage = 10;
-    public Slider healthBar;
+
+    [Header("UI Elements")]
+    [SerializeField] private TMP_Text enemyNameText;
+    [SerializeField] private Slider healthBar;
+    [SerializeField] private Image targetFrame;
+
+    [Header("Player Reference")]
+    [SerializeField] private PlayerStats playerStats;
 
     void Start()
     {
         currentHealth = maxHealth;
         UpdateHealthBar();
+        HideUI();
     }
 
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
-        if (currentHealth < 0) 
-            currentHealth = 0;
-        
         UpdateHealthBar();
-
-        if (currentHealth == 0)
+        if (currentHealth <= 0)
         {
+            currentHealth = 0;
             Die();
         }
     }
@@ -32,12 +40,16 @@ public class Enemy : MonoBehaviour
     public void Heal(int amount)
     {
         currentHealth = Mathf.Min(currentHealth + amount, maxHealth);
+        UpdateHealthBar();
     }
 
-    void Die()
+    private void Die()
     {
-        Debug.Log(enemyName + " погиб!");
-        gameObject.SetActive(false); 
+        if (playerStats != null)
+        {
+            playerStats.EnemyKilled();
+        }
+        Destroy(gameObject);
     }
 
     void UpdateHealthBar()
@@ -51,7 +63,40 @@ public class Enemy : MonoBehaviour
 
     public void ResetHealth()
     {
-        currentHealth = maxHealth;
-        UpdateHealthBar();
+        healthBar.value = maxHealth;
+    }
+
+    public void ShowUI()
+    {
+        if (enemyNameText != null)
+        {
+            enemyNameText.gameObject.SetActive(true);
+            enemyNameText.text = enemyName;
+        }
+        if (healthBar != null)
+        {
+            healthBar.gameObject.SetActive(true);
+            UpdateHealthBar();
+        }
+        if (targetFrame != null)
+        {
+            targetFrame.enabled = true;
+        }
+    }
+
+    public void HideUI()
+    {
+        if (enemyNameText != null)
+        {
+            enemyNameText.gameObject.SetActive(false);
+        }
+        if (healthBar != null)
+        {
+            healthBar.gameObject.SetActive(false);
+        }
+        if (targetFrame != null)
+        {
+            targetFrame.enabled = false;
+        }
     }
 }

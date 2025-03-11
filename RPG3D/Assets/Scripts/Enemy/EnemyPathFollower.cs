@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.AI;
 
 public class EnemyPathFollower : MonoBehaviour
 {
@@ -19,51 +20,57 @@ public class EnemyPathFollower : MonoBehaviour
 
     private bool isChasing = false;
 
+    private NavMeshAgent navMeshAgent;
+
     private void Start()
     {
         meleeAI = GetComponent<EnemyMeleeAI>();
         rangedAI = GetComponent<EnemyRangedAI>();
         fieldOfView = GetComponent<FieldOfView>();
-        enemyParameters = GetComponent<Enemy>(); // Инициализируем Enemy
+        enemyParameters = GetComponent<Enemy>();
+
+        navMeshAgent = GetComponent<NavMeshAgent>();
+
+        if (navMeshAgent == null)
+        {
+            Debug.LogError("NavMeshAgent component is missing!");
+            return;
+        }
+
+        navMeshAgent.speed = speed;
+        navMeshAgent.stoppingDistance = reachThreshold;
 
         lastPatrolPoint = waypoints.Length > 0 ? waypoints[0].position : transform.position;
+
+        Debug.Log("Enemy initialized. Starting patrol.");
+        Patrol();
     }
 
     private void Update()
     {
-        // Проверяем, есть ли игрок в поле зрения
         bool playerInSight = fieldOfView._targets.Count > 0;
+        Debug.Log($"Player in sight: {playerInSight}, Targets count: {fieldOfView._targets.Count}");
 
         if (playerInSight && !isChasing)
         {
-            // Устанавливаем первую цель из списка как игрока
+            Debug.Log("Player detected. Starting chase.");
             Transform player = fieldOfView._targets[0];
             if (meleeAI != null) meleeAI.SetTarget(player);
             if (rangedAI != null) rangedAI.SetTarget(player);
+            isChasing = true;
         }
-
-        // Проверяем, преследует ли враг игрока
-        isChasing = playerInSight || 
-                    (meleeAI != null && meleeAI.ChasePlayer()) || 
-                    (rangedAI != null && rangedAI.ChasePlayer());
+        else if (!playerInSight && isChasing)
+        {
+            Debug.Log("Player lost. Stopping chase.");
+            isChasing = false;
+            returningToPatrol = true;
+        }
 
         if (isChasing)
         {
-            lastPatrolPoint = transform.position; // Запоминаем точку, где начали преследование
-            returningToPatrol = false;
+            Debug.Log("Chasing player.");
+            lastPatrolPoint = transform.position;
             return;
-        }
-
-        // Если игрок вне зоны досягаемости, сбрасываем цель
-        if (!playerInSight)
-        {
-            if (meleeAI != null) meleeAI.SetTarget(null);
-            if (rangedAI != null) rangedAI.SetTarget(null);
-        }
-
-        if (Vector3.Distance(transform.position, lastPatrolPoint) > returnThreshold)
-        {
-            returningToPatrol = true;
         }
 
         if (returningToPatrol)
@@ -78,17 +85,25 @@ public class EnemyPathFollower : MonoBehaviour
 
     private void Patrol()
     {
-        if (waypoints.Length == 0) return;
+        if (waypoints.Length == 0)
+        {
+            Debug.LogWarning("No waypoints assigned.");
+            return;
+        }
 
         Transform targetWaypoint = waypoints[currentWaypointIndex];
-        MoveTowards(targetWaypoint.position);
 
-        if (Vector3.Distance(transform.position, targetWaypoint.position) < reachThreshold)
+        if (!navMeshAgent.pathPending && navMeshAgent.remainingDistance <= reachThreshold)
         {
+            Debug.Log($"Reached waypoint {currentWaypointIndex}. Moving to next.");
+            lastPatrolPoint = targetWaypoint.position;
+
             if (movingForward)
             {
                 if (currentWaypointIndex < waypoints.Length - 1)
+                {
                     currentWaypointIndex++;
+                }
                 else
                 {
                     movingForward = false;
@@ -98,26 +113,50 @@ public class EnemyPathFollower : MonoBehaviour
             else
             {
                 if (currentWaypointIndex > 0)
+                {
                     currentWaypointIndex--;
+                }
                 else
                 {
                     movingForward = true;
                     currentWaypointIndex++;
                 }
             }
+
+            targetWaypoint = waypoints[currentWaypointIndex];
+            navMeshAgent.SetDestination(targetWaypoint.position);
+        }
+        else if (navMeshAgent.hasPath && navMeshAgent.pathStatus == NavMeshPathStatus.PathPartial)
+        {
+            Debug.LogWarning("Path is blocked. Skipping to next waypoint.");
+            currentWaypointIndex = (currentWaypointIndex + 1) % waypoints.Length;
+            navMeshAgent.SetDestination(waypoints[currentWaypointIndex].position);
         }
     }
 
     private void ReturnToPatrol()
     {
-        MoveTowards(lastPatrolPoint);
+        Debug.Log("Returning to last patrol point.");
+        NavMeshPath path = new NavMeshPath();
+        if (navMeshAgent.CalculatePath(lastPatrolPoint, path))
+        {
+            navMeshAgent.SetDestination(lastPatrolPoint);
+        }
+        else
+        {
+            Debug.LogWarning("Cannot find path to last patrol point. Resetting patrol.");
+            returningToPatrol = false;
+            currentWaypointIndex = FindNearestWaypoint();
+            Patrol();
+        }
 
         if (Vector3.Distance(transform.position, lastPatrolPoint) < reachThreshold)
         {
+            Debug.Log("Returned to patrol path. Resuming patrol.");
             returningToPatrol = false;
             enemyParameters?.ResetHealth();
-            // Находим ближайший waypoint для продолжения патруля
             currentWaypointIndex = FindNearestWaypoint();
+            Patrol();
         }
     }
 
@@ -125,6 +164,7 @@ public class EnemyPathFollower : MonoBehaviour
     {
         int nearestIndex = 0;
         float minDistance = float.MaxValue;
+
         for (int i = 0; i < waypoints.Length; i++)
         {
             float distance = Vector3.Distance(transform.position, waypoints[i].position);
@@ -134,13 +174,8 @@ public class EnemyPathFollower : MonoBehaviour
                 nearestIndex = i;
             }
         }
-        return nearestIndex;
-    }
 
-    private void MoveTowards(Vector3 target)
-    {
-        Vector3 direction = (target - transform.position).normalized;
-        transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
-        transform.LookAt(target); // Оставляем только здесь, чтобы не конфликтовать с AI
+        Debug.Log($"Nearest waypoint found: {nearestIndex}");
+        return nearestIndex;
     }
 }

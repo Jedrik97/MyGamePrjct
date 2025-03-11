@@ -1,72 +1,87 @@
+using System.Collections;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class EnemyMeleeAI : MonoBehaviour
 {
-    public float chaseSpeed = 3f;
-    public float attackDistance = 2f;
-    public float attackCooldown = 2f;
-    public int attackDamage = 10;
-
-    private Transform player;
-    private CharacterController characterController;
-    private float lastAttackTime;
+    public Transform player;
+    public float attackRange = 2f;
+    public float attackDelay = 1.5f;
+    public float chaseSpeed = 3.5f;
+    public float attackSpeed = 0f;
+    
+    private NavMeshAgent agent;
+    private bool isPreparingAttack = false;
+    private bool isAttacking = false;
 
     private void Start()
     {
-        characterController = GetComponent<CharacterController>();
+        agent = GetComponent<NavMeshAgent>();
     }
 
     private void Update()
     {
-        if (player == null) return;
+        float distanceToPlayer = Vector3.Distance(transform.position, player.position);
 
-        float distance = Vector3.Distance(transform.position, player.position);
-
-        if (distance <= attackDistance)
-        {
-            AttemptAttack();
-        }
-        else if (distance <= 15f) // Ограничиваем радиус преследования
+        if (distanceToPlayer > attackRange)
         {
             ChasePlayer();
         }
+        else
+        {
+            if (!isPreparingAttack && !isAttacking)
+            {
+                StartCoroutine(PrepareAttack());
+            }
+        }
+    }
+
+    public void SetTarget(Transform newTarget)
+    {
+        player = newTarget;
     }
 
     public bool ChasePlayer()
     {
-        if (player == null) return false;
-
-        float distance = Vector3.Distance(transform.position, player.position);
-        if (distance > attackDistance && distance <= 15f)
+        if (isPreparingAttack || isAttacking)
         {
-            Vector3 direction = (player.position - transform.position).normalized;
-            characterController.Move(direction * chaseSpeed * Time.deltaTime);
-            transform.LookAt(new Vector3(player.position.x, transform.position.y, player.position.z));
-            return true; // Chasing player
+            agent.speed = chaseSpeed;
+            agent.isStopped = false;
+            agent.SetDestination(player.position);
         }
-        return false; // Not chasing player
+        return true;
+            
     }
 
-    private void AttemptAttack()
+    private IEnumerator PrepareAttack()
     {
-        if (Time.time - lastAttackTime >= attackCooldown)
-        {
-            lastAttackTime = Time.time;
-            Invoke(nameof(DealDamage), 1.5f);
-        }
-    }
+        isPreparingAttack = true;
+        agent.isStopped = true;
 
-    private void DealDamage()
-    {
-        if (player != null && Vector3.Distance(transform.position, player.position) <= attackDistance)
+        yield return new WaitForSeconds(attackDelay);
+
+        if (Vector3.Distance(transform.position, player.position) <= attackRange)
         {
-            HealthPlayerController health = player.GetComponent<HealthPlayerController>();
-            health?.TakeDamage(attackDamage);
+            StartCoroutine(Attack());
+        }
+        else
+        {
+            isPreparingAttack = false;
+            ChasePlayer();
         }
     }
 
-    public void SetTarget(Transform target)
+    private IEnumerator Attack()
     {
-        player = target;
+        isPreparingAttack = false;
+        isAttacking = true;
+        
+        agent.speed = attackSpeed;
+        Debug.Log("Enemy attacks!");
+
+        yield return new WaitForSeconds(0.5f);
+
+        isAttacking = false;
+        ChasePlayer();
     }
 }

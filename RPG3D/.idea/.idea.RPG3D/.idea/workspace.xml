@@ -6,46 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="bf4db2aa-da2b-4178-a68e-89b837474be5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG3D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG3D/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@Death1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@Death1.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@Death2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@Death2.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@Death3.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@Death3.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@Idle1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@Idle1.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@Idle2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@Idle2.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@Idle3.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@Idle3.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@Rage.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@Rage.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@Run.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@Run.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@StrafeLeft.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@StrafeLeft.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@StrafeRight.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@StrafeRight.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@attack1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@attack1.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@attack2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@attack2.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@attack3.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@attack3.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@attack4.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@attack4.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@gethit1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@gethit1.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@gethit2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@gethit2.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@gethit3.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@gethit3.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@walk1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@walk1.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@walkBack.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/DemonBoss4/Animations/DemonLady@walkBack.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMesh-Terrain 3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMesh-Terrain 3.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/backend1.traceevents" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/backend1.traceevents" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/fullprofile.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/fullprofile.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/PreviousActionData.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PreviousActionData.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/PreviousActionStack.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PreviousActionStack.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Search/transactions.db" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Search/transactions.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ShaderCache.db" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/UndoData.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Library/UndoData.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/UndoStack.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Library/UndoStack.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ilpp.pid" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ilpp.pid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker1-0.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -145,7 +120,7 @@
       <workItem from="1741151220369" duration="13099000" />
       <workItem from="1741183996716" duration="4082000" />
       <workItem from="1741618795921" duration="602000" />
-      <workItem from="1741670220294" duration="593000" />
+      <workItem from="1741670220294" duration="1367000" />
     </task>
     <servers />
   </component>

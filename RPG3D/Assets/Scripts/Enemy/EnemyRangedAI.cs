@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.AI;
 
 public class EnemyRangedAI : MonoBehaviour
 {
@@ -10,12 +11,14 @@ public class EnemyRangedAI : MonoBehaviour
     public int attackDamage = 5;
 
     private Transform player;
-    private CharacterController characterController;
+    private NavMeshAgent agent;
     private float lastAttackTime;
+    private bool isChasing = false;
 
     private void Start()
     {
-        characterController = GetComponent<CharacterController>();
+        agent = GetComponent<NavMeshAgent>();
+        agent.speed = chaseSpeed;
     }
 
     private void Update()
@@ -28,25 +31,24 @@ public class EnemyRangedAI : MonoBehaviour
         {
             AttemptAttack();
         }
-        else if (distance <= 15f) // Ограничиваем радиус преследования
+        else if (isChasing && distance <= 15f)
         {
             ChasePlayer();
         }
+    }
+
+    public void SetTarget(Transform target)
+    {
+        player = target;
+        isChasing = (player != null);
     }
 
     public bool ChasePlayer()
     {
         if (player == null) return false;
 
-        float distance = Vector3.Distance(transform.position, player.position);
-        if (distance > shootingDistance && distance <= 15f)
-        {
-            Vector3 direction = (player.position - transform.position).normalized;
-            characterController.Move(direction * chaseSpeed * Time.deltaTime);
-            transform.LookAt(new Vector3(player.position.x, transform.position.y, player.position.z));
-            return true; // Chasing player
-        }
-        return false; // Not chasing player
+        agent.SetDestination(player.position);
+        return true;
     }
 
     private void AttemptAttack()
@@ -65,10 +67,5 @@ public class EnemyRangedAI : MonoBehaviour
             GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
             bullet.GetComponent<Bullet>().SetDamage(attackDamage);
         }
-    }
-
-    public void SetTarget(Transform target)
-    {
-        player = target;
     }
 }
