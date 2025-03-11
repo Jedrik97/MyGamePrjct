@@ -1,4 +1,3 @@
-// Enemy.cs
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -10,6 +9,12 @@ public class Enemy : MonoBehaviour
     public int maxHealth = 100;
     public int currentHealth = 100;
     public int attackDamage = 10;
+
+    [Header("Attack Parameters")]
+    public float attackRange = 1.5f;
+    public float attackDelay = 0.5f;
+    public float chaseSpeed = 3.5f;
+    public float attackSpeed = 0f;
 
     [Header("UI Elements")]
     [SerializeField] private TMP_Text enemyNameText;
@@ -63,7 +68,8 @@ public class Enemy : MonoBehaviour
 
     public void ResetHealth()
     {
-        healthBar.value = maxHealth;
+        currentHealth = maxHealth;
+        UpdateHealthBar();
     }
 
     public void ShowUI()

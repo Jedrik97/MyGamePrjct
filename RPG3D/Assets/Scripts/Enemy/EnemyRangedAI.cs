@@ -68,4 +68,10 @@ public class EnemyRangedAI : MonoBehaviour
             bullet.GetComponent<Bullet>().SetDamage(attackDamage);
         }
     }
+    public void ResetTarget()
+    {
+        player = null;
+        agent.isStopped = false;
+    }
+
 }

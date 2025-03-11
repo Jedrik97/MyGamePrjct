@@ -14,14 +14,9 @@ public class HealthPlayerController : MonoBehaviour
     private void Start()
     {
         currentHealth = maxHealth;
-
-        if (healthBar != null)
-        {
-            healthBar.maxValue = maxHealth;
-            healthBar.value = currentHealth;
-        }
-
+        UpdateHealthBar();
         OnHealthChanged?.Invoke(currentHealth, maxHealth);
+        
     }
 
     public void TakeDamage(int damage)
@@ -53,12 +48,22 @@ public class HealthPlayerController : MonoBehaviour
     {
         if (healthBar != null)
         {
+            healthBar.maxValue = maxHealth;
             healthBar.value = currentHealth;
         }
-    }
+    }   
 
     private void Die()
     {
         Debug.Log("Player has died!");
+    }
+    public int GetCurrentHealth()
+    {
+        return currentHealth;
+    }
+
+    public int GetMaxHealth()
+    {
+        return maxHealth;
     }
 }

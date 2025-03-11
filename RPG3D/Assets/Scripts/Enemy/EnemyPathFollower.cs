@@ -1,181 +1,115 @@
 using UnityEngine;
 using UnityEngine.AI;
+using System.Collections;
 
 public class EnemyPathFollower : MonoBehaviour
 {
     public Transform[] waypoints;
-    public float speed = 2f;
-    public float reachThreshold = 0.2f;
+    public float reachThreshold = 0.5f;
     public float returnThreshold = 15f;
-
+    
     private int currentWaypointIndex = 0;
     private bool movingForward = true;
     private Vector3 lastPatrolPoint;
-    private bool returningToPatrol = false;
-
-    private Enemy enemyParameters;
-    private EnemyMeleeAI meleeAI;
-    private EnemyRangedAI rangedAI;
-    private FieldOfView fieldOfView;
-
     private bool isChasing = false;
 
     private NavMeshAgent navMeshAgent;
+    private FieldOfView fieldOfView;
+    private EnemyMeleeAI meleeAI;
+    private EnemyRangedAI rangedAI;
+    private Enemy enemy;
 
     private void Start()
     {
+        navMeshAgent = GetComponent<NavMeshAgent>();
+        fieldOfView = GetComponent<FieldOfView>();
         meleeAI = GetComponent<EnemyMeleeAI>();
         rangedAI = GetComponent<EnemyRangedAI>();
-        fieldOfView = GetComponent<FieldOfView>();
-        enemyParameters = GetComponent<Enemy>();
+        enemy = GetComponent<Enemy>();
 
-        navMeshAgent = GetComponent<NavMeshAgent>();
-
-        if (navMeshAgent == null)
+        if (waypoints.Length > 0)
         {
-            Debug.LogError("NavMeshAgent component is missing!");
-            return;
-        }
-
-        navMeshAgent.speed = speed;
-        navMeshAgent.stoppingDistance = reachThreshold;
-
-        lastPatrolPoint = waypoints.Length > 0 ? waypoints[0].position : transform.position;
-
-        Debug.Log("Enemy initialized. Starting patrol.");
-        Patrol();
-    }
-
-    private void Update()
-    {
-        bool playerInSight = fieldOfView._targets.Count > 0;
-        Debug.Log($"Player in sight: {playerInSight}, Targets count: {fieldOfView._targets.Count}");
-
-        if (playerInSight && !isChasing)
-        {
-            Debug.Log("Player detected. Starting chase.");
-            Transform player = fieldOfView._targets[0];
-            if (meleeAI != null) meleeAI.SetTarget(player);
-            if (rangedAI != null) rangedAI.SetTarget(player);
-            isChasing = true;
-        }
-        else if (!playerInSight && isChasing)
-        {
-            Debug.Log("Player lost. Stopping chase.");
-            isChasing = false;
-            returningToPatrol = true;
-        }
-
-        if (isChasing)
-        {
-            Debug.Log("Chasing player.");
-            lastPatrolPoint = transform.position;
-            return;
-        }
-
-        if (returningToPatrol)
-        {
-            ReturnToPatrol();
-        }
-        else
-        {
-            Patrol();
-        }
-    }
-
-    private void Patrol()
-    {
-        if (waypoints.Length == 0)
-        {
-            Debug.LogWarning("No waypoints assigned.");
-            return;
-        }
-
-        Transform targetWaypoint = waypoints[currentWaypointIndex];
-
-        if (!navMeshAgent.pathPending && navMeshAgent.remainingDistance <= reachThreshold)
-        {
-            Debug.Log($"Reached waypoint {currentWaypointIndex}. Moving to next.");
-            lastPatrolPoint = targetWaypoint.position;
-
-            if (movingForward)
-            {
-                if (currentWaypointIndex < waypoints.Length - 1)
-                {
-                    currentWaypointIndex++;
-                }
-                else
-                {
-                    movingForward = false;
-                    currentWaypointIndex--;
-                }
-            }
-            else
-            {
-                if (currentWaypointIndex > 0)
-                {
-                    currentWaypointIndex--;
-                }
-                else
-                {
-                    movingForward = true;
-                    currentWaypointIndex++;
-                }
-            }
-
-            targetWaypoint = waypoints[currentWaypointIndex];
-            navMeshAgent.SetDestination(targetWaypoint.position);
-        }
-        else if (navMeshAgent.hasPath && navMeshAgent.pathStatus == NavMeshPathStatus.PathPartial)
-        {
-            Debug.LogWarning("Path is blocked. Skipping to next waypoint.");
-            currentWaypointIndex = (currentWaypointIndex + 1) % waypoints.Length;
+            lastPatrolPoint = waypoints[0].position;
             navMeshAgent.SetDestination(waypoints[currentWaypointIndex].position);
         }
     }
 
-    private void ReturnToPatrol()
+    private void Update()
     {
-        Debug.Log("Returning to last patrol point.");
-        NavMeshPath path = new NavMeshPath();
-        if (navMeshAgent.CalculatePath(lastPatrolPoint, path))
+        if (fieldOfView._targets.Count > 1) // Индекс 1 - игрок без препятствий
         {
-            navMeshAgent.SetDestination(lastPatrolPoint);
+            StartChase(fieldOfView._targets[1]);
+        }
+        else if (isChasing)
+        {
+            if (Vector3.Distance(transform.position, lastPatrolPoint) > returnThreshold)
+            {
+                StopChaseAndReturn();
+            }
         }
         else
         {
-            Debug.LogWarning("Cannot find path to last patrol point. Resetting patrol.");
-            returningToPatrol = false;
-            currentWaypointIndex = FindNearestWaypoint();
-            Patrol();
-        }
-
-        if (Vector3.Distance(transform.position, lastPatrolPoint) < reachThreshold)
-        {
-            Debug.Log("Returned to patrol path. Resuming patrol.");
-            returningToPatrol = false;
-            enemyParameters?.ResetHealth();
-            currentWaypointIndex = FindNearestWaypoint();
             Patrol();
         }
     }
 
-    private int FindNearestWaypoint()
+    private void StartChase(Transform player)
     {
-        int nearestIndex = 0;
-        float minDistance = float.MaxValue;
+        isChasing = true;
+        lastPatrolPoint = transform.position;
+        navMeshAgent.isStopped = true;
+        
+        if (meleeAI != null)
+            meleeAI.SetTarget(player);
+        else if (rangedAI != null)
+            rangedAI.SetTarget(player);
+    }
 
-        for (int i = 0; i < waypoints.Length; i++)
+    private void StopChaseAndReturn()
+    {
+        isChasing = false;
+        if (meleeAI != null) meleeAI.ResetTarget();
+        if (rangedAI != null) rangedAI.ResetTarget();
+        
+        navMeshAgent.isStopped = false;
+        navMeshAgent.SetDestination(lastPatrolPoint);
+        
+        StartCoroutine(GradualHeal());
+    }
+
+    private void Patrol()
+    {
+        if (waypoints.Length == 0) return;
+        
+        if (!navMeshAgent.pathPending && navMeshAgent.remainingDistance <= reachThreshold)
         {
-            float distance = Vector3.Distance(transform.position, waypoints[i].position);
-            if (distance < minDistance)
+            if (movingForward)
             {
-                minDistance = distance;
-                nearestIndex = i;
+                if (currentWaypointIndex < waypoints.Length - 1)
+                    currentWaypointIndex++;
+                else
+                    movingForward = false;
             }
+            else
+            {
+                if (currentWaypointIndex > 0)
+                    currentWaypointIndex--;
+                else
+                    movingForward = true;
+            }
+            navMeshAgent.SetDestination(waypoints[currentWaypointIndex].position);
         }
+    }
 
-        Debug.Log($"Nearest waypoint found: {nearestIndex}");
-        return nearestIndex;
+    private IEnumerator GradualHeal()
+    {
+        float healDuration = 3f;
+        float healAmount = enemy.maxHealth / healDuration;
+        
+        for (float t = 0; t < healDuration; t += Time.deltaTime)
+        {
+            enemy.Heal((int)(healAmount * Time.deltaTime));
+            yield return null;
+        }
     }
 }

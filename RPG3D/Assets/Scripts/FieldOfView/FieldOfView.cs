@@ -1,48 +1,131 @@
-using System.Collections.Generic;
 using UnityEngine;
+using System;
+using System.Collections;
+using System.Collections.Generic;
 
 public class FieldOfView : MonoBehaviour
 {
-    [Header("Параметры обзора")]
-    public float viewRadius = 10f; // Дальность видимости
-    [Range(0, 360)] public float viewAngle = 120f; // Угол обзора
+    // Радиус обзора
+    public float _viewRadius;
 
-    [Header("Настройки обнаружения")]
-    public LayerMask targetMask; // Маска объектов, которые можно видеть (например, игрок)
-    public LayerMask obstacleMask; // Маска препятствий (например, стены)
+    // Угол обзора в градусах
+    [Range(0, 360)] public float _viewAngle;
 
-    [HideInInspector] public List<Transform> _targets = new List<Transform>();
+    // Маски слоёв для целей и препятствий
+    [SerializeField] private LayerMask _targetMask;
+    [SerializeField] private LayerMask _obstacleMask;
+
+    // Список видимых целей
+    public List<Transform> _targets = new List<Transform>();
+
+    // Переменные для построения меша обзора
+    private Mesh _viewMesh;
+    public float _meshResolution;
+    public MeshFilter _viewMeshFilter;
 
     private void Start()
     {
-        InvokeRepeating(nameof(FindVisibleTargets), 0f, 0.5f); // Обновлять список каждые 0.5 секунды
+        // Инициализация меша и запуск поиска целей с задержкой
+        _viewMesh = new Mesh();
+        _viewMesh.name = "F0V Mesh";
+        _viewMeshFilter.mesh = _viewMesh;
+        StartCoroutine(nameof(FindTargetWithDelay), 0.2f);
     }
 
-    private void FindVisibleTargets()
+    IEnumerator FindTargetWithDelay(float seconds)
     {
-        _targets.Clear();
-        Collider[] targetsInViewRadius = Physics.OverlapSphere(transform.position, viewRadius, targetMask);
-
-        foreach (Collider target in targetsInViewRadius)
+        // Периодический поиск целей с заданным интервалом
+        while (true)
         {
-            Transform targetTransform = target.transform;
-            Vector3 dirToTarget = (targetTransform.position - transform.position).normalized;
+            yield return new WaitForSeconds(seconds);
+            GetVisibleTarget();
+        }
+    }
 
-            if (Vector3.Angle(transform.forward, dirToTarget) < viewAngle / 2)
+    private void Update()
+    {
+        // Построение меша обзора каждый кадр
+        DrawFieldOfView();
+    }
+
+    private void DrawFieldOfView()
+    {
+        // Определение количества шагов для построения обзора
+        int stepCount = Mathf.RoundToInt(_viewAngle * _meshResolution);
+        float angleStep = _viewAngle / stepCount;
+        List<Vector3> viewPoints = new List<Vector3>();
+
+        // Проход по всем углам обзора
+        for (int i = 0; i <= stepCount; i++)
+        {
+            float angle = transform.eulerAngles.y - _viewAngle / 2 + angleStep * i;
+            ViewCastInfo newViewCast = ViewCast(angle);
+            viewPoints.Add(newViewCast.point);
+        }
+
+        // Создание вершин и треугольников для меша
+        int vertexCount = viewPoints.Count + 1;
+        Vector3[] vertices = new Vector3[vertexCount];
+        int[] triangles = new int[(vertexCount - 2) * 3];
+
+        vertices[0] = Vector3.zero;
+        for (int i = 0; i < vertexCount - 1; i++)
+        {
+            vertices[i + 1] = transform.InverseTransformPoint(viewPoints[i]);
+            if (i < vertexCount - 2)
             {
-                float distanceToTarget = Vector3.Distance(transform.position, targetTransform.position);
+                triangles[i * 3] = 0;
+                triangles[i * 3 + 1] = i + 1;
+                triangles[i * 3 + 2] = i + 2;
+            }
+        }
 
-                if (!Physics.Raycast(transform.position, dirToTarget, distanceToTarget, obstacleMask))
+        // Присвоение вершин и треугольников мешу
+        _viewMesh.Clear();
+        _viewMesh.vertices = vertices;
+        _viewMesh.triangles = triangles;
+        _viewMesh.RecalculateNormals();
+    }
+
+    private void GetVisibleTarget()
+    {
+        // Очистка списка видимых целей
+        _targets.Clear();
+
+        // Поиск всех целей в радиусе обзора
+        Collider[] targetsInViewRadius = Physics.OverlapSphere(transform.position, _viewRadius, _targetMask);
+        HashSet<Transform> uniqueTargets = new HashSet<Transform>();
+
+        for (int i = 0; i < targetsInViewRadius.Length; i++)
+        {
+            Transform target = targetsInViewRadius[i].transform;
+
+            // Пропуск дубликатов
+            if (uniqueTargets.Contains(target))
+                continue;
+
+            // Определение направления к цели
+            Vector3 directionToTarget = (target.position - transform.position).normalized;
+
+            // Проверка, попадает ли цель в угол обзора
+            if (Vector3.Angle(transform.forward, directionToTarget) < _viewAngle / 2)
+            {
+                float distanceToTarget = Vector3.Distance(transform.position, target.position);
+
+                // Проверка на наличие препятствий между объектом и целью
+                if (!Physics.Raycast(transform.position, directionToTarget, distanceToTarget, _obstacleMask))
                 {
-                    _targets.Add(targetTransform);
+                    _targets.Add(target);
+                    uniqueTargets.Add(target); // Добавление уникальной цели
                 }
             }
         }
     }
 
-    public Vector3 DirectionFromAngle(float angleInDegrees, bool isAngleGlobal)
+    public Vector3 DirectionFromAngle(float angleInDegrees, bool isAngleIsGlobal)
     {
-        if (!isAngleGlobal)
+        // Преобразование угла в вектор направления
+        if (!isAngleIsGlobal)
         {
             angleInDegrees += transform.eulerAngles.y;
         }
@@ -50,22 +133,35 @@ public class FieldOfView : MonoBehaviour
         return new Vector3(Mathf.Sin(angleInDegrees * Mathf.Deg2Rad), 0, Mathf.Cos(angleInDegrees * Mathf.Deg2Rad));
     }
 
-    private void OnDrawGizmos()
+    private ViewCastInfo ViewCast(float angle)
     {
-        Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(transform.position, viewRadius);
-
-        Vector3 leftBoundary = DirectionFromAngle(-viewAngle / 2, false);
-        Vector3 rightBoundary = DirectionFromAngle(viewAngle / 2, false);
-
-        Gizmos.color = Color.red;
-        Gizmos.DrawLine(transform.position, transform.position + leftBoundary * viewRadius);
-        Gizmos.DrawLine(transform.position, transform.position + rightBoundary * viewRadius);
-
-        Gizmos.color = Color.green;
-        foreach (Transform target in _targets)
+        // Ловим препятствия на линии зрения
+        Vector3 dir = DirectionFromAngle(angle, true);
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, dir, out hit, _viewRadius, _obstacleMask))
         {
-            Gizmos.DrawLine(transform.position, target.position);
+            return new ViewCastInfo(true, hit.point, hit.distance, angle);
         }
+        else
+        {
+            return new ViewCastInfo(false, transform.position + dir * _viewRadius, _viewRadius, angle);
+        }
+    }
+}
+
+// Структура для хранения данных о луче зрения
+public struct ViewCastInfo
+{
+    public bool hit;          // Флаг попадания в препятствие
+    public Vector3 point;     // Точка попадания
+    public float distance;   // Расстояние до препятствия
+    public float angle;      // Угол направления
+
+    public ViewCastInfo(bool Hit, Vector3 Point, float Distance, float Angle)
+    {
+        hit = Hit;
+        point = Point;
+        distance = Distance;
+        angle = Angle;
     }
 }

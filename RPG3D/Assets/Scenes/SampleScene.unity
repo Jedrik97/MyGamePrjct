@@ -15887,6 +15887,10 @@ MonoBehaviour:
   maxHealth: 100
   currentHealth: 100
   attackDamage: 10
+  attackRange: 1.5
+  attackDelay: 0.5
+  chaseSpeed: 3.5
+  attackSpeed: 0
   enemyNameText: {fileID: 89921473}
   healthBar: {fileID: 1736781140}
   targetFrame: {fileID: 2030207987}
@@ -15903,15 +15907,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24752cbeb62c5834ba5b425e03404b19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  viewRadius: 10
-  viewAngle: 120
-  targetMask:
+  _viewRadius: 6
+  _viewAngle: 108
+  _targetMask:
     serializedVersion: 2
     m_Bits: 128
-  obstacleMask:
+  _obstacleMask:
     serializedVersion: 2
     m_Bits: 0
   _targets: []
+  _meshResolution: 1
+  _viewMeshFilter: {fileID: 671782778}
 --- !u!114 &1441528307
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15929,7 +15935,6 @@ MonoBehaviour:
   - {fileID: 1386287846}
   - {fileID: 1375693913}
   - {fileID: 269219352}
-  speed: 2
   reachThreshold: 0.2
   returnThreshold: 15
 --- !u!114 &1441528308
@@ -15939,16 +15944,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1441528302}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1f7f7e070cc1d984eacca80955261739, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 543450653236384669}
-  attackRange: 2
-  attackDelay: 1.5
-  chaseSpeed: 5
-  attackSpeed: 0
 --- !u!195 &1441528309
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -24093,7 +24094,7 @@ Transform:
   m_GameObject: {fileID: 919132149518141735}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.33, y: 6.27, z: 10.05}
+  m_LocalPosition: {x: 0.33, y: 3.85, z: 4.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -25900,7 +25901,6 @@ MonoBehaviour:
   level: 1
   currentExp: 0
   expToNextLevel: 100
-  stamina: 100
   strength: 10
   agility: 10
   intelligence: 10

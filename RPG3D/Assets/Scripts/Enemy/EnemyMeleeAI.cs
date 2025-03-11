@@ -1,29 +1,29 @@
-using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
+using System.Collections;
 
 public class EnemyMeleeAI : MonoBehaviour
 {
     public Transform player;
-    public float attackRange = 2f;
-    public float attackDelay = 1.5f;
-    public float chaseSpeed = 3.5f;
-    public float attackSpeed = 0f;
     
     private NavMeshAgent agent;
     private bool isPreparingAttack = false;
     private bool isAttacking = false;
+    private Enemy enemy;
 
     private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        enemy = GetComponent<Enemy>();
     }
 
     private void Update()
     {
+        if (player == null) return;
+
         float distanceToPlayer = Vector3.Distance(transform.position, player.position);
 
-        if (distanceToPlayer > attackRange)
+        if (distanceToPlayer > enemy.attackRange)
         {
             ChasePlayer();
         }
@@ -41,26 +41,23 @@ public class EnemyMeleeAI : MonoBehaviour
         player = newTarget;
     }
 
-    public bool ChasePlayer()
+    private void ChasePlayer()
     {
-        if (isPreparingAttack || isAttacking)
+        if (!isAttacking && !isPreparingAttack)
         {
-            agent.speed = chaseSpeed;
+            agent.speed = enemy.chaseSpeed;
             agent.isStopped = false;
             agent.SetDestination(player.position);
         }
-        return true;
-            
     }
 
     private IEnumerator PrepareAttack()
     {
         isPreparingAttack = true;
         agent.isStopped = true;
+        yield return new WaitForSeconds(enemy.attackDelay);
 
-        yield return new WaitForSeconds(attackDelay);
-
-        if (Vector3.Distance(transform.position, player.position) <= attackRange)
+        if (player != null)
         {
             StartCoroutine(Attack());
         }
@@ -75,13 +72,25 @@ public class EnemyMeleeAI : MonoBehaviour
     {
         isPreparingAttack = false;
         isAttacking = true;
-        
-        agent.speed = attackSpeed;
+        agent.speed = enemy.attackSpeed;
         Debug.Log("Enemy attacks!");
-
+        
         yield return new WaitForSeconds(0.5f);
-
+        
+        if (player != null && Vector3.Distance(transform.position, player.position) <= enemy.attackRange)
+        {
+            player.GetComponent<HealthPlayerController>()?.TakeDamage(enemy.attackDamage);
+        }
+        
         isAttacking = false;
         ChasePlayer();
+    }
+
+    public void ResetTarget()
+    {
+        player = null;
+        isPreparingAttack = false;
+        isAttacking = false;
+        agent.isStopped = false;
     }
 }

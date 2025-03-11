@@ -7,7 +7,6 @@ public class PlayerStats : MonoBehaviour
     public float expToNextLevel = 100f;
     private float expMultiplier = 1.2f;
     
-    public float stamina = 100f;
     public float strength = 10f;
     public float agility = 10f;
     public float intelligence = 10f;
@@ -28,11 +27,9 @@ public class PlayerStats : MonoBehaviour
         level++;
         currentExp -= expToNextLevel;
         expToNextLevel *= expMultiplier;
-        
-        stamina += 10f;
+
         strength += 2f;
         agility += 2f;
         intelligence += 2f;
     }
-
 }
