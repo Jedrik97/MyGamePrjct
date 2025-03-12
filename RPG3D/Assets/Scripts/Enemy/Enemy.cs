@@ -1,6 +1,7 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 
 public class Enemy : MonoBehaviour
 {
@@ -24,6 +25,8 @@ public class Enemy : MonoBehaviour
     [Header("Player Reference")]
     [SerializeField] private PlayerStats playerStats;
 
+    private Coroutine healingCoroutine;
+
     void Start()
     {
         currentHealth = maxHealth;
@@ -46,6 +49,27 @@ public class Enemy : MonoBehaviour
     {
         currentHealth = Mathf.Min(currentHealth + amount, maxHealth);
         UpdateHealthBar();
+    }
+
+    public void StartHealing()
+    {
+        if (healingCoroutine != null)
+        {
+            StopCoroutine(healingCoroutine);
+        }
+        healingCoroutine = StartCoroutine(GradualHeal());
+    }
+
+    public IEnumerator GradualHeal()
+    {
+        float healDuration = 3f;
+        float healAmount = maxHealth / healDuration;
+
+        for (float t = 0; t < healDuration; t += Time.deltaTime)
+        {
+            Heal((int)(healAmount * Time.deltaTime));
+            yield return null;
+        }
     }
 
     private void Die()

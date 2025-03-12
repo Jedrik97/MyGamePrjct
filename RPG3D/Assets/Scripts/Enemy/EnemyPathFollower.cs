@@ -4,19 +4,18 @@ using System.Collections;
 
 public class EnemyPathFollower : MonoBehaviour
 {
-    public Transform[] waypoints;
+    public Transform[] Waypoints;
     public float reachThreshold = 0.5f;
-    public float returnThreshold = 15f;
-    
+
     private int currentWaypointIndex = 0;
     private bool movingForward = true;
     private Vector3 lastPatrolPoint;
     private bool isChasing = false;
+    private Vector3 chaseStartPoint;
 
     private NavMeshAgent navMeshAgent;
     private FieldOfView fieldOfView;
     private EnemyMeleeAI meleeAI;
-    private EnemyRangedAI rangedAI;
     private Enemy enemy;
 
     private void Start()
@@ -24,68 +23,104 @@ public class EnemyPathFollower : MonoBehaviour
         navMeshAgent = GetComponent<NavMeshAgent>();
         fieldOfView = GetComponent<FieldOfView>();
         meleeAI = GetComponent<EnemyMeleeAI>();
-        rangedAI = GetComponent<EnemyRangedAI>();
         enemy = GetComponent<Enemy>();
 
-        if (waypoints.Length > 0)
+        if (Waypoints.Length > 0)
         {
-            lastPatrolPoint = waypoints[0].position;
-            navMeshAgent.SetDestination(waypoints[currentWaypointIndex].position);
+            lastPatrolPoint = Waypoints[0].position;
+            navMeshAgent.SetDestination(Waypoints[currentWaypointIndex].position);
+        }
+
+        if (meleeAI != null)
+        {
+            meleeAI.OnReturnToPatrol += StopChaseAndReturn;
+        }
+    }
+
+    private void OnDisable()
+    {
+        if (meleeAI != null)
+        {
+            meleeAI.OnReturnToPatrol -= StopChaseAndReturn;
         }
     }
 
     private void Update()
     {
-        if (fieldOfView._targets.Count > 1) // Индекс 1 - игрок без препятствий
+        // Проверяем, есть ли хоть одна цель в поле зрения
+        if (fieldOfView._targets.Count > 0 && fieldOfView._targets[0] != null)
         {
-            StartChase(fieldOfView._targets[1]);
-        }
-        else if (isChasing)
-        {
-            if (Vector3.Distance(transform.position, lastPatrolPoint) > returnThreshold)
+            Transform playerTransform = fieldOfView._targets[0];
+
+            // Записываем первую обнаруженную цель в EnemyMeleeAI
+            if (meleeAI != null)
             {
-                StopChaseAndReturn();
+                StartChase(playerTransform);
             }
         }
         else
         {
+            // Если целей нет — сбрасываем преследование
+            if (isChasing)
+            {
+                StartCoroutine(DelayedReturn());
+            }
+        }
+
+        if (!isChasing)
+        {
             Patrol();
         }
     }
-
     private void StartChase(Transform player)
     {
-        isChasing = true;
-        lastPatrolPoint = transform.position;
+        if (!isChasing)
+        {
+            isChasing = true;
+            chaseStartPoint = transform.position;
+            lastPatrolPoint = transform.position;
+            navMeshAgent.isStopped = true;
+
+            if (meleeAI != null)
+            {
+                meleeAI.SetTarget(player);
+                //Debug.Log($"[EnemyPathFollower] Передан игрок в EnemyMeleeAI: {player.name}");
+            }
+        }
+    }
+
+    private IEnumerator DelayedReturn()
+    {
+        isChasing = false;
         navMeshAgent.isStopped = true;
-        
-        if (meleeAI != null)
-            meleeAI.SetTarget(player);
-        else if (rangedAI != null)
-            rangedAI.SetTarget(player);
+        yield return new WaitForSeconds(0.5f);
+        StopChaseAndReturn();
     }
 
     private void StopChaseAndReturn()
     {
         isChasing = false;
-        if (meleeAI != null) meleeAI.ResetTarget();
-        if (rangedAI != null) rangedAI.ResetTarget();
-        
+
+        if (meleeAI)
+        {
+            meleeAI.ResetTarget();
+            //Debug.Log("[EnemyPathFollower] Враг потерял игрока и возвращается к патрулю");
+        }
+
         navMeshAgent.isStopped = false;
         navMeshAgent.SetDestination(lastPatrolPoint);
-        
-        StartCoroutine(GradualHeal());
+        StartCoroutine(enemy.GradualHeal());
     }
 
     private void Patrol()
     {
-        if (waypoints.Length == 0) return;
-        
+        if (Waypoints.Length == 0) return;
+
         if (!navMeshAgent.pathPending && navMeshAgent.remainingDistance <= reachThreshold)
         {
             if (movingForward)
             {
-                if (currentWaypointIndex < waypoints.Length - 1)
+                if (currentWaypointIndex < Waypoints.Length - 1)
                     currentWaypointIndex++;
                 else
                     movingForward = false;
@@ -97,19 +132,8 @@ public class EnemyPathFollower : MonoBehaviour
                 else
                     movingForward = true;
             }
-            navMeshAgent.SetDestination(waypoints[currentWaypointIndex].position);
-        }
-    }
 
-    private IEnumerator GradualHeal()
-    {
-        float healDuration = 3f;
-        float healAmount = enemy.maxHealth / healDuration;
-        
-        for (float t = 0; t < healDuration; t += Time.deltaTime)
-        {
-            enemy.Heal((int)(healAmount * Time.deltaTime));
-            yield return null;
+            navMeshAgent.SetDestination(Waypoints[currentWaypointIndex].position);
         }
     }
 }
