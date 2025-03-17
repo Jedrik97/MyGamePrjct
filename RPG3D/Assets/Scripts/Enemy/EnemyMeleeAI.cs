@@ -2,70 +2,116 @@ using UnityEngine;
 using UnityEngine.AI;
 using System.Collections;
 
-public class EnemyMeleeAI : MonoBehaviour
+public class EnemyMeleeAI : EnemyBase
 {
-    public Transform player; 
-
+    [SerializeField] private FieldOfView fieldOfView;
+    
     private NavMeshAgent agent;
     private bool isPreparingAttack = false;
     private bool isAttacking = false;
-    private Enemy enemy;
+    private bool isReturning = false;
+    private bool hasSeenPlayer = false;
     private Vector3 chaseStartPoint;
+    private Transform player;
 
+    public delegate void StopPatrolDelegate();
+    public event StopPatrolDelegate OnStopPatrol;
     public delegate void ReturnToPatrolDelegate();
     public event ReturnToPatrolDelegate OnReturnToPatrol;
 
-    private void Start()
+    protected override void Start()
     {
+        base.Start();
         agent = GetComponent<NavMeshAgent>();
-        enemy = GetComponent<Enemy>();
+
+        if (fieldOfView != null)
+        {
+            fieldOfView.OnPlayerVisibilityChanged += HandlePlayerVisibilityChanged;
+        }
+    }
+
+    private void OnDestroy()
+    {
+        if (fieldOfView != null)
+        {
+            fieldOfView.OnPlayerVisibilityChanged -= HandlePlayerVisibilityChanged;
+        }
+    }
+
+    private void HandlePlayerVisibilityChanged(bool isVisible)
+    {
+        if (isVisible && !isReturning)
+        {
+            if (!hasSeenPlayer)
+            {
+                hasSeenPlayer = true;
+                chaseStartPoint = transform.position; // Запоминаем точку начала погони
+            }
+
+            player = fieldOfView.Player; // Используем игрока из FOV
+            OnStopPatrol?.Invoke();
+        }
+        else if (!isReturning)
+        {
+            StartCoroutine(CheckReturnCondition());
+        }
     }
 
     private void Update()
     {
-        if (player == null) return;
+        if (player == null || isReturning) return;
 
         float distanceToPlayer = Vector3.Distance(transform.position, player.position);
+        float distanceFromStart = Vector3.Distance(transform.position, chaseStartPoint);
 
-        if (distanceToPlayer > enemy.attackRange)
+        if (distanceFromStart > 15f)
+        {
+            StartCoroutine(ReturnToPatrolAfterDelay());
+        }
+        else if (distanceToPlayer > attackRange)
         {
             ChasePlayer();
         }
-        else
+        else if (!isPreparingAttack && !isAttacking)
         {
-            if (!isPreparingAttack && !isAttacking)
-            {
-                StartCoroutine(PrepareAttack());
-            }
+            StartCoroutine(PrepareAttack());
         }
+    }
 
-        // Если игрок слишком далеко, возвращаемся
+    private IEnumerator CheckReturnCondition()
+    {
+        yield return new WaitForSeconds(0.5f);
+
         if (Vector3.Distance(transform.position, chaseStartPoint) > 15f)
         {
             StartCoroutine(ReturnToPatrolAfterDelay());
         }
-        
-    }
-
-    public void SetTarget(Transform newTarget)
-    {
-        player = newTarget;
-        chaseStartPoint = transform.position;
-        Debug.Log($"[EnemyMeleeAI] Установлена цель: {player.name}");
     }
 
     private IEnumerator ReturnToPatrolAfterDelay()
     {
-        yield return new WaitForSeconds(0.5f);
-        Debug.Log("[EnemyMeleeAI] Враг ушёл слишком далеко и возвращается к патрулю");
+        isReturning = true; // Блокируем логику атаки и преследования
+        isPreparingAttack = false;
+        isAttacking = false;
+        agent.isStopped = false;
+        agent.SetDestination(chaseStartPoint);
         OnReturnToPatrol?.Invoke();
+        StartHealing(); // Начинаем постепенное восстановление здоровья
+
+        while (Vector3.Distance(transform.position, chaseStartPoint) > 1f)
+        {
+            yield return null;
+        }
+
+        isReturning = false; // Разрешаем снова реагировать на игрока
+        hasSeenPlayer = false; // Враг забывает о старой цели
     }
 
     private void ChasePlayer()
     {
-        if (!isAttacking && !isPreparingAttack)
+        if (!isAttacking && !isPreparingAttack && player != null && !isReturning)
         {
-            agent.speed = enemy.chaseSpeed;
+            agent.speed = chaseSpeed;
             agent.isStopped = false;
             agent.SetDestination(player.position);
         }
@@ -75,9 +121,9 @@ public class EnemyMeleeAI : MonoBehaviour
     {
         isPreparingAttack = true;
         agent.isStopped = true;
-        yield return new WaitForSeconds(enemy.attackDelay);
+        yield return new WaitForSeconds(attackDelay);
 
-        if (player != null)
+        if (player != null && !isReturning)
         {
             StartCoroutine(Attack());
         }
@@ -92,25 +138,16 @@ public class EnemyMeleeAI : MonoBehaviour
     {
         isPreparingAttack = false;
         isAttacking = true;
-        agent.speed = enemy.attackSpeed;
+        agent.speed = attackSpeed;
 
         yield return new WaitForSeconds(0.5f);
 
-        if (player != null && Vector3.Distance(transform.position, player.position) <= enemy.attackRange)
+        if (player != null && Vector3.Distance(transform.position, player.position) <= attackRange && !isReturning)
         {
-            player.GetComponent<HealthPlayerController>()?.TakeDamage(enemy.attackDamage);
+            player.GetComponent<HealthPlayerController>()?.TakeDamage(attackDamage);
         }
 
         isAttacking = false;
         ChasePlayer();
-    }
-
-    public void ResetTarget()
-    {
-        Debug.Log("[EnemyMeleeAI] Сброс цели");
-        player = null;
-        isPreparingAttack = false;
-        isAttacking = false;
-        agent.isStopped = false;
     }
 }

@@ -1,3 +1,4 @@
+/*
 using UnityEngine;
 
 public class MagicAOE : MonoBehaviour
@@ -75,3 +76,4 @@ public class MagicAOE : MonoBehaviour
         }
     }
 }
+*/

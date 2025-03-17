@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 
 public class AutoAttack : MonoBehaviour
 {
@@ -19,10 +19,10 @@ public class AutoAttack : MonoBehaviour
 
     void AttackTarget()
     {
-        Enemy enemy = targetingSystem.currentTarget.GetComponent<Enemy>();
+        EnemyBase enemy = targetingSystem.currentTarget.GetComponent<EnemyBase>();
         if (enemy == null)
         {
-            enemy = targetingSystem.currentTarget.GetComponentInParent<Enemy>();
+            enemy = targetingSystem.currentTarget.GetComponentInParent<EnemyBase>();
         }
         
         if (enemy == null || enemy.currentHealth <= 0)
@@ -38,4 +38,4 @@ public class AutoAttack : MonoBehaviour
             enemy.TakeDamage(attackDamage);
         }
     }
-}
+}*/

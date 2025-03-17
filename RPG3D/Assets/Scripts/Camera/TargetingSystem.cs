@@ -1,4 +1,4 @@
-// TargetingSystem.cs
+/*// TargetingSystem.cs
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -191,4 +191,4 @@ public class TargetingSystem : MonoBehaviour
         autoAttackEnabled = false;
         HideUI();
     }
-}
+}*/

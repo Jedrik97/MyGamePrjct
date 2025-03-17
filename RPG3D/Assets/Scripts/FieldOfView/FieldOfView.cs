@@ -1,67 +1,51 @@
 using UnityEngine;
 using System;
-using System.Collections;
-using System.Collections.Generic;
 
 public class FieldOfView : MonoBehaviour
 {
-    public float _viewRadius;
-    [Range(0, 360)] public float _viewAngle;
-    
-    [SerializeField] private LayerMask _targetMask;
-    [SerializeField] private LayerMask _obstacleMask;
+    [SerializeField] private Transform player; // Игрок задаётся вручную в инспекторе
 
-    public List<Transform> _targets = new List<Transform>();
+    [Header("Параметры обзора")]
+    [SerializeField] private float viewRadius = 15f; // Радиус обзора
+    [SerializeField, Range(0, 360)] private float viewAngle = 180f; // Угол обзора
 
-    private void Start()
+    [Header("Слои")]
+    [SerializeField] private LayerMask obstacleMask; // Препятствия (стены и т.п.)
+
+    public event Action<bool> OnPlayerVisibilityChanged;
+    public Transform Player => player; // Теперь другие скрипты могут получить ссылку на игрока
+
+    private bool playerVisible = false;
+
+    void Update()
     {
-        StartCoroutine(nameof(FindTargetWithDelay), 0.2f);
-    }
-    IEnumerator FindTargetWithDelay(float seconds)
-    {
-        while (true)
+        if (player != null)
         {
-            yield return new WaitForSeconds(seconds);
-            GetVisibleTarget();
-        }
-    }
-
-    private void GetVisibleTarget()
-    {
-        _targets.Clear();
-        Collider[] targetsInViewRadius = Physics.OverlapSphere(transform.position, _viewRadius, _targetMask);
-        HashSet<Transform> uniqueTargets = new HashSet<Transform>();
-
-        foreach (Collider targetCollider in targetsInViewRadius)
-        {
-            Transform target = targetCollider.transform;
-            if (uniqueTargets.Contains(target))
-                continue;
-
-            Vector3 directionToTarget = (target.position - transform.position).normalized;
-            float angleToTarget = Vector3.Angle(transform.forward, directionToTarget);
-
-            if (angleToTarget < _viewAngle / 2)
+            bool isVisible = CheckPlayerInFOV();
+            if (isVisible != playerVisible)
             {
-                float distanceToTarget = Vector3.Distance(transform.position, target.position);
-                if (!Physics.Raycast(transform.position, directionToTarget, distanceToTarget, _obstacleMask))
-                {
-                    _targets.Add(target);
-                    uniqueTargets.Add(target);
-                }
+                playerVisible = isVisible;
+                OnPlayerVisibilityChanged?.Invoke(playerVisible);
             }
         }
     }
 
-    public Vector3 DirectionFromAngle(float verticalAngle, float horizontalAngle)
+    private bool CheckPlayerInFOV()
     {
-        float verticalRad = verticalAngle * Mathf.Deg2Rad;
-        float horizontalRad = horizontalAngle * Mathf.Deg2Rad;
+        Vector3 dirToPlayer = (player.position - transform.position).normalized;
+        float distanceToPlayer = Vector3.Distance(transform.position, player.position);
 
-        return new Vector3(
-            Mathf.Sin(horizontalRad) * Mathf.Cos(verticalRad),
-            Mathf.Sin(verticalRad),
-            Mathf.Cos(horizontalRad) * Mathf.Cos(verticalRad)
-        );
+        if (distanceToPlayer < viewRadius)
+        {
+            float angleToPlayer = Vector3.Angle(transform.forward, dirToPlayer);
+            if (angleToPlayer < viewAngle / 2)
+            {
+                if (!Physics.Raycast(transform.position, dirToPlayer, distanceToPlayer, obstacleMask))
+                {
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 }

@@ -8436,7 +8436,7 @@ GameObject:
   - component: {fileID: 921559149}
   - component: {fileID: 921559148}
   - component: {fileID: 921559151}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9200,7 +9200,7 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: 0.14493525, y: -0, z: -0, w: 0.98944116}
-  m_LocalPosition: {x: 0.33, y: 6.965665, z: 7.24}
+  m_LocalPosition: {x: -1.14, y: 6.2, z: -5.97}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9245,7 +9245,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 360564da0d0eaa24f9b93b3fa5d121ea, type: 3}
   m_Name: 
@@ -16687,12 +16687,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1441528303}
-  - component: {fileID: 1441528305}
   - component: {fileID: 1441528308}
   - component: {fileID: 1441528307}
   - component: {fileID: 1441528306}
   - component: {fileID: 1441528309}
   - component: {fileID: 1441528310}
+  - component: {fileID: 1441528312}
+  - component: {fileID: 1441528311}
   m_Layer: 3
   m_Name: EnemySkeleton
   m_TagString: Player
@@ -16718,30 +16719,6 @@ Transform:
   - {fileID: 1503199713}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 359.798, z: 0}
---- !u!114 &1441528305
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1441528302}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7045c03efd6d3499d108bf30fea4fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyName: Skeleton
-  maxHealth: 100
-  currentHealth: 100
-  attackDamage: 10
-  attackRange: 1.5
-  attackDelay: 0.5
-  chaseSpeed: 3.5
-  attackSpeed: 0
-  enemyNameText: {fileID: 89921473}
-  healthBar: {fileID: 1736781140}
-  targetFrame: {fileID: 2030207987}
-  playerStats: {fileID: 5866666021550950896}
 --- !u!114 &1441528306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16754,15 +16731,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24752cbeb62c5834ba5b425e03404b19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _viewRadius: 6
-  _viewAngle: 108
-  _targetMask:
+  player: {fileID: 543450653236384669}
+  viewRadius: 15
+  viewAngle: 180
+  obstacleMask:
     serializedVersion: 2
-    m_Bits: 128
-  _obstacleMask:
-    serializedVersion: 2
-    m_Bits: 0
-  _targets: []
+    m_Bits: 256
 --- !u!114 &1441528307
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16775,7 +16749,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8215c94645ecc3419ed4b900019f62c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Waypoints: []
+  waypoints:
+  - {fileID: 1386287846}
+  - {fileID: 1375693913}
+  - {fileID: 269219352}
+  - {fileID: 628983530}
   reachThreshold: 0.5
 --- !u!114 &1441528308
 MonoBehaviour:
@@ -16789,7 +16767,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f7f7e070cc1d984eacca80955261739, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  enemyName: Skeleton
+  maxHealth: 100
+  currentHealth: 100
+  attackDamage: 10
+  attackRange: 1.5
+  attackDelay: 0.5
+  chaseSpeed: 3.5
+  attackSpeed: 0
+  fieldOfView: {fileID: 1441528306}
 --- !u!195 &1441528309
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -16837,6 +16823,41 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1441528311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441528302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d005c2d60abd540438eec0ae748df956, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyNameText: {fileID: 89921473}
+  healthBar: {fileID: 1736781140}
+  enemyCircle: {fileID: 2030207987}
+--- !u!114 &1441528312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441528302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afa131eb5bd0d464eb970f7e8930e488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyName: Skeleton
+  maxHealth: 100
+  currentHealth: 100
+  attackDamage: 10
+  attackRange: 1.5
+  attackDelay: 0.5
+  chaseSpeed: 3.5
+  attackSpeed: 0
 --- !u!1 &1459112260
 GameObject:
   m_ObjectHideFlags: 0
@@ -25365,7 +25386,7 @@ Transform:
   m_GameObject: {fileID: 919132149518141735}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.29, y: 3.85, z: 0.59}
+  m_LocalPosition: {x: 6.27, y: 3.85, z: -10.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -25563,8 +25584,6 @@ GameObject:
   - component: {fileID: 5866666021550950891}
   - component: {fileID: 5866666021550950890}
   - component: {fileID: 5866666021550950889}
-  - component: {fileID: 5866666021550950888}
-  - component: {fileID: 5866666021550950893}
   - component: {fileID: 5866666021550950894}
   - component: {fileID: 5866666021550950895}
   - component: {fileID: 5866666021550950896}
@@ -27039,22 +27058,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &5866666021550950888
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132149518141735}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56d84555232c3ad4eb05ad075e617863, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetingSystem: {fileID: 5866666021550950893}
-  attackRange: 2
-  attackCooldown: 1.5
-  attackDamage: 10
 --- !u!114 &5866666021550950889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27124,23 +27127,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0.9, z: 0}
---- !u!114 &5866666021550950893
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132149518141735}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d250d9a69fb7fe4f9512e31a42b3f34, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyLayer:
-    serializedVersion: 2
-    m_Bits: 8
-  tabSearchRadius: 6
-  playerTransform: {fileID: 543450653236384669}
 --- !u!114 &5866666021550950894
 MonoBehaviour:
   m_ObjectHideFlags: 0

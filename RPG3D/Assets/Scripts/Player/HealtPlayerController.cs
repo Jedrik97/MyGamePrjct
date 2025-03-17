@@ -3,12 +3,12 @@ using UnityEngine.UI;
 
 public class HealthPlayerController : MonoBehaviour
 {
-    public int maxHealth = 100;
-    private int currentHealth;
+    public float maxHealth = 100;
+    private float currentHealth;
     
     public Slider healthBar; // Добавляем ссылку на слайдер
 
-    public delegate void HealthChanged(int currentHealth, int maxHealth);
+    public delegate void HealthChanged(float currentHealth, float maxHealth);
     public event HealthChanged OnHealthChanged;
 
     private void Start()
@@ -19,7 +19,7 @@ public class HealthPlayerController : MonoBehaviour
         
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(float damage)
     {
         currentHealth -= damage;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
@@ -35,7 +35,7 @@ public class HealthPlayerController : MonoBehaviour
         }
     }
 
-    public void Heal(int amount)
+    public void Heal(float amount)
     {
         currentHealth += amount;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
@@ -57,12 +57,12 @@ public class HealthPlayerController : MonoBehaviour
     {
         Debug.Log("Player has died!");
     }
-    public int GetCurrentHealth()
+    public float GetCurrentHealth()
     {
         return currentHealth;
     }
 
-    public int GetMaxHealth()
+    public float GetMaxHealth()
     {
         return maxHealth;
     }
