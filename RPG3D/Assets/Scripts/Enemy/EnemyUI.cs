@@ -1,14 +1,17 @@
 using UnityEngine;
-using UnityEngine.UI;
-using TMPro;
+using System.Collections;
 
 public class EnemyUI : MonoBehaviour
 {
     [Header("UI Elements")]
-    [SerializeField] private TMP_Text enemyNameText;
-    [SerializeField] private Slider healthBar;
-    [SerializeField] private Image enemyCircle;
-
+    [SerializeField] private TMPro.TMP_Text enemyNameText;
+    [SerializeField] private UnityEngine.UI.Slider healthBar;
+    [SerializeField] private UnityEngine.UI.Image enemyCircle;
+    
+    [Header("Detection Settings")]
+    [SerializeField] private float detectionRange = 15f;
+    [SerializeField] private Transform player;
+    
     private EnemyBase enemyBase;
 
     private void Start()
@@ -22,7 +25,29 @@ public class EnemyUI : MonoBehaviour
         }
 
         InitializeUI();
+        StartCoroutine(DelayedHideUI());
+    }
+
+    private IEnumerator DelayedHideUI()
+    {
+        yield return new WaitForEndOfFrame();
         HideUI();
+    }
+
+    private void Update()
+    {
+        if (player)
+        {
+            float distance = Vector3.Distance(transform.position, player.position);
+            if (distance <= detectionRange)
+            {
+                ShowUI();
+            }
+            else
+            {
+                HideUI();
+            }
+        }
     }
 
     private void OnDestroy()

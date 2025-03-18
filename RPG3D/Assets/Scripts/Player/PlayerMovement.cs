@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public static event Action<float, float, bool> OnMove; // Добавляем bool для бега
+    public static event Action<float, float, bool> OnMove;
     public static event Action<bool> OnJump;
 
     public float walkSpeed = 2f;
@@ -11,34 +11,38 @@ public class PlayerMovement : MonoBehaviour
     public float rotationSpeed = 100f;
     public float jumpForce = 2f;
     public float gravity = 9.81f;
-    public float rotationSmoothTime = 0.1f; // Добавляем плавность поворота
+    public float rotationSmoothTime = 0.1f;
 
     private CharacterController characterController;
     private Vector3 moveDirection;
     private bool isJumping = false;
     private Transform cameraTransform;
     private bool isRunning = false;
-    private float rotationVelocity; // Для плавного поворота
+    private float rotationVelocity;
+    private bool canMove = true; // Добавляем переменную для блокировки движения
 
     private void OnEnable()
     {
         PlayerInput.OnMoveInput += HandleMoveInput;
         PlayerInput.OnJumpInput += HandleJumpInput;
+        PlayerCombat.OnAttackStateChanged += HandleAttackStateChanged; // Подписываемся на блокировку движения
     }
 
     private void Start()
     {
         characterController = GetComponent<CharacterController>();
-        cameraTransform = Camera.main.transform; // Убедитесь, что это работает с Cinemachine
+        cameraTransform = Camera.main.transform;
     }
 
     private void HandleMoveInput(Vector2 input)
     {
+        if (!canMove) return; // Блокируем движение, если идет атака
+
         bool isRightMouseHeld = Input.GetMouseButton(1);
         isRunning = Input.GetKey(KeyCode.LeftShift);
         float currentSpeed = isRunning ? runSpeed : walkSpeed;
 
-        if (input.magnitude < 0.1f) // Если нет ввода, сбрасываем горизонтальное движение
+        if (input.magnitude < 0.1f)
         {
             moveDirection.x = 0;
             moveDirection.z = 0;
@@ -48,7 +52,6 @@ public class PlayerMovement : MonoBehaviour
 
         if (isRightMouseHeld)
         {
-            // Движение относительно камеры
             Vector3 forward = cameraTransform.forward;
             Vector3 right = cameraTransform.right;
             forward.y = 0;
@@ -59,7 +62,6 @@ public class PlayerMovement : MonoBehaviour
             Vector3 movementDirection = (forward * input.y + right * input.x).normalized;
             moveDirection = new Vector3(movementDirection.x * currentSpeed, moveDirection.y, movementDirection.z * currentSpeed);
 
-            // Плавный поворот персонажа к направлению движения
             if (movementDirection.magnitude > 0)
             {
                 float targetAngle = Mathf.Atan2(movementDirection.x, movementDirection.z) * Mathf.Rad2Deg;
@@ -69,7 +71,6 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            // Поворот персонажа без привязки к камере
             float turn = input.x * rotationSpeed * Time.deltaTime;
             transform.Rotate(0, turn, 0);
 
@@ -82,7 +83,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void HandleJumpInput()
     {
-        if (characterController.isGrounded && !isJumping)
+        if (characterController.isGrounded && !isJumping && canMove) // Запрещаем прыгать во время атаки
         {
             isJumping = true;
             moveDirection.y = jumpForce;
@@ -105,9 +106,15 @@ public class PlayerMovement : MonoBehaviour
         characterController.Move(moveDirection * Time.deltaTime);
     }
 
+    private void HandleAttackStateChanged(bool isAttacking)
+    {
+        canMove = !isAttacking; // Блокируем или разблокируем движение
+    }
+
     private void OnDisable()
     {
         PlayerInput.OnMoveInput -= HandleMoveInput;
         PlayerInput.OnJumpInput -= HandleJumpInput;
+        PlayerCombat.OnAttackStateChanged -= HandleAttackStateChanged;
     }
 }
