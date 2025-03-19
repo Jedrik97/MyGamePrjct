@@ -89,13 +89,13 @@
       "source": "registry",
       "testable": false
     },
-    "com.unity.ide.rider@3.0.34": {
+    "com.unity.ide.rider@3.0.35": {
       "name": "com.unity.ide.rider",
       "displayName": "JetBrains Rider Editor",
-      "resolvedPath": "D:\\UnityPrjs\\MyGamePrjct\\RPG3D\\Library\\PackageCache\\com.unity.ide.rider@ecbf706690e5",
-      "fingerprint": "ecbf706690e5ce42dc165ddd8e5754acda3dc6b9",
+      "resolvedPath": "D:\\UnityPrjs\\MyGamePrjct\\RPG3D\\Library\\PackageCache\\com.unity.ide.rider@7d01a2258732",
+      "fingerprint": "7d01a2258732f17d1f569657792eaba45b9633d4",
       "editorCompatibility": "2019.4.6f1",
-      "version": "3.0.34",
+      "version": "3.0.35",
       "source": "registry",
       "testable": false
     },

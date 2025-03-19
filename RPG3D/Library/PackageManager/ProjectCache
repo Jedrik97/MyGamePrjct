@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638773021238356570
-    m_Hash: 1262381980
+      ticks: 638779182373092794
+    m_Hash: 471436013
   m_LockFileStatus:
     m_FilePath: D:/UnityPrjs/MyGamePrjct/RPG3D/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638773021253506502
-    m_Hash: 1248586303
+      ticks: 638779182373153331
+    m_Hash: 306304580
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -1170,12 +1170,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 2.6.0
     minimumUnityVersion: 2021.3.0f1
-- packageId: com.unity.ide.rider@3.0.34
+- packageId: com.unity.ide.rider@3.0.35
   testable: 0
   isDirectDependency: 1
-  version: 3.0.34
+  version: 3.0.35
   source: 1
-  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.ide.rider@ecbf706690e5
+  resolvedPath: D:\UnityPrjs\MyGamePrjct\RPG3D\Library\PackageCache\com.unity.ide.rider@7d01a2258732
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -1235,10 +1235,12 @@ m_ResolvedPackages:
     - 3.0.28
     - 3.0.31
     - 3.0.34
+    - 3.0.35
     compatible:
     - 3.0.31
     - 3.0.34
-    recommended: 3.0.34
+    - 3.0.35
+    recommended: 3.0.35
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -1259,13 +1261,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638651995659960000
+  datePublishedTicks: 638779086412770000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: 700eb86ebc7b9f72d760e2e1c740fc5e2fd6a54b
+    revision: 52cd6800886cb6c849f5c908665829f1f8cca705
     path: 
   unityLifecycle:
     version: 3.0.31
@@ -1278,10 +1280,14 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"- Bump Unity minimum supported version"}'
+  upmReserved: '{"changelog":"- fix RIDER-120306 RootNamespace is not generated for
+    a csproj without cs files\n- fix RIDER-121881 GetAllRiderPaths failed\n- fix
+    RIDER-122372 RiderPathLocator issue (found Rider installations duplicates on
+    Linux)\n- fix RIDER-122527 Open log in the Rider tab in Unity Editor doesn''t
+    work"}'
   assetStore:
     productId: 
-  fingerprint: ecbf706690e5ce42dc165ddd8e5754acda3dc6b9
+  fingerprint: 7d01a2258732f17d1f569657792eaba45b9633d4
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 3.0.31
@@ -6890,8 +6896,10 @@ m_ResolvedPackages:
     - 2.6.1
     - 2.7.1
     - 2.7.2
+    - 2.8.0
     compatible:
     - 2.7.2
+    - 2.8.0
     recommended: 2.7.2
     deprecated: []
   dependencies:
@@ -7272,10 +7280,12 @@ m_ResolvedPackages:
     - 2.5.1
     - 2.5.2
     - 2.5.3
+    - 2.6.0-exp.2
     compatible:
     - 2.5.1
     - 2.5.2
     - 2.5.3
+    - 2.6.0-exp.2
     recommended: 2.5.3
     deprecated: []
   dependencies:

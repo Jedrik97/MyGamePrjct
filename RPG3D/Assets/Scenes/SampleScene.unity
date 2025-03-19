@@ -465,6 +465,74 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 38515647}
   m_Mesh: {fileID: 3356318645633074387, guid: e654b65ecb21d204388c7b5216b098bd, type: 3}
+--- !u!1 &38790099
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 38790100}
+  - component: {fileID: 38790101}
+  - component: {fileID: 38790102}
+  m_Layer: 7
+  m_Name: Sword
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &38790100
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38790099}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00012376904, y: 0.11285378, z: -0.000053212047, w: 0.99361163}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9175088764574324624}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &38790101
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38790099}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.21257935, y: 0.073894955, z: 0.72200483}
+  m_Center: {x: -0.013739807, y: -0.025794877, z: 0.4659984}
+--- !u!114 &38790102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38790099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d123c591b1a4f9c4382fb8d4ac92fff7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponCollider: {fileID: 38790101}
+  weaponDamage: 25
 --- !u!1 &48540892
 GameObject:
   m_ObjectHideFlags: 0
@@ -7009,7 +7077,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &714151820
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16927,9 +16995,10 @@ GameObject:
   - component: {fileID: 1441528309}
   - component: {fileID: 1441528310}
   - component: {fileID: 1441528311}
+  - component: {fileID: 1441528312}
   m_Layer: 6
   m_Name: EnemySkeleton
-  m_TagString: Player
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17073,6 +17142,29 @@ MonoBehaviour:
   enemyCircle: {fileID: 2030207987}
   detectionRange: 15
   player: {fileID: 543450653236384669}
+--- !u!136 &1441528312
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441528302}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 2.2678692
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.6339346, z: 0}
 --- !u!1 &1459112260
 GameObject:
   m_ObjectHideFlags: 0
@@ -25560,7 +25652,7 @@ Transform:
   m_GameObject: {fileID: 919132149518141735}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.27, y: 3.85, z: -10.7}
+  m_LocalPosition: {x: 0.15, y: 3.03, z: 11.14}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -25764,6 +25856,7 @@ GameObject:
   - component: {fileID: 5866666021550950895}
   - component: {fileID: 5866666021550950896}
   - component: {fileID: 5866666021550950897}
+  - component: {fileID: 5866666021550950898}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -25814,7 +25907,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2042953256520164440}
   - component: {fileID: 3099756089249885659}
-  - component: {fileID: 3099756089249885660}
   m_Layer: 7
   m_Name: Paladin_J_Nordstrom
   m_TagString: Untagged
@@ -26565,27 +26657,6 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.79662716, y: 0.45543876, z: 0.2404747}
     m_Extent: {x: 0.15018606, y: 0.04597959, z: 0.507103}
   m_DirtyAABB: 0
---- !u!65 &3099756089249885660
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1051571768944772530}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.22770405, y: 0.091959715, z: 0.7631059}
-  m_Center: {x: 0.7923357, y: 1.4112587, z: 0.4037703}
 --- !u!1 &3135921509390270043
 GameObject:
   m_ObjectHideFlags: 0
@@ -27391,15 +27462,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 5866666021550950887}
-  weaponCollider: {fileID: 3099756089249885660}
+  weapon: {fileID: 38790102}
+--- !u!114 &5866666021550950898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149518141735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ddb7fb40083b504aa75942b121b47ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aoeRadius: 3
+  aoeDamagePerSecond: 10
+  aoeDuration: 10
+  aoeCooldown: 6
+  magicEffect: {fileID: 2095162643}
   enemyLayer:
     serializedVersion: 2
     m_Bits: 64
-  aoeRadius: 6
-  aoeDamage: 5
-  aoeCooldown: 16
-  magicEffect: {fileID: 2095162643}
-  magicEffectDuration: 10
+  animator: {fileID: 5866666021550950887}
 --- !u!4 &5901452235302158622
 Transform:
   m_ObjectHideFlags: 0
@@ -28394,7 +28478,8 @@ Transform:
   m_LocalPosition: {x: 0.007702401, y: 0.07959965, z: 0.02820829}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 38790100}
   m_Father: {fileID: 1852576806738938814}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
